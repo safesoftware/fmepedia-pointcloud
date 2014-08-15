@@ -1,4 +1,4 @@
-fmepedia-pointcloud
-===================
+fmepedia-template
+=================
 
-Demo of pointcloud data distribtuion using FME Server
+A template for creating new FMEPedia demos and tutorials.
