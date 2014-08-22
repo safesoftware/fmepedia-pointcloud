@@ -5,7 +5,7 @@
 #    Command-line to run this workspace:
 #    
 #    
-#    C:\Apps\FME_14235\fme.exe C:\safegit\fmepedia-pointcloud\fme\workspaces\LidarDataDownload.fmw
+#    C:\Apps\FME_14337\fme.exe C:\safegit\fmepedia-pointcloud\fme\workspaces\LidarDataDownload.fmw
 #          --Output_Format LIDAR
 #          --Coord_Sys LL84
 #          --tiles Yes
@@ -14,12 +14,12 @@
 #          --Thin_PC NO
 #          --THINNER_TYPE_ "Keep Every Nth Point"
 #          --THIN_RATE 100
-#          --GEOM POLYGON<openparen><openparen>-123.13339233398438<space>49.281244306250414<comma>-123.15502166748047<space>49.2727328862137<comma>-123.13888549804688<space>49.26018706362073<comma>-123.09700012207031<space>49.26265167339575<comma>-123.09494018554688<space>49.27855664807512<closeparen><closeparen>
+#          --GEOM POLYGON<openparen><openparen>-123.11965942382812<space>49.278864616337735<comma>-123.12098979949951<space>49.277156768098855<comma>-123.1206464767456<space>49.27514087112956<comma>-123.11558246612549<space>49.27572884958986<closeparen><closeparen>
 #    
 #    
 #! PASSWORD=""
 #! ATTR_TYPE_ENCODING="SDF"
-#! VIEW_POSITION="-224 -383"
+#! VIEW_POSITION="-963 74"
 #! SHOW_INFO_NODES="true"
 #! FME_STROKE_MAX_DEVIATION="0"
 #! BEGIN_PYTHON=""
@@ -28,8 +28,8 @@
 #! TITLE=""
 #! MAX_LOG_FEATURES="200"
 #! END_TCL=""
-#! FME_BUILD_NUM="14235"
-#! ZOOM_SCALE="79"
+#! FME_BUILD_NUM="14337"
+#! ZOOM_SCALE="109"
 #! CATEGORY=""
 #! REDIRECT_TERMINATORS="NONE"
 #! LEGAL_TERMS_CONDITIONS=""
@@ -37,24 +37,24 @@
 #! USAGE=""
 #! END_PYTHON=""
 #! HISTORY=""
-#! FME_DOCUMENT_PRIORGUID=""
-#! DOC_TOP_LEFT="42 -1824"
+#! FME_DOCUMENT_PRIORGUID="f2695817-20a4-4630-9ff4-410dce421777"
+#! DOC_TOP_LEFT="-404 -1627"
 #! REQUIREMENTS_KEYWORD=""
 #! SOURCE_ROUTING_FILE=""
 #! DESTINATION_ROUTING_FILE=""
 #! DESTINATION="NONE"
-#! LAST_SAVE_DATE="2014-08-15T11:53:53"
+#! LAST_SAVE_DATE="2014-08-22T10:29:09"
 #! FME_IMPLICIT_CSMAP_REPROJECTION_MODE="Datum"
 #! WORKSPACE_VERSION="1"
 #! SOURCE="NONE"
-#! LAST_SAVE_BUILD="FME(R) 2014 (20140120 - Build 14235 - WIN32)"
+#! LAST_SAVE_BUILD="FME(R) 2014 SP2 (20140603 - Build 14337 - WIN32)"
 #! FME_SERVER_SERVICES=""
 #! LOG_MAX_RECORDED_FEATURES="200"
 #! LOG_FILE=""
 #! REQUIREMENTS=""
 #! BEGIN_TCL=""
-#! DOC_EXTENTS="5236 1784"
-#! FME_DOCUMENT_GUID="f2695817-20a4-4630-9ff4-410dce421777"
+#! DOC_EXTENTS="6435 1587"
+#! FME_DOCUMENT_GUID="a4c9504c-db88-4657-928d-370d7a16a1b5"
 #! SHOW_ANNOTATIONS="true"
 #! IGNORE_READER_FAILURE="No"
 #! WARN_INVALID_XFORM_PARAM="Yes"
@@ -527,11 +527,11 @@
 #! IS_EDITABLE="true"
 #! IDENTIFIER="40"
 #! FEAT_GEOMTYPE="fme_any"
-#! POSITION="5278 -1253"
+#! POSITION="6031 -1037"
 #! ORDER="31"
 #! COLLAPSED="false"
 #! KEYWORD="GENERIC_1"
-#! ENABLED="true"
+#! ENABLED="false"
 #! FANOUT="Yes"
 #! FANOUT_ID_ATTR="fme_basename"
 #! >
@@ -657,7 +657,7 @@
 #! />
 #! <GLOBAL_PARAMETER
 #! GUI_LINE="GUI TEXT_EDIT_OR_ATTR GEOM Geometry Source:"
-#! DEFAULT_VALUE="POLYGON&lt;openparen&gt;&lt;openparen&gt;-123.13339233398438&lt;space&gt;49.281244306250414&lt;comma&gt;-123.15502166748047&lt;space&gt;49.2727328862137&lt;comma&gt;-123.13888549804688&lt;space&gt;49.26018706362073&lt;comma&gt;-123.09700012207031&lt;space&gt;49.26265167339575&lt;comma&gt;-123.09494018554688&lt;space&gt;49.27855664807512&lt;closeparen&gt;&lt;closeparen&gt;"
+#! DEFAULT_VALUE="POLYGON&lt;openparen&gt;&lt;openparen&gt;-123.11965942382812&lt;space&gt;49.278864616337735&lt;comma&gt;-123.12098979949951&lt;space&gt;49.277156768098855&lt;comma&gt;-123.1206464767456&lt;space&gt;49.27514087112956&lt;comma&gt;-123.11558246612549&lt;space&gt;49.27572884958986&lt;closeparen&gt;&lt;closeparen&gt;"
 #! IS_STAND_ALONE="false"
 #! />
 #! <GLOBAL_PARAMETER
@@ -670,13 +670,13 @@
 #! <COMMENT
 #! IDENTIFIER="31"
 #! COMMENT_VALUE="&lt;html&gt;&lt;body&gt;If clip to search envelope is Yes, combine &#13;&lt;br&gt;all into one point cloud&#13;&lt;br&gt;If it is No, keep them as separate tiles&lt;/body&gt;&lt;/html&gt;"
-#! POSITION="638 -865"
+#! POSITION="1399 -641"
 #! ORDER="21"
 #! FOLLOW_ANCHOR="true"
 #! INFO_NODE="false"
-#! TOP_LEFT="638 -865"
-#! BOTTOM_RIGHT="638 -865"
-#! COLOUR="1,1,0.784314,0.196078"
+#! TOP_LEFT="1399 -641"
+#! BOTTOM_RIGHT="1399 -641"
+#! COLOUR="1,1,0.784314,0.192157"
 #! SIZE_POLICY="8"
 #! COMMENT_TYPE="REGULAR"
 #! ANCHORED_NODE="24"
@@ -684,13 +684,13 @@
 #! <COMMENT
 #! IDENTIFIER="32"
 #! COMMENT_VALUE="&lt;html&gt;&lt;body&gt;Filter out extraneous&#13;&lt;br&gt;points&lt;/body&gt;&lt;/html&gt;"
-#! POSITION="1688 -1008"
+#! POSITION="2441 -792"
 #! ORDER="22"
 #! FOLLOW_ANCHOR="true"
 #! INFO_NODE="false"
-#! TOP_LEFT="1688 -1008"
-#! BOTTOM_RIGHT="1688 -1008"
-#! COLOUR="1,1,0.784314,0.196078"
+#! TOP_LEFT="2441 -792"
+#! BOTTOM_RIGHT="2441 -792"
+#! COLOUR="1,1,0.784314,0.192157"
 #! SIZE_POLICY="8"
 #! COMMENT_TYPE="REGULAR"
 #! ANCHORED_NODE="27"
@@ -698,13 +698,13 @@
 #! <COMMENT
 #! IDENTIFIER="48"
 #! COMMENT_VALUE="&lt;html&gt;&lt;body&gt;Only send to splitter&#13;&lt;br&gt;if split point cloud option&#13;&lt;br&gt;is Yes&lt;/body&gt;&lt;/html&gt;"
-#! POSITION="2184 -954"
+#! POSITION="2945 -730"
 #! ORDER="23"
 #! FOLLOW_ANCHOR="true"
 #! INFO_NODE="false"
-#! TOP_LEFT="2184 -954"
-#! BOTTOM_RIGHT="2184 -954"
-#! COLOUR="1,1,0.784314,0.196078"
+#! TOP_LEFT="2945 -730"
+#! BOTTOM_RIGHT="2945 -730"
+#! COLOUR="1,1,0.784314,0.192157"
 #! SIZE_POLICY="8"
 #! COMMENT_TYPE="REGULAR"
 #! ANCHORED_NODE="28"
@@ -712,13 +712,13 @@
 #! <COMMENT
 #! IDENTIFIER="13"
 #! COMMENT_VALUE="&lt;html&gt;&lt;body&gt;Splits into multiple&#13;&lt;br&gt;point clouds based on&#13;&lt;br&gt;user&apos;s choice&#13;&lt;br&gt;&lt;/body&gt;&lt;/html&gt;"
-#! POSITION="2737 -828"
+#! POSITION="3490 -612"
 #! ORDER="24"
 #! FOLLOW_ANCHOR="true"
 #! INFO_NODE="false"
-#! TOP_LEFT="2737 -828"
-#! BOTTOM_RIGHT="2737 -828"
-#! COLOUR="1,1,0.784314,0.196078"
+#! TOP_LEFT="3490 -612"
+#! BOTTOM_RIGHT="3490 -612"
+#! COLOUR="1,1,0.784314,0.192157"
 #! SIZE_POLICY="8"
 #! COMMENT_TYPE="REGULAR"
 #! ANCHORED_NODE="7"
@@ -726,13 +726,13 @@
 #! <COMMENT
 #! IDENTIFIER="50"
 #! COMMENT_VALUE="&lt;html&gt;&lt;body&gt;Send to PCThinner if&#13;&lt;br&gt;option set to Yes&lt;/body&gt;&lt;/html&gt;"
-#! POSITION="3364 -899"
+#! POSITION="4125 -675"
 #! ORDER="27"
 #! FOLLOW_ANCHOR="true"
 #! INFO_NODE="false"
-#! TOP_LEFT="3364 -899"
-#! BOTTOM_RIGHT="3364 -899"
-#! COLOUR="1,1,0.784314,0.196078"
+#! TOP_LEFT="4125 -675"
+#! BOTTOM_RIGHT="4125 -675"
+#! COLOUR="1,1,0.784314,0.192157"
 #! SIZE_POLICY="8"
 #! COMMENT_TYPE="REGULAR"
 #! ANCHORED_NODE="37"
@@ -740,13 +740,13 @@
 #! <COMMENT
 #! IDENTIFIER="51"
 #! COMMENT_VALUE="&lt;html&gt;&lt;body&gt;Thins based on user-selected&#13;&lt;br&gt;thinning type and rate&lt;/body&gt;&lt;/html&gt;"
-#! POSITION="3829 -907"
+#! POSITION="4582 -691"
 #! ORDER="29"
 #! FOLLOW_ANCHOR="true"
 #! INFO_NODE="false"
-#! TOP_LEFT="3829 -907"
-#! BOTTOM_RIGHT="3829 -907"
-#! COLOUR="1,1,0.784314,0.196078"
+#! TOP_LEFT="4582 -691"
+#! BOTTOM_RIGHT="4582 -691"
+#! COLOUR="1,1,0.784314,0.192157"
 #! SIZE_POLICY="8"
 #! COMMENT_TYPE="REGULAR"
 #! ANCHORED_NODE="17"
@@ -754,30 +754,16 @@
 #! <COMMENT
 #! IDENTIFIER="53"
 #! COMMENT_VALUE="&lt;html&gt;&lt;body&gt;Generic Writer - Writes out to &#13;&lt;br&gt;selected Point Cloud format.&lt;/body&gt;&lt;/html&gt;"
-#! POSITION="5174 -1057"
+#! POSITION="5927 -841"
 #! ORDER="33"
 #! FOLLOW_ANCHOR="true"
 #! INFO_NODE="false"
-#! TOP_LEFT="5174 -1057"
-#! BOTTOM_RIGHT="5174 -1057"
-#! COLOUR="1,1,0.784314,0.196078"
+#! TOP_LEFT="5927 -841"
+#! BOTTOM_RIGHT="5927 -841"
+#! COLOUR="1,1,0.784314,0.192157"
 #! SIZE_POLICY="8"
 #! COMMENT_TYPE="REGULAR"
 #! ANCHORED_NODE="40"
-#! />
-#! <COMMENT
-#! IDENTIFIER="2"
-#! COMMENT_VALUE="&lt;html&gt;&lt;body&gt;Will use a rectangular subset of the files in the original folder&#13;&lt;br&gt;Extents: &#13;&lt;br&gt;    Min X: 1540000         Min Y: 675000.01&#13;&lt;br&gt;    Max X: 1674999.99    Max Y:734999.99 &lt;/body&gt;&lt;/html&gt;"
-#! POSITION="1524 -50"
-#! ORDER="34"
-#! FOLLOW_ANCHOR="true"
-#! INFO_NODE="false"
-#! TOP_LEFT="1524 -50"
-#! BOTTOM_RIGHT="1524 -50"
-#! COLOUR="1,1,0.784314,0.196078"
-#! SIZE_POLICY="10"
-#! COMMENT_TYPE="REGULAR"
-#! ANCHORED_NODE="0"
 #! />
 #! <COMMENT
 #! IDENTIFIER="55"
@@ -788,10 +774,38 @@
 #! INFO_NODE="false"
 #! TOP_LEFT="56 -40"
 #! BOTTOM_RIGHT="56 -40"
-#! COLOUR="1,1,0.784314,0.196078"
+#! COLOUR="1,1,0.784314,0.192157"
 #! SIZE_POLICY="10"
 #! COMMENT_TYPE="REGULAR"
 #! ANCHORED_NODE="0"
+#! />
+#! <COMMENT
+#! IDENTIFIER="73"
+#! COMMENT_VALUE="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;&#10;&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;&#10;p, li { white-space: pre-wrap; }&#10;&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;MS Shell Dlg 2&apos;; font-size:11px; font-weight:400; font-style:normal;&quot;&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Clip to GEOM&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"
+#! POSITION="833 -865"
+#! ORDER="5e+014"
+#! FOLLOW_ANCHOR="true"
+#! INFO_NODE="false"
+#! TOP_LEFT="833 -865"
+#! BOTTOM_RIGHT="833 -865"
+#! COLOUR="1,1,0.784314,0.196078"
+#! SIZE_POLICY="8"
+#! COMMENT_TYPE="REGULAR"
+#! ANCHORED_NODE="62"
+#! />
+#! <COMMENT
+#! IDENTIFIER="74"
+#! COMMENT_VALUE="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;&#10;&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;&#10;p, li { white-space: pre-wrap; }&#10;&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;MS Shell Dlg 2&apos;; font-size:11px; font-weight:400; font-style:normal;&quot;&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Coarse filtering - read only&lt;/p&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;ENVELOPE_INTERSECTS&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"
+#! POSITION="-404 -1334"
+#! ORDER="5e+014"
+#! FOLLOW_ANCHOR="true"
+#! INFO_NODE="false"
+#! TOP_LEFT="-404 -1334"
+#! BOTTOM_RIGHT="-404 -1334"
+#! COLOUR="1,1,0.784314,0.196078"
+#! SIZE_POLICY="8"
+#! COMMENT_TYPE="REGULAR"
+#! ANCHORED_NODE="57"
 #! />
 #! </COMMENTS>
 #! <CONSTANTS>
@@ -801,41 +815,41 @@
 #! IDENTIFIER="49"
 #! NAME="Thin point cloud, if selected"
 #! DESCRIPTION="&lt;html&gt;&lt;body&gt;&lt;/body&gt;&lt;/html&gt;"
-#! TOP_LEFT="3284 -800"
-#! BOTTOM_RIGHT="4452 -1334"
+#! TOP_LEFT="4037 -584"
+#! BOTTOM_RIGHT="5205 -1118"
 #! STICKY="true"
 #! COLOUR="0.619608,0.356863,0.392157"
-#! CONTENTS="50 35 51 37 17 "
+#! CONTENTS="35 37 51 50 17 "
 #! />
 #! <BOOKMARK
 #! IDENTIFIER="47"
 #! NAME="Split output, if selected"
 #! DESCRIPTION="&lt;html&gt;&lt;body&gt;&lt;/body&gt;&lt;/html&gt;"
-#! TOP_LEFT="2163 -741"
-#! BOTTOM_RIGHT="3235 -1478"
+#! TOP_LEFT="2916 -525"
+#! BOTTOM_RIGHT="3988 -1262"
 #! STICKY="true"
-#! COLOUR="0.694118,0.0313725,0.603922"
-#! CONTENTS="7 30 28 48 13 "
+#! COLOUR="0.694118,0.027451,0.603922"
+#! CONTENTS="7 28 30 48 13 "
 #! />
 #! <BOOKMARK
 #! IDENTIFIER="41"
 #! NAME="Merge into one point cloud, if selected"
 #! DESCRIPTION="&lt;html&gt;&lt;body&gt;&lt;/body&gt;&lt;/html&gt;"
-#! TOP_LEFT="579 -770"
-#! BOTTOM_RIGHT="1648 -1407"
+#! TOP_LEFT="1332 -554"
+#! BOTTOM_RIGHT="2401 -1191"
 #! STICKY="true"
-#! COLOUR="0.831373,0.698039,0.352941"
-#! CONTENTS="31 26 62 18 24 "
+#! COLOUR="0.831373,0.694118,0.34902"
+#! CONTENTS="18 26 24 31 "
 #! />
 #! <BOOKMARK
 #! IDENTIFIER="52"
 #! NAME="Give output files unique names"
 #! DESCRIPTION="&lt;html&gt;&lt;body&gt;&lt;/body&gt;&lt;/html&gt;"
-#! TOP_LEFT="4463 -1124"
-#! BOTTOM_RIGHT="5151 -2128"
+#! TOP_LEFT="5216 -908"
+#! BOTTOM_RIGHT="5904 -1912"
 #! STICKY="true"
-#! COLOUR="0.290196,0.819608,0.305882"
-#! CONTENTS="58 59 42 25 61 "
+#! COLOUR="0.286275,0.819608,0.301961"
+#! CONTENTS="72 61 59 71 58 42 70 25 "
 #! />
 #! </BOOKMARKS>
 #! <TRANSFORMERS>
@@ -843,16 +857,18 @@
 #! IDENTIFIER="28"
 #! TYPE="Tester"
 #! VERSION="1"
-#! POSITION="2172 -1131"
+#! POSITION="2925 -915"
 #! ORDER="40"
 #! PARMS_EDITED="true"
 #! ENABLED="true"
 #! >
 #! <OUTPUT_FEAT NAME="PASSED"/>
 #! <FEAT_COLLAPSED COLLAPSED="0"/>
+#! <XFORM_ATTR ATTR_NAME="_clipped" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="fme_basename" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <OUTPUT_FEAT NAME="FAILED"/>
 #! <FEAT_COLLAPSED COLLAPSED="1"/>
+#! <XFORM_ATTR ATTR_NAME="_clipped" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #! <XFORM_ATTR ATTR_NAME="fme_basename" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #! <XFORM_PARM PARM_NAME="TEST_MODE" PARM_VALUE="Automatic"/>
 #! <XFORM_PARM PARM_NAME="TEST_DESCRIPTION" PARM_VALUE="&quot;&quot;"/>
@@ -866,15 +882,17 @@
 #! IDENTIFIER="24"
 #! TYPE="Tester"
 #! VERSION="1"
-#! POSITION="648 -1052"
+#! POSITION="1401 -836"
 #! ORDER="19"
 #! PARMS_EDITED="true"
-#! ENABLED="false"
+#! ENABLED="true"
 #! >
 #! <OUTPUT_FEAT NAME="PASSED"/>
 #! <FEAT_COLLAPSED COLLAPSED="0"/>
+#! <XFORM_ATTR ATTR_NAME="_clipped" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <OUTPUT_FEAT NAME="FAILED"/>
 #! <FEAT_COLLAPSED COLLAPSED="1"/>
+#! <XFORM_ATTR ATTR_NAME="_clipped" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #! <XFORM_PARM PARM_NAME="TEST_MODE" PARM_VALUE="Automatic"/>
 #! <XFORM_PARM PARM_NAME="TEST_DESCRIPTION" PARM_VALUE="&quot;&quot;"/>
 #! <XFORM_PARM PARM_NAME="COMPOSITE_TEST" PARM_VALUE="&lt;Unused&gt;"/>
@@ -887,13 +905,14 @@
 #! IDENTIFIER="18"
 #! TYPE="PointCloudCombiner"
 #! VERSION="0"
-#! POSITION="1140 -1019"
+#! POSITION="1893 -803"
 #! ORDER="20"
 #! PARMS_EDITED="true"
 #! ENABLED="true"
 #! >
 #! <OUTPUT_FEAT NAME="OUTPUT"/>
 #! <FEAT_COLLAPSED COLLAPSED="0"/>
+#! <XFORM_ATTR ATTR_NAME="_clipped" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="fme_basename" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_PARM PARM_NAME="GROUP_BY" PARM_VALUE=""/>
 #! <XFORM_PARM PARM_NAME="ATTRIBUTES_GROUP" PARM_VALUE=""/>
@@ -908,13 +927,14 @@
 #! IDENTIFIER="42"
 #! TYPE="AttributeCreator"
 #! VERSION="2"
-#! POSITION="4543 -1204"
+#! POSITION="5296 -988"
 #! ORDER="25"
 #! PARMS_EDITED="true"
 #! ENABLED="true"
 #! >
 #! <OUTPUT_FEAT NAME="OUTPUT"/>
 #! <FEAT_COLLAPSED COLLAPSED="0"/>
+#! <XFORM_ATTR ATTR_NAME="_clipped" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="fme_basename" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="_point_source_id" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="AttributeCreator_2"/>
@@ -924,13 +944,14 @@
 #! IDENTIFIER="25"
 #! TYPE="AttributeCreator"
 #! VERSION="2"
-#! POSITION="4566 -1824"
+#! POSITION="5319 -1608"
 #! ORDER="38"
 #! PARMS_EDITED="true"
 #! ENABLED="true"
 #! >
 #! <OUTPUT_FEAT NAME="OUTPUT"/>
 #! <FEAT_COLLAPSED COLLAPSED="0"/>
+#! <XFORM_ATTR ATTR_NAME="_clipped" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="fme_basename" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="_point_source_id" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="AttributeCreator"/>
@@ -940,13 +961,14 @@
 #! IDENTIFIER="7"
 #! TYPE="PointCloudSplitter"
 #! VERSION="0"
-#! POSITION="2681 -1070"
+#! POSITION="3434 -854"
 #! ORDER="26"
 #! PARMS_EDITED="true"
 #! ENABLED="true"
 #! >
 #! <OUTPUT_FEAT NAME="SPLIT"/>
 #! <FEAT_COLLAPSED COLLAPSED="0"/>
+#! <XFORM_ATTR ATTR_NAME="_clipped" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="fme_basename" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="_point_source_id" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_PARM PARM_NAME="OUTPUT_ATTR" PARM_VALUE="_point_source_id"/>
@@ -961,13 +983,14 @@
 #! IDENTIFIER="17"
 #! TYPE="PointCloudThinner"
 #! VERSION="0"
-#! POSITION="3801 -1052"
+#! POSITION="4554 -836"
 #! ORDER="28"
 #! PARMS_EDITED="true"
 #! ENABLED="true"
 #! >
 #! <OUTPUT_FEAT NAME="THINNED"/>
 #! <FEAT_COLLAPSED COLLAPSED="0"/>
+#! <XFORM_ATTR ATTR_NAME="_clipped" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="fme_basename" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="_point_source_id" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_PARM PARM_NAME="RATE" PARM_VALUE="$(THIN_RATE)"/>
@@ -980,17 +1003,19 @@
 #! IDENTIFIER="37"
 #! TYPE="Tester"
 #! VERSION="1"
-#! POSITION="3286 -1017"
+#! POSITION="4039 -801"
 #! ORDER="30"
 #! PARMS_EDITED="true"
 #! ENABLED="true"
 #! >
 #! <OUTPUT_FEAT NAME="PASSED"/>
 #! <FEAT_COLLAPSED COLLAPSED="0"/>
+#! <XFORM_ATTR ATTR_NAME="_clipped" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="fme_basename" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="_point_source_id" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <OUTPUT_FEAT NAME="FAILED"/>
 #! <FEAT_COLLAPSED COLLAPSED="1"/>
+#! <XFORM_ATTR ATTR_NAME="_clipped" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #! <XFORM_ATTR ATTR_NAME="fme_basename" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #! <XFORM_ATTR ATTR_NAME="_point_source_id" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #! <XFORM_PARM PARM_NAME="TEST_MODE" PARM_VALUE="Automatic"/>
@@ -1005,13 +1030,14 @@
 #! IDENTIFIER="27"
 #! TYPE="SubDocumentTransformer"
 #! VERSION="0"
-#! POSITION="1653 -1167"
+#! POSITION="2406 -951"
 #! ORDER="37"
 #! PARMS_EDITED="false"
 #! ENABLED="true"
 #! >
 #! <OUTPUT_FEAT NAME="OUTPUT"/>
 #! <FEAT_COLLAPSED COLLAPSED="0"/>
+#! <XFORM_ATTR ATTR_NAME="_clipped" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="fme_basename" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_PARM PARM_NAME="SUB_DOC_NAME" PARM_VALUE="PointCloudVerticalFilter"/>
 #! <XFORM_PARM PARM_NAME="__COMPOUND_PARAMETERS" PARM_VALUE=""/>
@@ -1023,17 +1049,19 @@
 #! IDENTIFIER="58"
 #! TYPE="Tester"
 #! VERSION="2"
-#! POSITION="4566 -1531"
+#! POSITION="5319 -1315"
 #! ORDER="39"
 #! PARMS_EDITED="true"
 #! ENABLED="true"
 #! >
 #! <OUTPUT_FEAT NAME="PASSED"/>
 #! <FEAT_COLLAPSED COLLAPSED="0"/>
+#! <XFORM_ATTR ATTR_NAME="_clipped" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="fme_basename" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="_point_source_id" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <OUTPUT_FEAT NAME="FAILED"/>
 #! <FEAT_COLLAPSED COLLAPSED="1"/>
+#! <XFORM_ATTR ATTR_NAME="_clipped" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #! <XFORM_ATTR ATTR_NAME="fme_basename" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #! <XFORM_ATTR ATTR_NAME="_point_source_id" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #! <XFORM_PARM PARM_NAME="TEST_MODE" PARM_VALUE="Automatic"/>
@@ -1071,7 +1099,7 @@
 #! IDENTIFIER="57"
 #! TYPE="FeatureReader"
 #! VERSION="4"
-#! POSITION="78 -1307"
+#! POSITION="80 -1307"
 #! ORDER="5e+014"
 #! PARMS_EDITED="true"
 #! ENABLED="true"
@@ -1086,7 +1114,7 @@
 #! <XFORM_ATTR ATTR_NAME="_matched_records" IS_USER_CREATED="false" FEAT_INDEX="2" />
 #! <XFORM_PARM PARM_NAME="CACHE_TIMEOUT_HRS" PARM_VALUE="&lt;Unused&gt;"/>
 #! <XFORM_PARM PARM_NAME="WHERE" PARM_VALUE="&lt;Unused&gt;"/>
-#! <XFORM_PARM PARM_NAME="INTERACT" PARM_VALUE="CONTAINS"/>
+#! <XFORM_PARM PARM_NAME="INTERACT" PARM_VALUE="ENVELOPE_INTERSECT"/>
 #! <XFORM_PARM PARM_NAME="COORDSYS" PARM_VALUE="UTM83-10"/>
 #! <XFORM_PARM PARM_NAME="FORMAT_DIRECTIVES" PARM_VALUE="META_MACROS,SourceGROUP_BY_DATASET&lt;comma&gt;No,METAFILE,LAS,IDLIST,"/>
 #! <XFORM_PARM PARM_NAME="ENABLE_CACHE" PARM_VALUE="NO"/>
@@ -1096,7 +1124,7 @@
 #! <XFORM_PARM PARM_NAME="FEATURETYPES" PARM_VALUE="LAS"/>
 #! <XFORM_PARM PARM_NAME="ATTR_NAME" PARM_VALUE="&lt;Unused&gt;"/>
 #! <XFORM_PARM PARM_NAME="SUPPORTED_SPATIAL_INTERACTIONS" PARM_VALUE="ENVELOPE_INTERSECT%INTERSECTS%CONTAINS%CROSSES%DISJOINT%EQUALS%OVERLAPS%TOUCHES%WITHIN"/>
-#! <XFORM_PARM PARM_NAME="DATASET" PARM_VALUE="$(LASDIR)&lt;backslash&gt;*.zip"/>
+#! <XFORM_PARM PARM_NAME="DATASET" PARM_VALUE="$(LASDIR)&lt;solidus&gt;*.zip"/>
 #! <XFORM_PARM PARM_NAME="LAS_GROUP_BY_DATASET" PARM_VALUE="No"/>
 #! <XFORM_PARM PARM_NAME="FORMAT_PARAMS" PARM_VALUE="LAS_GROUP_BY_DATASET,&quot;OPTIONAL LOOKUP_CHOICE &quot;&quot;Feature Type from Format Name&quot;&quot;,No%&quot;&quot;Feature Type from File Name(s)&quot;&quot;,Yes&quot;,LAS&lt;space&gt;Feature&lt;space&gt;Type&lt;space&gt;Name&lt;openparen&gt;s&lt;closeparen&gt;:"/>
 #! <XFORM_PARM PARM_NAME="COMBINE_GEOM" PARM_VALUE="Keep result geometry only"/>
@@ -1143,32 +1171,6 @@
 #! <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
-#! IDENTIFIER="62"
-#! TYPE="Inspector"
-#! VERSION="3"
-#! POSITION="617 -1291"
-#! ORDER="5e+014"
-#! PARMS_EDITED="true"
-#! ENABLED="true"
-#! >
-#! <XFORM_PARM PARM_NAME="AREA_COLOR" PARM_VALUE=""/>
-#! <XFORM_PARM PARM_NAME="THINNER_MAX_NUM_POINTS" PARM_VALUE="10000"/>
-#! <XFORM_PARM PARM_NAME="TACKATTRS" PARM_VALUE=""/>
-#! <XFORM_PARM PARM_NAME="VECTOR_GROUP" PARM_VALUE=""/>
-#! <XFORM_PARM PARM_NAME="POINTCLOUD_GROUP" PARM_VALUE=""/>
-#! <XFORM_PARM PARM_NAME="PEN_COLOR" PARM_VALUE=""/>
-#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="FeatureReader_LAS"/>
-#! <XFORM_PARM PARM_NAME="RASTER_GROUP" PARM_VALUE=""/>
-#! <XFORM_PARM PARM_NAME="THINNER_INTERVAL" PARM_VALUE="&lt;Unused&gt;"/>
-#! <XFORM_PARM PARM_NAME="RASTER_VISUALIZATION_OPTION" PARM_VALUE="No Reduction"/>
-#! <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
-#! <XFORM_PARM PARM_NAME="RASTER_NUM_ROWS" PARM_VALUE="&lt;Unused&gt;"/>
-#! <XFORM_PARM PARM_NAME="RASTER_START_COL" PARM_VALUE="&lt;Unused&gt;"/>
-#! <XFORM_PARM PARM_NAME="RASTER_NUM_COLS" PARM_VALUE="&lt;Unused&gt;"/>
-#! <XFORM_PARM PARM_NAME="THINNER_TYPE_DISPLAY" PARM_VALUE="Every Nth point (Maximum Number of Points)"/>
-#! <XFORM_PARM PARM_NAME="RASTER_START_ROW" PARM_VALUE="&lt;Unused&gt;"/>
-#! </TRANSFORMER>
-#! <TRANSFORMER
 #! IDENTIFIER="67"
 #! TYPE="Reprojector"
 #! VERSION="3"
@@ -1188,6 +1190,65 @@
 #! <XFORM_PARM PARM_NAME="SOURCE" PARM_VALUE="Read from feature"/>
 #! <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
 #! <XFORM_PARM PARM_NAME="INTERPOLATION_TYPE_NAME" PARM_VALUE="Nearest Neighbor"/>
+#! </TRANSFORMER>
+#! <TRANSFORMER
+#! IDENTIFIER="62"
+#! TYPE="Clipper"
+#! VERSION="8"
+#! POSITION="753 -984"
+#! ORDER="5e+014"
+#! PARMS_EDITED="false"
+#! ENABLED="true"
+#! >
+#! <OUTPUT_FEAT NAME="INSIDE"/>
+#! <FEAT_COLLAPSED COLLAPSED="0"/>
+#! <XFORM_ATTR ATTR_NAME="_clipped" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <OUTPUT_FEAT NAME="OUTSIDE"/>
+#! <FEAT_COLLAPSED COLLAPSED="1"/>
+#! <XFORM_ATTR ATTR_NAME="_clipped" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#! <XFORM_ATTR ATTR_NAME="_fme_no_clipper" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#! <OUTPUT_FEAT NAME="&lt;REJECTED&gt;"/>
+#! <FEAT_COLLAPSED COLLAPSED="2"/>
+#! <XFORM_PARM PARM_NAME="GROUP_BY" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="CREATE_AGGREGATES" PARM_VALUE="Yes"/>
+#! <XFORM_PARM PARM_NAME="CLIPPED_ATTR" PARM_VALUE="_clipped"/>
+#! <XFORM_PARM PARM_NAME="MERGE_ATTRS" PARM_VALUE="No"/>
+#! <XFORM_PARM PARM_NAME="FME_PROCESS_COUNTDISP" PARM_VALUE="No Parallelism"/>
+#! <XFORM_PARM PARM_NAME="VECTOR_GROUP" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="Clipper"/>
+#! <XFORM_PARM PARM_NAME="PRESERVE_CLIPPEE_EXTENTS" PARM_VALUE="No"/>
+#! <XFORM_PARM PARM_NAME="RASTER_GROUP" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="ATTR_PREFIX" PARM_VALUE="clipper_"/>
+#! <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="CLIP_TYPE" PARM_VALUE="Multiple Clippers"/>
+#! <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="BOUNDARY_CASES" PARM_VALUE="Treat as Inside"/>
+#! </TRANSFORMER>
+#! <TRANSFORMER
+#! IDENTIFIER="70"
+#! TYPE="Inspector"
+#! VERSION="3"
+#! POSITION="5873 -1627"
+#! ORDER="5e+014"
+#! PARMS_EDITED="false"
+#! ENABLED="true"
+#! >
+#! <XFORM_PARM PARM_NAME="AREA_COLOR" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="THINNER_MAX_NUM_POINTS" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="TACKATTRS" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="VECTOR_GROUP" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="POINTCLOUD_GROUP" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="PEN_COLOR" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="AttributeCreator_Output"/>
+#! <XFORM_PARM PARM_NAME="RASTER_GROUP" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="THINNER_INTERVAL" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="RASTER_VISUALIZATION_OPTION" PARM_VALUE="No Reduction"/>
+#! <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="RASTER_NUM_ROWS" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="RASTER_START_COL" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="RASTER_NUM_COLS" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="THINNER_TYPE_DISPLAY" PARM_VALUE="No Thinning"/>
+#! <XFORM_PARM PARM_NAME="RASTER_START_ROW" PARM_VALUE="&lt;Unused&gt;"/>
 #! </TRANSFORMER>
 #! </TRANSFORMERS>
 #! <FEAT_LINKS>
@@ -1225,7 +1286,7 @@
 #! SOURCE_PORT_DESC="fo 1"
 #! TARGET_PORT_DESC="fi 0"
 #! ENABLED="true"
-#! EXTRA_POINTS="3128 -1350"
+#! EXTRA_POINTS="3863 -1052"
 #! />
 #! <FEAT_LINK
 #! IDENTIFIER="35"
@@ -1336,24 +1397,6 @@
 #! EXTRA_POINTS=""
 #! />
 #! <FEAT_LINK
-#! IDENTIFIER="60"
-#! SOURCE_NODE="57"
-#! TARGET_NODE="24"
-#! SOURCE_PORT_DESC="fo 0"
-#! TARGET_PORT_DESC="fi 0"
-#! ENABLED="true"
-#! EXTRA_POINTS=""
-#! />
-#! <FEAT_LINK
-#! IDENTIFIER="63"
-#! SOURCE_NODE="57"
-#! TARGET_NODE="62"
-#! SOURCE_PORT_DESC="fo 0"
-#! TARGET_PORT_DESC="fi 0"
-#! ENABLED="true"
-#! EXTRA_POINTS=""
-#! />
-#! <FEAT_LINK
 #! IDENTIFIER="68"
 #! SOURCE_NODE="64"
 #! TARGET_NODE="67"
@@ -1366,6 +1409,51 @@
 #! IDENTIFIER="69"
 #! SOURCE_NODE="67"
 #! TARGET_NODE="57"
+#! SOURCE_PORT_DESC="fo 0"
+#! TARGET_PORT_DESC="fi 0"
+#! ENABLED="true"
+#! EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
+#! IDENTIFIER="60"
+#! SOURCE_NODE="57"
+#! TARGET_NODE="62"
+#! SOURCE_PORT_DESC="fo 0"
+#! TARGET_PORT_DESC="fi 1"
+#! ENABLED="true"
+#! EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
+#! IDENTIFIER="63"
+#! SOURCE_NODE="67"
+#! TARGET_NODE="62"
+#! SOURCE_PORT_DESC="fo 0"
+#! TARGET_PORT_DESC="fi 0"
+#! ENABLED="true"
+#! EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
+#! IDENTIFIER="66"
+#! SOURCE_NODE="62"
+#! TARGET_NODE="24"
+#! SOURCE_PORT_DESC="fo 0"
+#! TARGET_PORT_DESC="fi 0"
+#! ENABLED="true"
+#! EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
+#! IDENTIFIER="71"
+#! SOURCE_NODE="25"
+#! TARGET_NODE="70"
+#! SOURCE_PORT_DESC="fo 0"
+#! TARGET_PORT_DESC="fi 0"
+#! ENABLED="true"
+#! EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
+#! IDENTIFIER="72"
+#! SOURCE_NODE="58"
+#! TARGET_NODE="70"
 #! SOURCE_PORT_DESC="fo 0"
 #! TARGET_PORT_DESC="fi 0"
 #! ENABLED="true"
@@ -1418,7 +1506,7 @@
 #! INFO_NODE="false"
 #! TOP_LEFT="1276 -356"
 #! BOTTOM_RIGHT="1276 -356"
-#! COLOUR="1,1,0.784314,0.196078"
+#! COLOUR="1,1,0.784314,0.192157"
 #! SIZE_POLICY="8"
 #! COMMENT_TYPE="REGULAR"
 #! ANCHORED_NODE="9"
@@ -1432,7 +1520,7 @@
 #! INFO_NODE="false"
 #! TOP_LEFT="2380 -306"
 #! BOTTOM_RIGHT="2380 -306"
-#! COLOUR="1,1,0.784314,0.196078"
+#! COLOUR="1,1,0.784314,0.192157"
 #! SIZE_POLICY="8"
 #! COMMENT_TYPE="REGULAR"
 #! ANCHORED_NODE="1"
@@ -1446,7 +1534,7 @@
 #! INFO_NODE="false"
 #! TOP_LEFT="169 -1163"
 #! BOTTOM_RIGHT="169 -1163"
-#! COLOUR="1,1,0.784314,0.196078"
+#! COLOUR="1,1,0.784314,0.192157"
 #! SIZE_POLICY="8"
 #! COMMENT_TYPE="REGULAR"
 #! ANCHORED_NODE="3"
@@ -1460,7 +1548,7 @@
 #! INFO_NODE="false"
 #! TOP_LEFT="520 -172"
 #! BOTTOM_RIGHT="520 -172"
-#! COLOUR="1,1,0.784314,0.196078"
+#! COLOUR="1,1,0.784314,0.192157"
 #! SIZE_POLICY="8"
 #! COMMENT_TYPE="REGULAR"
 #! ANCHORED_NODE="4"
@@ -1474,7 +1562,7 @@
 #! INFO_NODE="false"
 #! TOP_LEFT="1547 -44"
 #! BOTTOM_RIGHT="1547 -44"
-#! COLOUR="1,1,0.784314,0.196078"
+#! COLOUR="1,1,0.784314,0.192157"
 #! SIZE_POLICY="8"
 #! COMMENT_TYPE="REGULAR"
 #! ANCHORED_NODE="2"
@@ -1488,7 +1576,7 @@
 #! INFO_NODE="false"
 #! TOP_LEFT="848 -1195"
 #! BOTTOM_RIGHT="848 -1195"
-#! COLOUR="1,1,0.784314,0.196078"
+#! COLOUR="1,1,0.784314,0.192157"
 #! SIZE_POLICY="8"
 #! COMMENT_TYPE="REGULAR"
 #! ANCHORED_NODE="5"
@@ -1502,7 +1590,7 @@
 #! INFO_NODE="false"
 #! TOP_LEFT="874 -1320"
 #! BOTTOM_RIGHT="874 -1320"
-#! COLOUR="1,1,0.784314,0.196078"
+#! COLOUR="1,1,0.784314,0.192157"
 #! SIZE_POLICY="8"
 #! COMMENT_TYPE="REGULAR"
 #! ANCHORED_NODE="6"
@@ -1516,7 +1604,7 @@
 #! INFO_NODE="false"
 #! TOP_LEFT="1788 -1098"
 #! BOTTOM_RIGHT="1788 -1098"
-#! COLOUR="1,1,0.784314,0.196078"
+#! COLOUR="1,1,0.784314,0.192157"
 #! SIZE_POLICY="8"
 #! COMMENT_TYPE="REGULAR"
 #! ANCHORED_NODE="7"
@@ -1530,7 +1618,7 @@
 #! INFO_NODE="false"
 #! TOP_LEFT="2513 -1094"
 #! BOTTOM_RIGHT="2513 -1094"
-#! COLOUR="1,1,0.784314,0.196078"
+#! COLOUR="1,1,0.784314,0.192157"
 #! SIZE_POLICY="8"
 #! COMMENT_TYPE="REGULAR"
 #! ANCHORED_NODE="8"
@@ -1544,7 +1632,7 @@
 #! INFO_NODE="false"
 #! TOP_LEFT="540 -1640"
 #! BOTTOM_RIGHT="540 -1640"
-#! COLOUR="1,1,0.784314,0.196078"
+#! COLOUR="1,1,0.784314,0.192157"
 #! SIZE_POLICY="10"
 #! COMMENT_TYPE="REGULAR"
 #! ANCHORED_NODE="0"
@@ -1566,6 +1654,7 @@
 #! >
 #! <OUTPUT_FEAT NAME="OUTPUT"/>
 #! <FEAT_COLLAPSED COLLAPSED="0"/>
+#! <XFORM_ATTR ATTR_NAME="_clipped" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="fme_basename" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="_pc_count" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="_column" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -1586,6 +1675,7 @@
 #! >
 #! <OUTPUT_FEAT NAME="TILED"/>
 #! <FEAT_COLLAPSED COLLAPSED="0"/>
+#! <XFORM_ATTR ATTR_NAME="_clipped" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="fme_basename" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="_pc_count" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="_column" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -1614,6 +1704,7 @@
 #! >
 #! <OUTPUT_FEAT NAME="SORTED"/>
 #! <FEAT_COLLAPSED COLLAPSED="0"/>
+#! <XFORM_ATTR ATTR_NAME="_clipped" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="fme_basename" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="_pc_count" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="_column" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -1632,6 +1723,7 @@
 #! >
 #! <OUTPUT_FEAT NAME="OUTPUT"/>
 #! <FEAT_COLLAPSED COLLAPSED="0"/>
+#! <XFORM_ATTR ATTR_NAME="_clipped" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="fme_basename" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="_pc_count" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_PARM PARM_NAME="SCOPE" PARM_VALUE="Local"/>
@@ -1653,6 +1745,7 @@
 #! >
 #! <OUTPUT_FEAT NAME="OUTPUT"/>
 #! <FEAT_COLLAPSED COLLAPSED="0"/>
+#! <XFORM_ATTR ATTR_NAME="_clipped" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="fme_basename" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="_pc_count" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="_column" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -1677,6 +1770,7 @@
 #! >
 #! <OUTPUT_FEAT NAME="PASSED"/>
 #! <FEAT_COLLAPSED COLLAPSED="0"/>
+#! <XFORM_ATTR ATTR_NAME="_clipped" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="fme_basename" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="_pc_count" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="_column" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -1684,6 +1778,7 @@
 #! <XFORM_ATTR ATTR_NAME="_pc_slice_count" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <OUTPUT_FEAT NAME="FAILED"/>
 #! <FEAT_COLLAPSED COLLAPSED="1"/>
+#! <XFORM_ATTR ATTR_NAME="_clipped" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #! <XFORM_ATTR ATTR_NAME="fme_basename" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #! <XFORM_ATTR ATTR_NAME="_pc_count" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #! <XFORM_ATTR ATTR_NAME="_column" IS_USER_CREATED="false" FEAT_INDEX="1" />
@@ -1708,6 +1803,7 @@
 #! >
 #! <OUTPUT_FEAT NAME="OUTPUT"/>
 #! <FEAT_COLLAPSED COLLAPSED="0"/>
+#! <XFORM_ATTR ATTR_NAME="_clipped" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="fme_basename" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="_pc_count" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="_column" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -1733,6 +1829,7 @@
 #! >
 #! <OUTPUT_FEAT NAME="OUTPUT"/>
 #! <FEAT_COLLAPSED COLLAPSED="0"/>
+#! <XFORM_ATTR ATTR_NAME="_clipped" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="fme_basename" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_PARM PARM_NAME="LIST_ATTRS" PARM_VALUE=""/>
 #! <XFORM_PARM PARM_NAME="REMOVE_ATTRS" PARM_VALUE="_column,_pc_count,_pc_slice_count,_row"/>
@@ -1751,6 +1848,7 @@
 #! >
 #! <OUTPUT_FEAT NAME="OUTPUT"/>
 #! <FEAT_COLLAPSED COLLAPSED="0"/>
+#! <XFORM_ATTR ATTR_NAME="_clipped" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="fme_basename" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="_pc_count" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_PARM PARM_NAME="PARAMETER_GROUP" PARM_VALUE=""/>
@@ -1922,7 +2020,7 @@ DEFAULT_MACRO THINNER_TYPE_ Keep Every Nth Point
 GUI CHOICE THINNER_TYPE_ "Keep Every Nth Point"%"Maximum Number Of Points" Thinning Type:
 DEFAULT_MACRO THIN_RATE 100
 GUI INTEGER THIN_RATE Thinning Amount or Max Number of Points:
-DEFAULT_MACRO GEOM POLYGON<openparen><openparen>-123.13339233398438<space>49.281244306250414<comma>-123.15502166748047<space>49.2727328862137<comma>-123.13888549804688<space>49.26018706362073<comma>-123.09700012207031<space>49.26265167339575<comma>-123.09494018554688<space>49.27855664807512<closeparen><closeparen>
+DEFAULT_MACRO GEOM POLYGON<openparen><openparen>-123.11965942382812<space>49.278864616337735<comma>-123.12098979949951<space>49.277156768098855<comma>-123.1206464767456<space>49.27514087112956<comma>-123.11558246612549<space>49.27572884958986<closeparen><closeparen>
 GUI TEXT_EDIT GEOM Geometry Source:
 DEFAULT_MACRO LASDIR C:\FMEData2014\Data\PointClouds
 GUI IGNORE DIRNAME_SRC LASDIR LAS Directory:
@@ -2108,11 +2206,12 @@ DEFAULT_MACRO Reprojector_SOURCE Read from feature
 INCLUDE [if { {Read from feature} == {Read from feature} } {             puts {MACRO Reprojector_SOURCE}          }         ]
 FACTORY_DEF * TeeFactory    FACTORY_NAME Reprojector    INPUT  FEATURE_TYPE CoordinateSystemSetter_OUTPUT    OUTPUT FEATURE_TYPE Reprojector_REPROJECTED         @Reproject($(Reprojector_SOURCE),UTM83-10,NearestNeighbor,PreserveCells)
 
+FACTORY_DEF * TeeFactory   FACTORY_NAME "Reprojector REPROJECTED Splitter"   INPUT FEATURE_TYPE Reprojector_REPROJECTED   OUTPUT FEATURE_TYPE Reprojector_REPROJECTED_0_u3aJwU8cefg=   OUTPUT FEATURE_TYPE Reprojector_REPROJECTED_1_u3aJwU8cefg=
 # -------------------------------------------------------------------------
 MACRO FeatureReader_DIRECTIVES GROUP_BY_DATASET No
 
 Tcl2 proc FeatureReader_findInListElseDefault { value defaultValue } {    if { [lsearch [split $::FeatureReader_FORMATTEDFEATURETYPES {:}] $value] >= 0} {       return $value    } else {       return $defaultValue    } }
-INCLUDE [if { {CONTAINS} == {} } {             puts {MACRO REMOVE_GEOM_FUNC @RemoveGeometry()};             puts {MACRO QUERY_INTERACTION_LINE};          } else {             puts {MACRO REMOVE_GEOM_FUNC};             if { {CONTAINS} != {ENVELOPE_INTERSECT} } {                puts {MACRO QUERY_INTERACTION_LINE QUERY_INTERACTION CONTAINS};             } else {                puts {MACRO QUERY_INTERACTION_LINE};             }          }         ]
+INCLUDE [if { {ENVELOPE_INTERSECT} == {} } {             puts {MACRO REMOVE_GEOM_FUNC @RemoveGeometry()};             puts {MACRO QUERY_INTERACTION_LINE};          } else {             puts {MACRO REMOVE_GEOM_FUNC};             if { {ENVELOPE_INTERSECT} != {ENVELOPE_INTERSECT} } {                puts {MACRO QUERY_INTERACTION_LINE QUERY_INTERACTION ENVELOPE_INTERSECT};             } else {                puts {MACRO QUERY_INTERACTION_LINE};             }          }         ]
 # This is dynamically parsed when the mapping file is parsed.
 # The purpose is to separate feature types in LAS
 # by colons so they can be parsed easily
@@ -2120,66 +2219,33 @@ INCLUDE [if { {CONTAINS} == {} } {             puts {MACRO REMOVE_GEOM_FUNC @Rem
 # by quotes. In this case extra care is required to separate
 # it.
 Tcl2 set featTypes {LAS};    set curIndex 0;    set inQuote 0;    while { [set ch [string index $featTypes $curIndex]] != {} } {       if { [string compare {\"} $ch] == 0 } {          set featTypes [string replace $featTypes $curIndex $curIndex {}];          set inQuote [expr 1-$inQuote];       } else {          if { [string compare { } $ch] == 0 && !$inQuote } {             set featTypes [string replace $featTypes $curIndex $curIndex {:}];          };          set curIndex [expr $curIndex+1];       }    };    set ::FeatureReader_FORMATTEDFEATURETYPES $featTypes;
-FACTORY_DEF * TeeFactory    FACTORY_NAME FeatureReader_GeometryRemover    INPUT  FEATURE_TYPE Reprojector_REPROJECTED    OUTPUT FEATURE_TYPE QueryFactoryInputFeatureType      $(REMOVE_GEOM_FUNC)
+FACTORY_DEF * TeeFactory    FACTORY_NAME FeatureReader_GeometryRemover    INPUT  FEATURE_TYPE Reprojector_REPROJECTED_0_u3aJwU8cefg=    OUTPUT FEATURE_TYPE QueryFactoryInputFeatureType      $(REMOVE_GEOM_FUNC)
 
-FACTORY_DEF * QueryFactory    FACTORY_NAME FeatureReader    INPUT  FEATURE_TYPE QueryFactoryInputFeatureType    $(QUERY_INTERACTION_LINE)    COMBINE_ATTRIBUTES  RESULT_ONLY    COMBINE_GEOMETRY    RESULT_ONLY    ENABLE_CACHE        NO    READER_TYPE         LAS    READER_DATASET      "@EvaluateExpression(STRING_ENCODED,$(LASDIR$encode)<backslash>*.zip,FeatureReader)"    READER_IDS          LAS    READER_COORDSYS     "UTM83-10"    READER_DIRECTIVES   META_MACROS,SourceGROUP_BY_DATASET<comma>No,METAFILE,LAS,IDLIST,    READER_PARAMS     $(FeatureReader_DIRECTIVES)    OUTPUT RESULT FEATURE_TYPE *      @SupplyAttributes(fme_feature_type,@FeatureType())      @Tcl2("set FME_FeatureType [FeatureReader_findInListElseDefault $FME_FeatureType {<OTHER>}]")      @FeatureType(@Concatenate(FeatureReader,"_",@FeatureType()))      @Transform(LAS,FME_GENERIC)    OUTPUT QUERY FEATURE_TYPE FeatureReader_INITIATOR
+FACTORY_DEF * QueryFactory    FACTORY_NAME FeatureReader    INPUT  FEATURE_TYPE QueryFactoryInputFeatureType    $(QUERY_INTERACTION_LINE)    COMBINE_ATTRIBUTES  RESULT_ONLY    COMBINE_GEOMETRY    RESULT_ONLY    ENABLE_CACHE        NO    READER_TYPE         LAS    READER_DATASET      "@EvaluateExpression(STRING_ENCODED,$(LASDIR$encode)<solidus>*.zip,FeatureReader)"    READER_IDS          LAS    READER_COORDSYS     "UTM83-10"    READER_DIRECTIVES   META_MACROS,SourceGROUP_BY_DATASET<comma>No,METAFILE,LAS,IDLIST,    READER_PARAMS     $(FeatureReader_DIRECTIVES)    OUTPUT RESULT FEATURE_TYPE *      @SupplyAttributes(fme_feature_type,@FeatureType())      @Tcl2("set FME_FeatureType [FeatureReader_findInListElseDefault $FME_FeatureType {<OTHER>}]")      @FeatureType(@Concatenate(FeatureReader,"_",@FeatureType()))      @Transform(LAS,FME_GENERIC)    OUTPUT QUERY FEATURE_TYPE FeatureReader_INITIATOR
 
-FACTORY_DEF * TeeFactory   FACTORY_NAME "FeatureReader LAS Splitter"   INPUT FEATURE_TYPE FeatureReader_LAS   OUTPUT FEATURE_TYPE FeatureReader_LAS_0_FeczqlwlaVQ=   OUTPUT FEATURE_TYPE FeatureReader_LAS_1_FeczqlwlaVQ=
 FACTORY_DEF * TeeFactory   FACTORY_NAME "FeatureReader <OTHER> Output Nuker"   INPUT FEATURE_TYPE FeatureReader_<OTHER>
 FACTORY_DEF * TeeFactory   FACTORY_NAME "FeatureReader INITIATOR Output Nuker"   INPUT FEATURE_TYPE FeatureReader_INITIATOR
 # -------------------------------------------------------------------------
 
-# Set the directive to add all the meta-attributes to the features.
-# We do this so users see all possible information in the viewed
-# features.
+INCLUDE [    if {($(FME_BUILD_NUM) < 5669) || [FME_ComponentIsLicensed -factory RasterClippingFactory]} {       puts "MACRO RASTER_CLIPPER_IN *";    } else {       puts "MACRO RASTER_CLIPPER_IN NOT_THIS_TIME";    } ]
+FACTORY_DEF * TeeFactory    FACTORY_NAME Clipper_ClipperCloner    INPUT  FEATURE_TYPE Reprojector_REPROJECTED_1_u3aJwU8cefg=    INPUT FEATURE_TYPE Clipper_ClipperCloner_DUMMY    OUTPUT FEATURE_TYPE Clipper___ClippersForSolidOrVector___    OUTPUT FEATURE_TYPE Clipper___ClippersForRaster___
+FACTORY_DEF * TestFactory    FACTORY_NAME Clipper_SolidClipperFilter    INPUT FEATURE_TYPE Clipper___ClippersForSolidOrVector___    TEST &fme_type == "fme_solid"    OUTPUT FAILED FEATURE_TYPE Clipper___ClippersForVector___    OUTPUT PASSED FEATURE_TYPE Clipper___ClippersForSolid___
+FACTORY_DEF * TestFactory    FACTORY_NAME Clipper_ClippeeFilter    INPUT  FEATURE_TYPE FeatureReader_LAS    INPUT FEATURE_TYPE Clipper_ClippeeFilter_DUMMY    TEST &fme_type == "fme_raster"    OUTPUT FAILED FEATURE_TYPE Clipper___VectorOrSolidClippees___    OUTPUT PASSED FEATURE_TYPE Clipper___RasterClippees___
+FACTORY_DEF $(RASTER_CLIPPER_IN) RasterClippingFactory    FACTORY_NAME Clipper_Raster    INPUT CLIPPER FEATURE_TYPE Clipper___ClippersForRaster___    INPUT CLIPPEE FEATURE_TYPE Clipper___RasterClippees___    MULTICLIP YES    MERGE_CLIPPER_ATTRIBUTES No    CLIPPER_ATTR_PREFIX "clipper_"    PRESERVE_CLIPPEE_EXTENTS NO    OUTPUT_NO_CLIPPERS_AS_OUTSIDE    OUTSIDE_NO_CLIPPERS_ATTR _fme_no_clipper    OUTPUT INSIDE FEATURE_TYPE Clipper_INSIDE        "_clipped" no    OUTPUT CLIPPED_INSIDE FEATURE_TYPE Clipper_INSIDE        "_clipped" yes    OUTPUT EXTRA_CLIPPER FEATURE_TYPE Clipper__delete__ @Tcl2("FME_LogMessage fme_warn 917351 Clipper")
+FACTORY_DEF * ClippingFactory    FACTORY_NAME Clipper_Vector    INPUT CLIPPER FEATURE_TYPE Clipper___ClippersForVector___    INPUT CLIPPEE FEATURE_TYPE Clipper___VectorOrSolidClippees___    INPUT CLIPPEE FEATURE_TYPE Clipper___RasterClippees___    MULTICLIP YES    CLIPPEE_ON_BOUNDARY INSIDE    MERGE_CLIPPER_ATTRIBUTES No    DO_NOT_AGGREGATE NO    CLIPPER_ATTR_PREFIX "clipper_"    OUTPUT_NO_CLIPPERS_AS_OUTSIDE    OUTSIDE_NO_CLIPPERS_ATTR _fme_no_clipper    MODE COMPLETE    OUTPUT INSIDE FEATURE_TYPE Clipper_INSIDE        "_clipped" no    OUTPUT CLIPPED_INSIDE FEATURE_TYPE Clipper_INSIDE        "_clipped" yes    OUTPUT OUTSIDE_NO_CLIPPER FEATURE_TYPE Clipper___ClippeeForSolid___    OUTPUT EXTRA_CLIPPER   FEATURE_TYPE Clipper__delete__ @Tcl2("FME_LogMessage fme_warn 917351 Clipper")    OUTPUT NONPOLY_CLIPPER FEATURE_TYPE Clipper__delete__ @Tcl2("FME_LogMessage fme_warn 917352 Clipper")
+FACTORY_DEF * SolidIntersectionFactory    FACTORY_NAME Clipper_Solid    INPUT CLIPPER FEATURE_TYPE Clipper___ClippersForSolid___    INPUT CLIPPEE FEATURE_TYPE Clipper___ClippeeForSolid___    MULTICLIP YES    CLIPPEE_ON_BOUNDARY INSIDE    MERGE_CLIPPER_ATTRIBUTES No    DO_NOT_AGGREGATE NO    CLIPPER_ATTR_PREFIX "clipper_"    OUTPUT_NO_CLIPPERS_AS_OUTSIDE    OUTSIDE_NO_CLIPPERS_ATTR _fme_no_clipper    OUTPUT INSIDE FEATURE_TYPE Clipper_INSIDE        "_clipped" no    OUTPUT CLIPPED_INSIDE FEATURE_TYPE Clipper_INSIDE        "_clipped" yes    OUTPUT EXTRA_CLIPPER   FEATURE_TYPE Clipper__delete__ @Tcl2("FME_LogMessage fme_warn 917351 Clipper")
 
-READER_META_ATTRIBUTES fme_feature_type fme_dataset fme_basename
-# Assumption is that the workspace temp dir has been already set and created.  See controldefs.cpp - ControlDefs::writeVisualizerTempDir
-DEFAULT_MACRO WORKSPACE_TEMP_DIR
-INCLUDE [         if { [string length {}] > 0 } {             set catter "" ;             set comma "" ;             foreach attr {} {                 set catter "$catter$comma@Value(\"$attr\")" ;                 set comma ",_," ;             } ;             puts "MACRO CATMAC _@Concatenate($catter)" ;         }         else {             puts "MACRO CATMAC " ;         };         set safeName "[regsub -all {[^a-zA-Z0-9]} {FeatureReader_LAS} _]_[expr round(rand() * 1000000)]_[clock clicks  -milliseconds]";         puts "MACRO SAFE_FFS_NAME $safeName";         ]
-# Make the temporary directory that the FFS files will live in.
-FACTORY_DEF * CreationFactory      FACTORY_NAME FeatureReader_LAS_DirCreator      OUTPUT FEATURE_TYPE __nukeme__          @Tcl2("catch {file mkdir {$(WORKSPACE_TEMP_DIR)}}")
-FACTORY_DEF * TeeFactory    FACTORY_NAME FeatureReader_LAS_DirCreatorCleanerUpper    INPUT FEATURE_TYPE __nukeme__
-# Send raster, point cloud and vector features down different paths to prepare
-# them for viewing
-
-FACTORY_DEF * TestFactory    FACTORY_NAME FeatureReader_LAS_FeatureDirector    INPUT  FEATURE_TYPE FeatureReader_LAS_1_FeczqlwlaVQ=    TEST &fme_type == "fme_raster"    OUTPUT FAILED FEATURE_TYPE FeatureReader_LAS___NotRasterFeatures___    OUTPUT PASSED FEATURE_TYPE FeatureReader_LAS___RasterFeatures___
-FACTORY_DEF * TestFactory    FACTORY_NAME FeatureReader_LAS___FeatureDirector1    INPUT FEATURE_TYPE FeatureReader_LAS___NotRasterFeatures___    TEST &fme_type == "fme_point_cloud"    OUTPUT FAILED FEATURE_TYPE FeatureReader_LAS___VectorFeatures___    OUTPUT PASSED FEATURE_TYPE FeatureReader_LAS___PointCloudFeatures___
-# Vector features simply may get their colors overridden
-
-FACTORY_DEF * TeeFactory    FACTORY_NAME FeatureReader_LAS_VectorSetterUpper    INPUT FEATURE_TYPE FeatureReader_LAS___VectorFeatures___    OUTPUT FEATURE_TYPE __viewme__
-# Point Cloud Features Might Need to be thinned
-
-# Note that we don't call the ThinPointCloud function directly, but rather
-# do it through TCL. This should allow this transformer to be used with a
-# Desktop license, even though ThinPointCloud requires Professional.
-
-Tcl2 proc FeatureReader_LAS_a7f63acc_84d1_48a0_92d9_ed5c9b28e20b6_thinPointCloud {} {    if {[string equal {MAXNUMPOINTS} {KEEPNPOINT}]}    {       FME_Execute ThinPointCloud MAXNUMPOINTS <Unused>;    }    elseif {[string equal {MAXNUMPOINTS} {MAXNUMPOINTS}]}    {       FME_Execute ThinPointCloud MAXNUMPOINTS 10000;    }    elseif {[string equal {MAXNUMPOINTS} {FIRSTNPOINTS}]}    {       FME_Execute ThinPointCloud MAXNUMPOINTS 10000;    }    elseif {[string equal {MAXNUMPOINTS} {LASTNPOINTS}]}    {       FME_Execute ThinPointCloud MAXNUMPOINTS 10000;    }; }
-FACTORY_DEF * TeeFactory    FACTORY_NAME FeatureReader_LAS___PointCloudThinner    INPUT FEATURE_TYPE FeatureReader_LAS___PointCloudFeatures___    OUTPUT FEATURE_TYPE __viewme__       @Tcl2("FeatureReader_LAS_a7f63acc_84d1_48a0_92d9_ed5c9b28e20b6_thinPointCloud")
-Tcl2 proc FeatureReader_LAS_a7f63acc_84d1_48a0_92d9_ed5c9b28e20b6_prepareRaster {subsetStartRow subsetNumRows subsetStartCol subsetNumCols} {    set useDI [string equal -nocase {$(FME_VIEWER_APP)} {fmedatainspector}];    if {!$useDI} {       FME_Execute ApplyRasterRotation BILINEAR;    };    set doResample [string equal {NoReduction} {Resample}];    set doSubset [string equal {NoReduction} {Subset}];    set doBounds [string equal {NoReduction} {BoundingBoxOnly}];    if {$doBounds}  {       FME_Execute GeometryType fme_polygon;    }    elseif {$doResample || $doSubset} {       set comment {          First, we need to prefix all the attributes. This is done because          we are going to call @RasterProperties, and we want to make sure          it doesn't overwrite any existing attributes.       };       set kAttrPrefix ".";       set allNames [FME_AttributeNames];       foreach oldName $allNames {          set newName $kAttrPrefix;          append newName $oldName;          FME_RenameAttribute $newName $oldName;       };       FME_Execute RasterProperties RASTER;       if {$doResample} {          set oldNumCols [FME_GetAttribute _num_columns];          set oldNumRows [FME_GetAttribute _num_rows];          set oldSpacingX [FME_GetAttribute _spacing_x];          set oldSpacingY [FME_GetAttribute _spacing_y];          set kMinNumCells 32;          set kMaxNumCells 512;          set comment {             We will only resample if both dimensions are greater than the             minimum num cells, and at least one is greater than the maximum.          };          if {$oldNumRows > $kMinNumCells && $oldNumCols > $kMinNumCells && ($oldNumRows > $kMaxNumCells || $oldNumCols > $kMaxNumCells)} {             set newSpacingX 1.0;             set newSpacingY 1.0;             if {$oldNumRows > $oldNumCols} {                set comment {                   If we have more rows than columns, we need to choose a spacing                   that reduces the number of rows to the maximum we've chosen.                };                set newSpacingY [expr 1.0 * $oldNumRows * $oldSpacingY / $kMaxNumCells];                set newSpacingX [expr 1.0 * $newSpacingY / $oldSpacingY * $oldSpacingX];                set comment {                   Now we need to check if doing this will result in the columns                   going below the minimum. If so, choose the spacing such that                   we only go down to the minimum (and not past).                };                set newNumCols [expr $oldNumCols * $oldSpacingX / $newSpacingX];                if {$newNumCols < $kMinNumCells}                {                   set newSpacingX [expr 1.0 * $oldNumCols * $oldSpacingX / $kMinNumCells];                   set newSpacingY [expr 1.0 * $newSpacingX / $oldSpacingX * $oldSpacingY];                };             }             else {                set comment {                   This is identical to the above case, except the roles of                   rows and cols are reversed.                };                set newSpacingX [expr 1.0 * $oldNumCols * $oldSpacingX / $kMaxNumCells];                set newSpacingY [expr 1.0 * $newSpacingX / $oldSpacingX * $oldSpacingY];                set newNumRows [expr $oldNumRows * $oldSpacingY / $newSpacingY];                if {$newNumRows < $kMinNumCells}                {                   set newSpacingY [expr 1.0 * $oldNumRows * $oldSpacingY / $kMinNumCells];                   set newSpacingX [expr 1.0 * $newSpacingY / $oldSpacingY * $oldSpacingX];                };             };             FME_Execute ResampleRaster CELL_SIZE $newSpacingX $newSpacingY NearestNeighbor;          };       }       elseif {$doSubset} {          set comment {             Get the value of some strings that may be attributes or constants.             Note that we pass in the attribute prefix we're using, because if             one does turn out to be an attribute, it won't actually be the exact             name in the string (since we renamed all our attributes above).          };          set rasterNumRows [FME_GetAttribute _num_rows];          set rasterNumCols [FME_GetAttribute _num_columns];          set comment {             Only do subsetting if the specified start position is actually             within the raster.          };          if {$subsetStartRow < $rasterNumRows && $subsetStartCol < $rasterNumCols}          {             set comment {                Now bound the subset to the size of the raster, so that                we don't create padding.             };             if {[expr $subsetStartRow + $subsetNumRows] > $rasterNumRows}             {                set subsetNumRows [expr $rasterNumRows - $subsetStartRow];             };             if {[expr $subsetStartCol + $subsetNumCols] > $rasterNumCols}             {                set subsetNumCols [expr $rasterNumCols - $subsetStartCol];             };             FME_Execute SubsetRaster $subsetStartRow $subsetNumRows $subsetStartCol $subsetNumCols;          };       };       set comment {          Remove all the attributes added by @RasterProperties and remove the          prefix from the real attributes. We assume they all start with an          underscore.       };       FME_Execute RemoveAttributes fme_regexp_match {^_};       foreach oldName $allNames {          set newName $kAttrPrefix;          append newName $oldName;          FME_RenameAttribute $oldName $newName;       };    }; }
-FACTORY_DEF * TeeFactory    FACTORY_NAME FeatureReader_LAS_RasterSetterUpper    INPUT FEATURE_TYPE FeatureReader_LAS___RasterFeatures___    OUTPUT FEATURE_TYPE __viewme__       @Tcl2("FeatureReader_LAS_a7f63acc_84d1_48a0_92d9_ed5c9b28e20b6_prepareRaster {<Unused>} {<Unused>} {<Unused>} {<Unused>}")
-# Now route all the features into the recorder, changing their
-# feature type to the transformer name so that they view nicely
-# FeatureReader_LAS_a7f63acc_84d1_48a0_92d9_ed5c9b28e20b6_VIS_FEAT_TYPE changes the feature types
-# of the features being visualized.
-
-DEFAULT_MACRO FeatureReader_LAS_a7f63acc_84d1_48a0_92d9_ed5c9b28e20b6_VIS_FEAT_TYPE FeatureReader_LAS$(CATMAC)
-DEFAULT_MACRO VISUALIZER_FEATURE_FILE $(WORKSPACE_TEMP_DIR)/$(SAFE_FFS_NAME).ffs
-DEFAULT_MACRO VISUALIZER_CREATE_SPATIAL_INDEX NO
-# [PR#45549] The Data Inspector will limit the maximum number of features
-# it reads on WIN32, so we will correspondingly limit the number of
-# features we record here using the MAX_FEATURES_TO_RECORD directive.
-
-FACTORY_DEF * RecorderFactory    FACTORY_NAME FeatureReader_LAS_Recorder    INPUT FEATURE_TYPE __viewme__  _wb_termination_feature Yes @FeatureType(TERMINATOR_@Value(_wb_termination_xformer))    INPUT FEATURE_TYPE __viewme__  @FeatureType($(FeatureReader_LAS_a7f63acc_84d1_48a0_92d9_ed5c9b28e20b6_VIS_FEAT_TYPE))    FEATURE_FILE "$(VISUALIZER_FEATURE_FILE)"    CREATE_SPATIAL_INDEX "$(VISUALIZER_CREATE_SPATIAL_INDEX)"    INSPECTOR "$(VISUALIZER_CREATE_SPATIAL_INDEX)"    FSC_SCHEMA    MODE RECORD    RECORD_DIRECTLY_TO_DISK YES    MAX_FEATURES_TO_RECORD WIN32 2000000
+FACTORY_DEF * TeeFactory    FACTORY_NAME Clipper_Nuker    INPUT FEATURE_TYPE Clipper__delete__       @Log("Offending feature was:")
 
 # -------------------------------------------------------------------------
-FACTORY_DEF * TeeFactory   FACTORY_NAME "Tester (Disabled) Nuker"   INPUT FEATURE_TYPE FeatureReader_LAS_0_FeczqlwlaVQ=
+
+FACTORY_DEF * TestFactory    FACTORY_NAME Tester    INPUT  FEATURE_TYPE Clipper_INSIDE    TEST "@EvaluateExpression(STRING,$(tiles$encode),Tester)" = "No"    BOOLEAN_OPERATOR OR    OUTPUT PASSED FEATURE_TYPE Tester_PASSED    OUTPUT FAILED FEATURE_TYPE Tester_FAILED
 # -------------------------------------------------------------------------
 FACTORY_DEF * VectorToPointCloudFactory    FACTORY_NAME PointCloudCombiner___VectorMerger    INPUT  FEATURE_TYPE Tester_PASSED    ACCUMULATE_ATTRIBUTES yes    SPACING 1.0    OUTPUT COERCED FEATURE_TYPE PointCloudCombiner___MergedVectorFeatures__       @SupplyAttributes(?,fme_basename,PointCloudCombiner)
 FACTORY_DEF * PointCloudCombinerFactory    FACTORY_NAME PointCloudCombiner___Combiner    INPUT FEATURE_TYPE PointCloudCombiner___MergedVectorFeatures__    ACCUMULATE_ATTRIBUTES yes    OUTPUT MERGED FEATURE_TYPE PointCloudCombiner_OUTPUT
 
 # -------------------------------------------------------------------------
-FACTORY_DEF * TeeFactory   FACTORY_NAME "PointCloudVerticalFilter_2 INPUT Input Collector"   INPUT FEATURE_TYPE PointCloudCombiner_OUTPUT   INPUT FEATURE_TYPE Tester_FAILED   OUTPUT FEATURE_TYPE PointCloudVerticalFilter_2_INPUT
+FACTORY_DEF * TeeFactory   FACTORY_NAME "PointCloudVerticalFilter_2 INPUT Input Collector"   INPUT FEATURE_TYPE Tester_FAILED   INPUT FEATURE_TYPE PointCloudCombiner_OUTPUT   OUTPUT FEATURE_TYPE PointCloudVerticalFilter_2_INPUT
 MACRO PointCloudVerticalFilter_WORKSPACE_NAME PointCloudVerticalFilter_2
 MACRO $(PointCloudVerticalFilter_WORKSPACE_NAME)_XFORMER_NAME PointCloudVerticalFilter_2
 MACRO $(PointCloudVerticalFilter_WORKSPACE_NAME)_TRANSFORMER_GROUP 
@@ -2188,12 +2254,12 @@ MACRO $(PointCloudVerticalFilter_WORKSPACE_NAME)_SUB_DOC_NAME PointCloudVertical
 MACRO $(PointCloudVerticalFilter_WORKSPACE_NAME)_NUM_VERTICAL_SLICES 10
 DEFAULT_MACRO PointCloudVerticalFilter_WORKSPACE_NAME ""
 INCLUDE [puts {MACRO WB_OLD_CONTEXT_$(PointCloudVerticalFilter_WORKSPACE_NAME) $(WB_CURRENT_CONTEXT)};          puts {MACRO WB_CURRENT_CONTEXT $(PointCloudVerticalFilter_WORKSPACE_NAME)}]
-FACTORY_DEF * TeeFactory   FACTORY_NAME "$(PointCloudVerticalFilter_WORKSPACE_NAME)_INPUT1408128833 Input Splitter"   INPUT FEATURE_TYPE "$(PointCloudVerticalFilter_WORKSPACE_NAME)_INPUT"   OUTPUT FEATURE_TYPE "$(PointCloudVerticalFilter_WORKSPACE_NAME)_INPUT"
+FACTORY_DEF * TeeFactory   FACTORY_NAME "$(PointCloudVerticalFilter_WORKSPACE_NAME)_INPUT1408728549 Input Splitter"   INPUT FEATURE_TYPE "$(PointCloudVerticalFilter_WORKSPACE_NAME)_INPUT"   OUTPUT FEATURE_TYPE "$(PointCloudVerticalFilter_WORKSPACE_NAME)_INPUT"
 # -------------------------------------------------------------------------
 
-Tcl2 proc $(PointCloudVerticalFilter_WORKSPACE_NAME)_Counter_2_f7e24e7a_a260_404b_9549_a151d69d6dc715_createDomain { in_domainName } {    set domainName $in_domainName;    if { {Local} == {Local} }    {       set xFormName [FME_EncodeText {$(PointCloudVerticalFilter_WORKSPACE_NAME)_Counter_2_}];       set domainName $xFormName$domainName;    };    return $domainName; }
+Tcl2 proc $(PointCloudVerticalFilter_WORKSPACE_NAME)_Counter_2_127e44e2_7e10_402a_ae02_55f7df16a5ba9_createDomain { in_domainName } {    set domainName $in_domainName;    if { {Local} == {Local} }    {       set xFormName [FME_EncodeText {$(PointCloudVerticalFilter_WORKSPACE_NAME)_Counter_2_}];       set domainName $xFormName$domainName;    };    return $domainName; }
 
-FACTORY_DEF * TeeFactory    FACTORY_NAME $(PointCloudVerticalFilter_WORKSPACE_NAME)_Counter_2    INPUT  FEATURE_TYPE "$(PointCloudVerticalFilter_WORKSPACE_NAME)_INPUT"    OUTPUT FEATURE_TYPE "$(PointCloudVerticalFilter_WORKSPACE_NAME)_Counter_2_OUTPUT"         "_pc_count" @Count(fme_encoded,@Tcl2("$(PointCloudVerticalFilter_WORKSPACE_NAME)_Counter_2_f7e24e7a_a260_404b_9549_a151d69d6dc715_createDomain {_pc_count}"), 0)
+FACTORY_DEF * TeeFactory    FACTORY_NAME $(PointCloudVerticalFilter_WORKSPACE_NAME)_Counter_2    INPUT  FEATURE_TYPE "$(PointCloudVerticalFilter_WORKSPACE_NAME)_INPUT"    OUTPUT FEATURE_TYPE "$(PointCloudVerticalFilter_WORKSPACE_NAME)_Counter_2_OUTPUT"         "_pc_count" @Count(fme_encoded,@Tcl2("$(PointCloudVerticalFilter_WORKSPACE_NAME)_Counter_2_127e44e2_7e10_402a_ae02_55f7df16a5ba9_createDomain {_pc_count}"), 0)
 
 # -------------------------------------------------------------------------
 
@@ -2228,9 +2294,9 @@ FACTORY_DEF * SortFactory    FACTORY_NAME $(PointCloudVerticalFilter_WORKSPACE_N
 
 # -------------------------------------------------------------------------
 
-Tcl2 proc $(PointCloudVerticalFilter_WORKSPACE_NAME)_Counter_72ec9b1b_b315_4817_a34d_688fca7937eb15_createDomain { in_domainName } {    set domainName $in_domainName;    if { {Global} == {Local} }    {       set xFormName [FME_EncodeText {$(PointCloudVerticalFilter_WORKSPACE_NAME)_Counter_}];       set domainName $xFormName$domainName;    };    return $domainName; }
+Tcl2 proc $(PointCloudVerticalFilter_WORKSPACE_NAME)_Counter_36a0665a_bf7d_4f2f_80ec_74c3110bb41a9_createDomain { in_domainName } {    set domainName $in_domainName;    if { {Global} == {Local} }    {       set xFormName [FME_EncodeText {$(PointCloudVerticalFilter_WORKSPACE_NAME)_Counter_}];       set domainName $xFormName$domainName;    };    return $domainName; }
 
-FACTORY_DEF * TeeFactory    FACTORY_NAME $(PointCloudVerticalFilter_WORKSPACE_NAME)_Counter    INPUT  FEATURE_TYPE "$(PointCloudVerticalFilter_WORKSPACE_NAME)_Sorter_SORTED"    OUTPUT FEATURE_TYPE "$(PointCloudVerticalFilter_WORKSPACE_NAME)_Counter_OUTPUT"         "_pc_slice_count" @Count(fme_encoded,@Tcl2("$(PointCloudVerticalFilter_WORKSPACE_NAME)_Counter_72ec9b1b_b315_4817_a34d_688fca7937eb15_createDomain {@EvaluateExpression(STRING_ENCODED,<at>Value<openparen>_pc_count<closeparen>,$(PointCloudVerticalFilter_WORKSPACE_NAME)_Counter)}"), 0)
+FACTORY_DEF * TeeFactory    FACTORY_NAME $(PointCloudVerticalFilter_WORKSPACE_NAME)_Counter    INPUT  FEATURE_TYPE "$(PointCloudVerticalFilter_WORKSPACE_NAME)_Sorter_SORTED"    OUTPUT FEATURE_TYPE "$(PointCloudVerticalFilter_WORKSPACE_NAME)_Counter_OUTPUT"         "_pc_slice_count" @Count(fme_encoded,@Tcl2("$(PointCloudVerticalFilter_WORKSPACE_NAME)_Counter_36a0665a_bf7d_4f2f_80ec_74c3110bb41a9_createDomain {@EvaluateExpression(STRING_ENCODED,<at>Value<openparen>_pc_count<closeparen>,$(PointCloudVerticalFilter_WORKSPACE_NAME)_Counter)}"), 0)
 
 # -------------------------------------------------------------------------
 
@@ -2244,47 +2310,94 @@ FACTORY_DEF * PointCloudCombinerFactory    FACTORY_NAME $(PointCloudVerticalFilt
 INCLUDE [    set macroLine "MACRO $(PointCloudVerticalFilter_WORKSPACE_NAME)_AttributeRemover_LIST_EXP ";    foreach attr [split ""] {       set attr [FME_DecodeText $attr];       set attr [regsub "{}$" $attr "{}.*"];       set attr [regsub -all "{}" $attr "{\[0-9\]+}"];       append macroLine ",^$attr$";    };    puts $macroLine; ]
 FACTORY_DEF * TeeFactory    FACTORY_NAME $(PointCloudVerticalFilter_WORKSPACE_NAME)_AttributeRemover    INPUT  FEATURE_TYPE "$(PointCloudVerticalFilter_WORKSPACE_NAME)_PointCloudCombiner_OUTPUT"    OUTPUT FEATURE_TYPE "$(PointCloudVerticalFilter_WORKSPACE_NAME)_AttributeRemover_OUTPUT"        @RemoveAttributes(_column,_pc_count,_pc_slice_count,_row)        @RemoveAttributes(fme_regexp_match"$($(PointCloudVerticalFilter_WORKSPACE_NAME)_AttributeRemover_LIST_EXP)")
 
-FACTORY_DEF * TeeFactory   FACTORY_NAME "$(PointCloudVerticalFilter_WORKSPACE_NAME)_OUTPUT1408128833 Output Collector"   INPUT FEATURE_TYPE "$(PointCloudVerticalFilter_WORKSPACE_NAME)_AttributeRemover_OUTPUT"   OUTPUT FEATURE_TYPE "$(PointCloudVerticalFilter_WORKSPACE_NAME)_OUTPUT"
+FACTORY_DEF * TeeFactory   FACTORY_NAME "$(PointCloudVerticalFilter_WORKSPACE_NAME)_OUTPUT1408728549 Output Collector"   INPUT FEATURE_TYPE "$(PointCloudVerticalFilter_WORKSPACE_NAME)_AttributeRemover_OUTPUT"   OUTPUT FEATURE_TYPE "$(PointCloudVerticalFilter_WORKSPACE_NAME)_OUTPUT"
 INCLUDE [puts {MACRO WB_CURRENT_CONTEXT $(WB_OLD_CONTEXT_$(PointCloudVerticalFilter_WORKSPACE_NAME))}]
 FACTORY_DEF * TeeFactory   FACTORY_NAME "PointCloudVerticalFilter_2 OUTPUT Output Renamer/Nuker"   INPUT FEATURE_TYPE PointCloudVerticalFilter_2_OUTPUT   OUTPUT FEATURE_TYPE PointCloudVerticalFilter_2_OUTPUT
 # -------------------------------------------------------------------------
 
 FACTORY_DEF * TestFactory    FACTORY_NAME Tester_2    INPUT  FEATURE_TYPE PointCloudVerticalFilter_2_OUTPUT    TEST "@EvaluateExpression(STRING,$(Split_PC$encode),Tester_2)" = "Yes"    BOOLEAN_OPERATOR OR    OUTPUT PASSED FEATURE_TYPE Tester_2_PASSED    OUTPUT FAILED FEATURE_TYPE Tester_2_FAILED
 # -------------------------------------------------------------------------
-INCLUDE [ switch {$(SPLIT_BY_DISPLAY)} {   {By Color} { puts "MACRO 0c9a9e42_a9ed_4248_9891_a47479e2cd14SPLIT_BY COLOR"; }   {By Flight Line} { puts "MACRO 0c9a9e42_a9ed_4248_9891_a47479e2cd14SPLIT_BY FLIGHT_LINE"; }   {By Point Source Id} { puts "MACRO 0c9a9e42_a9ed_4248_9891_a47479e2cd14SPLIT_BY POINT_SOURCE_ID"; }   {By Return Number} { puts "MACRO 0c9a9e42_a9ed_4248_9891_a47479e2cd14SPLIT_BY RETURNS"; }   {By Classification} { puts "MACRO 0c9a9e42_a9ed_4248_9891_a47479e2cd14SPLIT_BY CLASSIFICATION"; }   {By Intensity} { puts "MACRO 0c9a9e42_a9ed_4248_9891_a47479e2cd14SPLIT_BY INTENSITY"; }   {Last Return Only} { puts "MACRO 0c9a9e42_a9ed_4248_9891_a47479e2cd14SPLIT_BY LAST_RETURN"; }   {First Return Only} { puts "MACRO 0c9a9e42_a9ed_4248_9891_a47479e2cd14SPLIT_BY FIRST_RETURN"; }   {} { puts_real "Parameter '$(SPLIT_BY_DISPLAY)' must be given a value."; exit 1; }   {default} { puts "MACRO 0c9a9e42_a9ed_4248_9891_a47479e2cd14SPLIT_BY $(SPLIT_BY_DISPLAY)"; } } ]
+INCLUDE [ switch {$(SPLIT_BY_DISPLAY)} {   {By Color} { puts "MACRO a224f113_14a2_4a2c_8bc8_e870d841ecc2SPLIT_BY COLOR"; }   {By Flight Line} { puts "MACRO a224f113_14a2_4a2c_8bc8_e870d841ecc2SPLIT_BY FLIGHT_LINE"; }   {By Point Source Id} { puts "MACRO a224f113_14a2_4a2c_8bc8_e870d841ecc2SPLIT_BY POINT_SOURCE_ID"; }   {By Return Number} { puts "MACRO a224f113_14a2_4a2c_8bc8_e870d841ecc2SPLIT_BY RETURNS"; }   {By Classification} { puts "MACRO a224f113_14a2_4a2c_8bc8_e870d841ecc2SPLIT_BY CLASSIFICATION"; }   {By Intensity} { puts "MACRO a224f113_14a2_4a2c_8bc8_e870d841ecc2SPLIT_BY INTENSITY"; }   {Last Return Only} { puts "MACRO a224f113_14a2_4a2c_8bc8_e870d841ecc2SPLIT_BY LAST_RETURN"; }   {First Return Only} { puts "MACRO a224f113_14a2_4a2c_8bc8_e870d841ecc2SPLIT_BY FIRST_RETURN"; }   {} { puts_real "Parameter '$(SPLIT_BY_DISPLAY)' must be given a value."; exit 1; }   {default} { puts "MACRO a224f113_14a2_4a2c_8bc8_e870d841ecc2SPLIT_BY $(SPLIT_BY_DISPLAY)"; } } ]
 
 INCLUDE [ if {[string equal {<Unused>} {<Unused>}]} {    puts {MACRO RANGE_LIST_WITH_QUOTES}; } else {    puts "MACRO RANGE_LIST_WITH_QUOTES [string map {"\"" "\\\""} {<Unused>}]"; }; ]
-FACTORY_DEF * PointCloudSplitterFactory    FACTORY_NAME PointCloudSplitter    INPUT  FEATURE_TYPE Tester_2_PASSED    SPLIT_BY $(0c9a9e42_a9ed_4248_9891_a47479e2cd14SPLIT_BY)    RANGE_LIST "$(RANGE_LIST_WITH_QUOTES)"    OUTPUT_ATTR _point_source_id    OUTPUT SPLIT FEATURE_TYPE PointCloudSplitter_SPLIT
+FACTORY_DEF * PointCloudSplitterFactory    FACTORY_NAME PointCloudSplitter    INPUT  FEATURE_TYPE Tester_2_PASSED    SPLIT_BY $(a224f113_14a2_4a2c_8bc8_e870d841ecc2SPLIT_BY)    RANGE_LIST "$(RANGE_LIST_WITH_QUOTES)"    OUTPUT_ATTR _point_source_id    OUTPUT SPLIT FEATURE_TYPE PointCloudSplitter_SPLIT
 
 # -------------------------------------------------------------------------
 
 FACTORY_DEF * TestFactory    FACTORY_NAME Tester_3    INPUT  FEATURE_TYPE Tester_2_FAILED    INPUT  FEATURE_TYPE PointCloudSplitter_SPLIT    TEST "@EvaluateExpression(STRING,$(Thin_PC$encode),Tester_3)" = "Yes"    BOOLEAN_OPERATOR OR    OUTPUT PASSED FEATURE_TYPE Tester_3_PASSED    OUTPUT FAILED FEATURE_TYPE Tester_3_FAILED
 # -------------------------------------------------------------------------
-INCLUDE [ switch {$(THINNER_TYPE_)} {   {Keep Every Nth Point} { puts "MACRO 5f6e1b20_f7bb_468b_9f9d_ff7b36ff602eTHINNER_TYPE KEEPNPOINT"; }   {Maximum Number Of Points} { puts "MACRO 5f6e1b20_f7bb_468b_9f9d_ff7b36ff602eTHINNER_TYPE MAXNUMPOINTS"; }   {} { puts_real "Parameter '$(THINNER_TYPE_)' must be given a value."; exit 1; }   {default} { puts "MACRO 5f6e1b20_f7bb_468b_9f9d_ff7b36ff602eTHINNER_TYPE $(THINNER_TYPE_)"; } } ]
+INCLUDE [ switch {$(THINNER_TYPE_)} {   {Keep Every Nth Point} { puts "MACRO d108ccea_b659_4b03_b3ae_5dd7893e4140THINNER_TYPE KEEPNPOINT"; }   {Maximum Number Of Points} { puts "MACRO d108ccea_b659_4b03_b3ae_5dd7893e4140THINNER_TYPE MAXNUMPOINTS"; }   {} { puts_real "Parameter '$(THINNER_TYPE_)' must be given a value."; exit 1; }   {default} { puts "MACRO d108ccea_b659_4b03_b3ae_5dd7893e4140THINNER_TYPE $(THINNER_TYPE_)"; } } ]
 
-FACTORY_DEF * TeeFactory    FACTORY_NAME PointCloudThinner    INPUT  FEATURE_TYPE Tester_3_PASSED    OUTPUT FEATURE_TYPE PointCloudThinner_THINNED       @ThinPointCloud($(5f6e1b20_f7bb_468b_9f9d_ff7b36ff602eTHINNER_TYPE), @EvaluateExpression(FLOAT,$(THIN_RATE$encode),PointCloudThinner))
+FACTORY_DEF * TeeFactory    FACTORY_NAME PointCloudThinner    INPUT  FEATURE_TYPE Tester_3_PASSED    OUTPUT FEATURE_TYPE PointCloudThinner_THINNED       @ThinPointCloud($(d108ccea_b659_4b03_b3ae_5dd7893e4140THINNER_TYPE), @EvaluateExpression(FLOAT,$(THIN_RATE$encode),PointCloudThinner))
 
 # -------------------------------------------------------------------------
 
-Tcl2 proc AttributeCreator_2_fd6f203e_d5e6_4154_942b_6fbfb04df19215_attrSetter { attrList } {     set attrList [string trim $attrList {()}];     set attrs [split $attrList {,} ];     foreach {attrName attrVal} $attrs {         if { [string match {*<at>*} $attrName] == 1 } {             set attrName [FME_Execute EvaluateExpression {STRING} $attrName {AttributeCreator_2}];         } else {             set attrName [FME_DecodeText $attrName];         };         if { [string match {*<at>*} $attrVal] == 1 } {             set attrVal [FME_Execute EvaluateExpression {STRING_ENCODED} $attrVal {AttributeCreator_2}];         };         FME_SetAttribute $attrName [FME_DecodeText $attrVal];     }; };
+Tcl2 proc AttributeCreator_2_418d1eb7_8c0f_45ee_96de_a57a340fe76e9_attrSetter { attrList } {     set attrList [string trim $attrList {()}];     set attrs [split $attrList {,} ];     foreach {attrName attrVal} $attrs {         if { [string match {*<at>*} $attrName] == 1 } {             set attrName [FME_Execute EvaluateExpression {STRING} $attrName {AttributeCreator_2}];         } else {             set attrName [FME_DecodeText $attrName];         };         if { [string match {*<at>*} $attrVal] == 1 } {             set attrVal [FME_Execute EvaluateExpression {STRING_ENCODED} $attrVal {AttributeCreator_2}];         };         FME_SetAttribute $attrName [FME_DecodeText $attrVal];     }; };
 
-FACTORY_DEF * TeeFactory    FACTORY_NAME AttributeCreator_2    INPUT  FEATURE_TYPE PointCloudThinner_THINNED    INPUT  FEATURE_TYPE Tester_3_FAILED    OUTPUT FEATURE_TYPE AttributeCreator_2_OUTPUT         "@Tcl2( AttributeCreator_2_fd6f203e_d5e6_4154_942b_6fbfb04df19215_attrSetter {(_point_source_id,_<at>Value<openparen>_point_source_id<closeparen>)} )"
+FACTORY_DEF * TeeFactory    FACTORY_NAME AttributeCreator_2    INPUT  FEATURE_TYPE Tester_3_FAILED    INPUT  FEATURE_TYPE PointCloudThinner_THINNED    OUTPUT FEATURE_TYPE AttributeCreator_2_OUTPUT         "@Tcl2( AttributeCreator_2_418d1eb7_8c0f_45ee_96de_a57a340fe76e9_attrSetter {(_point_source_id,_<at>Value<openparen>_point_source_id<closeparen>)} )"
 
 # -------------------------------------------------------------------------
 
 FACTORY_DEF * TestFactory    FACTORY_NAME Tester_4    INPUT  FEATURE_TYPE AttributeCreator_2_OUTPUT    TEST @EvaluateExpression(STRING_ENCODED,<at>Value<openparen>_point_source_id<closeparen>,Tester_4) = _ ENCODED    BOOLEAN_OPERATOR OR    OUTPUT PASSED FEATURE_TYPE Tester_4_PASSED    OUTPUT FAILED FEATURE_TYPE Tester_4_FAILED
+FACTORY_DEF * TeeFactory   FACTORY_NAME "Tester_4 PASSED Splitter"   INPUT FEATURE_TYPE Tester_4_PASSED   OUTPUT FEATURE_TYPE Tester_4_PASSED_0_F1VLnOE71tw=   OUTPUT FEATURE_TYPE Tester_4_PASSED_1_F1VLnOE71tw=
 # -------------------------------------------------------------------------
 
-Tcl2 proc AttributeCreator_1d5f206c_d5a3_4595_a6da_e1ee7d0f89b315_attrSetter { attrList } {     set attrList [string trim $attrList {()}];     set attrs [split $attrList {,} ];     foreach {attrName attrVal} $attrs {         if { [string match {*<at>*} $attrName] == 1 } {             set attrName [FME_Execute EvaluateExpression {STRING} $attrName {AttributeCreator}];         } else {             set attrName [FME_DecodeText $attrName];         };         if { [string match {*<at>*} $attrVal] == 1 } {             set attrVal [FME_Execute EvaluateExpression {STRING_ENCODED} $attrVal {AttributeCreator}];         };         FME_SetAttribute $attrName [FME_DecodeText $attrVal];     }; };
+Tcl2 proc AttributeCreator_ec958e66_1be7_4c45_ad0e_99c980bfb7af9_attrSetter { attrList } {     set attrList [string trim $attrList {()}];     set attrs [split $attrList {,} ];     foreach {attrName attrVal} $attrs {         if { [string match {*<at>*} $attrName] == 1 } {             set attrName [FME_Execute EvaluateExpression {STRING} $attrName {AttributeCreator}];         } else {             set attrName [FME_DecodeText $attrName];         };         if { [string match {*<at>*} $attrVal] == 1 } {             set attrVal [FME_Execute EvaluateExpression {STRING_ENCODED} $attrVal {AttributeCreator}];         };         FME_SetAttribute $attrName [FME_DecodeText $attrVal];     }; };
 
-FACTORY_DEF * TeeFactory    FACTORY_NAME AttributeCreator    INPUT  FEATURE_TYPE Tester_4_FAILED    OUTPUT FEATURE_TYPE AttributeCreator_OUTPUT         "@Tcl2( AttributeCreator_1d5f206c_d5a3_4595_a6da_e1ee7d0f89b315_attrSetter {(fme_basename,<at>Value<openparen>fme_basename<closeparen><at>Value<openparen>_point_source_id<closeparen>)} )"
+FACTORY_DEF * TeeFactory    FACTORY_NAME AttributeCreator    INPUT  FEATURE_TYPE Tester_4_FAILED    OUTPUT FEATURE_TYPE AttributeCreator_OUTPUT         "@Tcl2( AttributeCreator_ec958e66_1be7_4c45_ad0e_99c980bfb7af9_attrSetter {(fme_basename,<at>Value<openparen>fme_basename<closeparen><at>Value<openparen>_point_source_id<closeparen>)} )"
+
+FACTORY_DEF * TeeFactory   FACTORY_NAME "AttributeCreator OUTPUT Splitter"   INPUT FEATURE_TYPE AttributeCreator_OUTPUT   OUTPUT FEATURE_TYPE AttributeCreator_OUTPUT_0_olPiq+C1D00=   OUTPUT FEATURE_TYPE AttributeCreator_OUTPUT_1_olPiq+C1D00=
+# -------------------------------------------------------------------------
+
+# Set the directive to add all the meta-attributes to the features.
+# We do this so users see all possible information in the viewed
+# features.
+
+READER_META_ATTRIBUTES fme_feature_type fme_dataset fme_basename
+# Assumption is that the workspace temp dir has been already set and created.  See controldefs.cpp - ControlDefs::writeVisualizerTempDir
+DEFAULT_MACRO WORKSPACE_TEMP_DIR
+INCLUDE [         if { [string length {}] > 0 } {             set catter "" ;             set comma "" ;             foreach attr {} {                 set catter "$catter$comma@Value(\"$attr\")" ;                 set comma ",_," ;             } ;             puts "MACRO CATMAC _@Concatenate($catter)" ;         }         else {             puts "MACRO CATMAC " ;         };         set safeName "[regsub -all {[^a-zA-Z0-9]} {AttributeCreator_Output} _]_[expr round(rand() * 1000000)]_[clock clicks  -milliseconds]";         puts "MACRO SAFE_FFS_NAME $safeName";         ]
+# Make the temporary directory that the FFS files will live in.
+FACTORY_DEF * CreationFactory      FACTORY_NAME AttributeCreator_Output_DirCreator      OUTPUT FEATURE_TYPE __nukeme__          @Tcl2("catch {file mkdir {$(WORKSPACE_TEMP_DIR)}}")
+FACTORY_DEF * TeeFactory    FACTORY_NAME AttributeCreator_Output_DirCreatorCleanerUpper    INPUT FEATURE_TYPE __nukeme__
+# Send raster, point cloud and vector features down different paths to prepare
+# them for viewing
+
+FACTORY_DEF * TestFactory    FACTORY_NAME AttributeCreator_Output_FeatureDirector    INPUT  FEATURE_TYPE Tester_4_PASSED_0_F1VLnOE71tw=    INPUT  FEATURE_TYPE AttributeCreator_OUTPUT_1_olPiq+C1D00=    TEST &fme_type == "fme_raster"    OUTPUT FAILED FEATURE_TYPE AttributeCreator_Output___NotRasterFeatures___    OUTPUT PASSED FEATURE_TYPE AttributeCreator_Output___RasterFeatures___
+FACTORY_DEF * TestFactory    FACTORY_NAME AttributeCreator_Output___FeatureDirector1    INPUT FEATURE_TYPE AttributeCreator_Output___NotRasterFeatures___    TEST &fme_type == "fme_point_cloud"    OUTPUT FAILED FEATURE_TYPE AttributeCreator_Output___VectorFeatures___    OUTPUT PASSED FEATURE_TYPE AttributeCreator_Output___PointCloudFeatures___
+# Vector features simply may get their colors overridden
+
+FACTORY_DEF * TeeFactory    FACTORY_NAME AttributeCreator_Output_VectorSetterUpper    INPUT FEATURE_TYPE AttributeCreator_Output___VectorFeatures___    OUTPUT FEATURE_TYPE __viewme__
+# Point Cloud Features Might Need to be thinned
+
+# Note that we don't call the ThinPointCloud function directly, but rather
+# do it through TCL. This should allow this transformer to be used with a
+# Desktop license, even though ThinPointCloud requires Professional.
+
+Tcl2 proc AttributeCreator_Output_4f350a2b_a531_453e_b6a3_49c2bdf66d449_thinPointCloud {} {    if {[string equal {NO_THINNING} {KEEPNPOINT}]}    {       FME_Execute ThinPointCloud NO_THINNING <Unused>;    }    elseif {[string equal {NO_THINNING} {MAXNUMPOINTS}]}    {       FME_Execute ThinPointCloud NO_THINNING <Unused>;    }    elseif {[string equal {NO_THINNING} {FIRSTNPOINTS}]}    {       FME_Execute ThinPointCloud NO_THINNING <Unused>;    }    elseif {[string equal {NO_THINNING} {LASTNPOINTS}]}    {       FME_Execute ThinPointCloud NO_THINNING <Unused>;    }; }
+FACTORY_DEF * TeeFactory    FACTORY_NAME AttributeCreator_Output___PointCloudThinner    INPUT FEATURE_TYPE AttributeCreator_Output___PointCloudFeatures___    OUTPUT FEATURE_TYPE __viewme__       @Tcl2("AttributeCreator_Output_4f350a2b_a531_453e_b6a3_49c2bdf66d449_thinPointCloud")
+Tcl2 proc AttributeCreator_Output_4f350a2b_a531_453e_b6a3_49c2bdf66d449_prepareRaster {subsetStartRow subsetNumRows subsetStartCol subsetNumCols} {    set useDI [string equal -nocase {$(FME_VIEWER_APP)} {fmedatainspector}];    if {!$useDI} {       FME_Execute ApplyRasterRotation BILINEAR;    };    set doResample [string equal {NoReduction} {Resample}];    set doSubset [string equal {NoReduction} {Subset}];    set doBounds [string equal {NoReduction} {BoundingBoxOnly}];    if {$doBounds}  {       FME_Execute GeometryType fme_polygon;    }    elseif {$doResample || $doSubset} {       set comment {          First, we need to prefix all the attributes. This is done because          we are going to call @RasterProperties, and we want to make sure          it doesn't overwrite any existing attributes.       };       set kAttrPrefix ".";       set allNames [FME_AttributeNames];       foreach oldName $allNames {          set newName $kAttrPrefix;          append newName $oldName;          FME_RenameAttribute $newName $oldName;       };       FME_Execute RasterProperties RASTER;       if {$doResample} {          set oldNumCols [FME_GetAttribute _num_columns];          set oldNumRows [FME_GetAttribute _num_rows];          set oldSpacingX [FME_GetAttribute _spacing_x];          set oldSpacingY [FME_GetAttribute _spacing_y];          set kMinNumCells 32;          set kMaxNumCells 512;          set comment {             We will only resample if both dimensions are greater than the             minimum num cells, and at least one is greater than the maximum.          };          if {$oldNumRows > $kMinNumCells && $oldNumCols > $kMinNumCells && ($oldNumRows > $kMaxNumCells || $oldNumCols > $kMaxNumCells)} {             set newSpacingX 1.0;             set newSpacingY 1.0;             if {$oldNumRows > $oldNumCols} {                set comment {                   If we have more rows than columns, we need to choose a spacing                   that reduces the number of rows to the maximum we've chosen.                };                set newSpacingY [expr 1.0 * $oldNumRows * $oldSpacingY / $kMaxNumCells];                set newSpacingX [expr 1.0 * $newSpacingY / $oldSpacingY * $oldSpacingX];                set comment {                   Now we need to check if doing this will result in the columns                   going below the minimum. If so, choose the spacing such that                   we only go down to the minimum (and not past).                };                set newNumCols [expr $oldNumCols * $oldSpacingX / $newSpacingX];                if {$newNumCols < $kMinNumCells}                {                   set newSpacingX [expr 1.0 * $oldNumCols * $oldSpacingX / $kMinNumCells];                   set newSpacingY [expr 1.0 * $newSpacingX / $oldSpacingX * $oldSpacingY];                };             }             else {                set comment {                   This is identical to the above case, except the roles of                   rows and cols are reversed.                };                set newSpacingX [expr 1.0 * $oldNumCols * $oldSpacingX / $kMaxNumCells];                set newSpacingY [expr 1.0 * $newSpacingX / $oldSpacingX * $oldSpacingY];                set newNumRows [expr $oldNumRows * $oldSpacingY / $newSpacingY];                if {$newNumRows < $kMinNumCells}                {                   set newSpacingY [expr 1.0 * $oldNumRows * $oldSpacingY / $kMinNumCells];                   set newSpacingX [expr 1.0 * $newSpacingY / $oldSpacingY * $oldSpacingX];                };             };             FME_Execute ResampleRaster CELL_SIZE $newSpacingX $newSpacingY NearestNeighbor;          };       }       elseif {$doSubset} {          set comment {             Get the value of some strings that may be attributes or constants.             Note that we pass in the attribute prefix we're using, because if             one does turn out to be an attribute, it won't actually be the exact             name in the string (since we renamed all our attributes above).          };          set rasterNumRows [FME_GetAttribute _num_rows];          set rasterNumCols [FME_GetAttribute _num_columns];          set comment {             Only do subsetting if the specified start position is actually             within the raster.          };          if {$subsetStartRow < $rasterNumRows && $subsetStartCol < $rasterNumCols}          {             set comment {                Now bound the subset to the size of the raster, so that                we don't create padding.             };             if {[expr $subsetStartRow + $subsetNumRows] > $rasterNumRows}             {                set subsetNumRows [expr $rasterNumRows - $subsetStartRow];             };             if {[expr $subsetStartCol + $subsetNumCols] > $rasterNumCols}             {                set subsetNumCols [expr $rasterNumCols - $subsetStartCol];             };             FME_Execute SubsetRaster $subsetStartRow $subsetNumRows $subsetStartCol $subsetNumCols;          };       };       set comment {          Remove all the attributes added by @RasterProperties and remove the          prefix from the real attributes. We assume they all start with an          underscore.       };       FME_Execute RemoveAttributes fme_regexp_match {^_};       foreach oldName $allNames {          set newName $kAttrPrefix;          append newName $oldName;          FME_RenameAttribute $oldName $newName;       };    }; }
+FACTORY_DEF * TeeFactory    FACTORY_NAME AttributeCreator_Output_RasterSetterUpper    INPUT FEATURE_TYPE AttributeCreator_Output___RasterFeatures___    OUTPUT FEATURE_TYPE __viewme__       @Tcl2("AttributeCreator_Output_4f350a2b_a531_453e_b6a3_49c2bdf66d449_prepareRaster {<Unused>} {<Unused>} {<Unused>} {<Unused>}")
+# Now route all the features into the recorder, changing their
+# feature type to the transformer name so that they view nicely
+# AttributeCreator_Output_4f350a2b_a531_453e_b6a3_49c2bdf66d449_VIS_FEAT_TYPE changes the feature types
+# of the features being visualized.
+
+DEFAULT_MACRO AttributeCreator_Output_4f350a2b_a531_453e_b6a3_49c2bdf66d449_VIS_FEAT_TYPE AttributeCreator_Output$(CATMAC)
+DEFAULT_MACRO VISUALIZER_FEATURE_FILE $(WORKSPACE_TEMP_DIR)/$(SAFE_FFS_NAME).ffs
+DEFAULT_MACRO VISUALIZER_CREATE_SPATIAL_INDEX NO
+# [PR#45549] The Data Inspector will limit the maximum number of features
+# it reads on WIN32, so we will correspondingly limit the number of
+# features we record here using the MAX_FEATURES_TO_RECORD directive.
+
+FACTORY_DEF * RecorderFactory    FACTORY_NAME AttributeCreator_Output_Recorder    INPUT FEATURE_TYPE __viewme__  _wb_termination_feature Yes @FeatureType(TERMINATOR_@Value(_wb_termination_xformer))    INPUT FEATURE_TYPE __viewme__  @FeatureType($(AttributeCreator_Output_4f350a2b_a531_453e_b6a3_49c2bdf66d449_VIS_FEAT_TYPE))    FEATURE_FILE "$(VISUALIZER_FEATURE_FILE)"    CREATE_SPATIAL_INDEX "$(VISUALIZER_CREATE_SPATIAL_INDEX)"    INSPECTOR "$(VISUALIZER_CREATE_SPATIAL_INDEX)"    FSC_SCHEMA _clipped,varchar<openparen>255<closeparen>,fme_basename,varchar<openparen>255<closeparen>,_point_source_id,varchar<openparen>255<closeparen>    MODE RECORD    RECORD_DIRECTLY_TO_DISK YES    MAX_FEATURES_TO_RECORD WIN32 2000000
 
 # -------------------------------------------------------------------------
 
-FACTORY_DEF * TeeFactory    FACTORY_NAME "AttributeCreator_OUTPUT -> NewFeatureType Correlator"    INPUT FEATURE_TYPE AttributeCreator_OUTPUT    OUTPUT FEATURE_TYPE __GO_TO_FINAL_OUTPUT_ROUTER__       multi_writer_id 0       @Reproject("$(Coord_Sys)","$(Coord_Sys)")       @Transform(FME_GENERIC,GENERIC)       @SupplyAttributes(ENCODED,fme_template_feature_type,NewFeatureType)       @CopyAttributes(ENCODED,__wb_out_feat_type__,fme_basename)
+FACTORY_DEF * TeeFactory    FACTORY_NAME "AttributeCreator_OUTPUT_0_olPiq+C1D00= -> NewFeatureType Correlator"    INPUT FEATURE_TYPE AttributeCreator_OUTPUT_0_olPiq+C1D00=
 # -------------------------------------------------------------------------
 
-FACTORY_DEF * TeeFactory    FACTORY_NAME "Tester_4_PASSED -> NewFeatureType Correlator"    INPUT FEATURE_TYPE Tester_4_PASSED    OUTPUT FEATURE_TYPE __GO_TO_FINAL_OUTPUT_ROUTER__       multi_writer_id 0       @Reproject("$(Coord_Sys)","$(Coord_Sys)")       @Transform(FME_GENERIC,GENERIC)       @SupplyAttributes(ENCODED,fme_template_feature_type,NewFeatureType)       @CopyAttributes(ENCODED,__wb_out_feat_type__,fme_basename)
+FACTORY_DEF * TeeFactory    FACTORY_NAME "Tester_4_PASSED_1_F1VLnOE71tw= -> NewFeatureType Correlator"    INPUT FEATURE_TYPE Tester_4_PASSED_1_F1VLnOE71tw=
 # -------------------------------------------------------------------------
 
 FACTORY_DEF * TestFactory   FACTORY_NAME "Final Output Feature Type Router"   INPUT FEATURE_TYPE *   TEST @Value(__wb_out_feat_type__) != ""   OUTPUT PASSED FEATURE_TYPE *     @FeatureType(@Value(__wb_out_feat_type__))   OUTPUT FAILED FEATURE_TYPE __nuke_me__ @Tcl2("FME_StatMessage 818059 [FME_GetAttribute fme_template_feature_type] 818060 818061 fme_warn")
@@ -2297,4 +2410,3 @@ FACTORY_DEF * TeeFactory   FACTORY_NAME "Final Output Nuker"   INPUT FEATURE_TYP
 FACTORY_DEF * CreationFactory   CREATE_AT_END   OUTPUT FEATURE_TYPE __NUKEME__   @TCL("if [file exists {$(WORKSPACE_TEMP_DIR)}] {set files [glob -nocomplain -directory  {$(WORKSPACE_TEMP_DIR)} -tails *.ffs];   if {[llength $files] == 1} {    set theFile {$(WORKSPACE_TEMP_DIR)/};   append theFile [lindex $files 0];   eval FME_Execute System \173\042$(FME_HOME_UNIX)/fmedatainspector\042 --visualizer --single-application --delete-on-close --no-source-prompt -f FFS $theFile & \175;  } elseif { [llength $files] == 0 } {  catch { file delete -force {$(WORKSPACE_TEMP_DIR)} };  } else {  set filesNoExt {}; set lastfile {}; foreach {fileName} [lsort $files] { set fileNoExt [string trimright $fileName {.ffs}]; if [regexp {(.*)_[0-9]*$} $fileNoExt wholething fileNoExtBase] {  if { $fileNoExtBase == $lastfile } { continue } }; set lastfile $fileNoExt; lappend filesNoExt $fileNoExt };  eval FME_Execute System \173\042$(FME_HOME_UNIX)/fmedatainspector\042 --visualizer --single-application --delete-on-close --no-source-prompt -d {$(WORKSPACE_TEMP_DIR)} -a ffs -f FFS $filesNoExt & \175; }; }; ")
 FACTORY_DEF * TeeFactory   INPUT FEATURE_TYPE __NUKEME__
 # -------------------------------------------------------------------------
-GENERIC_1_DEF NewFeatureType   fme_type                     fme_any

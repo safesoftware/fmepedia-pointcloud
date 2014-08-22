@@ -78,6 +78,9 @@ var dataDist = (function () {
    * @param  {JSON} result JSON returned by the data download service call.
    */
   function displayResult(result){
+  
+    $('#results').removeClass('loading');
+  
     var resultText = result.serviceResponse.statusInfo.status;
     var resultUrl = '';
     var resultDiv = $('<div />');
@@ -108,23 +111,8 @@ var dataDist = (function () {
       hostVisible = params.hostVisible;
 
       //initialize map and drawing tools
-      //will eventually be different for each web map type
-      var query = document.location.search;
-      var mapService = query.split('=');
-      if (mapService[1] == 'google'){
-        mapManager = new GoogleMapsManager();
-        polygonControl = new GoogleMapsPolygonDrawTools(mapManager.myGoogleMap);
-      } else {
-        //copied from th arcgis on-ready.js
-        dojo.require("esri.map");
-        dojo.require("esri.toolbars.draw");
-
-        function initialize(){
-          mapManager = new ArcGisMapsManager();
-          polygonControl = new ArcGISPolygonDrawTools(mapManager);
-        }
-        dojo.addOnLoad(initialize);
-      }
+      mapManager = new GoogleMapsManager();
+      polygonControl = new GoogleMapsPolygonDrawTools(mapManager.myGoogleMap);
 
       FMEServer.init({
         server : host,
@@ -157,6 +145,7 @@ var dataDist = (function () {
         }
       }
       params = params.substr(0, params.length-1);
+      $('#results').html('').addClass('loading');
       FMEServer.runDataDownload(repository, workspaceName, params, displayResult);
       return false;
     },

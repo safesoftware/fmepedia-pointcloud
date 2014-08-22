@@ -8,26 +8,34 @@
 
  /***** HEADER CSS NOT REQUIRED FOR DEMO *****/
 
+/***** HEADER CSS NOT REQUIRED FOR DEMO *****/
+#safe-ribbon {
+	position: relative;
+	display: block;
+	float:right;
+	margin-bottom: -2rem;
+	height: 2rem;
+	z-index: 2000;
+}
+
 #safe-ribbon a{
-  z-index: 2000;
   background:#E98300;
   color:#fff;
   text-decoration:none;
   font-family:arial, sans-serif;
   text-align:center;
   font-weight:bold;
-  padding:5px 40px;
+  padding: 0 5px;
   font-size:1rem;
   line-height:2rem;
-  position:relative;
-  transition:0.5s;
+  transition: background 0.5s;
+  display: block;
 }
 
 #safe-ribbon a:hover{
   background:#DA7B00;
   color:#fff;
 }
-
 
 #safe-ribbon a::before,#safe-ribbon a::after{
   content:"";
@@ -45,7 +53,7 @@
   top:auto;
 }
 
-@media screen and (min-width:767px){
+@media screen and (min-width:979px){
   #safe-ribbon{
     position:absolute;
     display:block;
@@ -63,9 +71,9 @@
     transform:rotate(45deg);
     -webkit-transform:rotate(45deg);
     box-shadow:0px 1px 4px rgba(0,0,0,0.8);
+    padding: 5px 40px;
   }
 }
-
 
 body {
   padding-top: 60px;
@@ -160,7 +168,7 @@ h1 {
  the parameters for the translation
 */
 #request_form {
-	top: 45px;
+	top: 55px;
 	margin: 5px;
 	text-align: left;
 	position: absolute;
@@ -335,4 +343,12 @@ h1 {
 .success h2{
 	color: #339900;
 	font-weight: bold;
+}
+
+/* utility classes */
+.loading {
+  background-image: url('../img/loading.gif');
+  background-repeat: no-repeat;
+  background-size: 32px 32px;
+  background-position: center center;
 }
