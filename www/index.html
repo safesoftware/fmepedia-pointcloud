@@ -9,12 +9,6 @@
 		<script type="text/javascript" src="js/google/polygoncontrol.js"></script>
 		<script type="text/javascript" src="js/google/maps-controller.js"></script>
 
-		<!--ArcGIS Maps Stuff -->
-		<link rel="stylesheet" type="text/css" href="http://serverapi.arcgisonline.com/jsapi/arcgis/1.6/js/dojo/dijit/themes/tundra/tundra.css" />
-		<script type="text/javascript" src="http://serverapi.arcgisonline.com/jsapi/arcgis/?v=1.6"></script>
-		<script type="text/javascript" src="js/arcgis/arcgis-polygoncontrol.js"></script>
-		<script type="text/javascript" src="js/arcgis/arcgis-maps-controller.js"></script>
-
 		<script src="libs/jquery-1.10.1.js"></script>
 		<script src="http://api.fmeserver.com/js/v1.1/FMEServer.js" type="text/javascript"></script>
 
@@ -53,40 +47,45 @@
 	      </div>
 	    </div>
 	  </div>
-
-		<div id="mapwrapper">
-			<div id="map_canvas"></div>
-			<div id="request_form">
-				<div id="draw-tools">
-					<h1>Step 1: Create Clipping Area</h1>
-					<button type="button" onclick="polygonControl.drawPolygon()">
-						Draw Polygon
-					</button>
-					<button type="button" onclick="polygonControl.clearPolygon()">
-						Clear
-					</button>
-				</div>
-				
-				<h1>Step 2: Set Parameters</h1>
-				<form id="fmeForm" name="fmeForm" onsubmit="return dataDist.orderData(this);" onchange="dataDist.updateQuery()">
-					<!-- Extra service-specific directives -->
-					<input type="hidden" name="opt_showresult" value="true">
-					<input type="hidden" name="opt_servicemode" value="sync">
-					<input type="hidden" name="opt_responseformat" value="json">
-					<input type="hidden" id="geom" name="GEOM" value="" />
-					<input id='submit' class='btn' type="submit" value="Request Data" >
-				</form>
-			</div>
-		</div>
-		<div id="footer">
-			<div id="results-panel">
-				<h1>Translation Results</h1>
-				<div id="results" ></div>
-			</div>
-			<div id="query-panel">
-				<h1>Query</h1>
-				<div id="query-panel-results" ></div>
-			</div>
-		</div>
+    
+    <div class="container-fluid" id="mainwrapper">
+      <div class="row-fluid" id="maprow">
+        <div class="span3" id="request_form">
+          <div id="draw-tools">
+            <h1>Step 1: Create Clipping Area</h1>
+            <button type="button" class="btn btn-default" onclick="polygonControl.drawPolygon()">
+              Draw Polygon
+            </button>
+            <button type="button" class="btn btn-default" onclick="polygonControl.clearPolygon()">
+              Clear
+            </button>
+          </div>
+          
+          <h1>Step 2: Set Parameters</h1>
+          <form id="fmeForm" name="fmeForm" onsubmit="return dataDist.orderData(this);" onchange="dataDist.updateQuery()">
+            <!-- Extra service-specific directives -->
+            <input type="hidden" name="opt_showresult" value="true">
+            <input type="hidden" name="opt_servicemode" value="sync">
+            <input type="hidden" name="opt_responseformat" value="json">
+            <input type="hidden" id="geom" name="GEOM" value="" />
+            <input id="submit" class="btn pull-right btn-primary" type="submit" value="Request Data" >
+          </form>
+        </div>
+        <div class="span9" id="map_canvas"></div>
+      </div>
+    
+      
+    
+      <div class="row-fluid" id="footer">
+        <div class="span9" id="query-panel">
+          <h1>Query</h1>
+          <div id="query-panel-results" ></div>
+        </div>
+        <div class="span3"id="results-panel">
+          <h1>Translation Results</h1>
+          <div id="results" ></div>
+        </div>
+      </div>
+    </div>
 	</body>
 </html>

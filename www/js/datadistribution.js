@@ -6,9 +6,7 @@ $(document).ready(function() {
     host : "https://fmepedia2014-safe-software.fmecloud.com",
     token : "fb1c3ee6828e6814c75512dd4770a02e73d913b8"
   });
-  $(window).on('resize', function(){
-    $('#parameters').height($('#map_canvas').height()*0.5);
-  });
+
 });
 
 
@@ -42,9 +40,6 @@ var dataDist = (function () {
 
     // Remove the auto generated GEOM element and label
     $("#parameters .GEOM").remove();
-    
-    // Fixes size of params
-    $('#parameters').height($('#map_canvas').height()*0.5);
 
   }
 
