@@ -19,7 +19,7 @@
 #    
 #! PASSWORD=""
 #! ATTR_TYPE_ENCODING="SDF"
-#! VIEW_POSITION="4238 -759"
+#! VIEW_POSITION="4238 -594"
 #! SHOW_INFO_NODES="true"
 #! FME_STROKE_MAX_DEVIATION="0"
 #! BEGIN_PYTHON=""
@@ -37,13 +37,13 @@
 #! USAGE=""
 #! END_PYTHON=""
 #! HISTORY=""
-#! FME_DOCUMENT_PRIORGUID="f2695817-20a4-4630-9ff4-410dce421777,a4c9504c-db88-4657-928d-370d7a16a1b5"
+#! FME_DOCUMENT_PRIORGUID="f2695817-20a4-4630-9ff4-410dce421777,a4c9504c-db88-4657-928d-370d7a16a1b5,24b6a671-1cab-4b69-a441-d38dc8a0461d"
 #! DOC_TOP_LEFT="-404 -1623"
 #! REQUIREMENTS_KEYWORD=""
 #! SOURCE_ROUTING_FILE=""
 #! DESTINATION_ROUTING_FILE=""
 #! DESTINATION="NONE"
-#! LAST_SAVE_DATE="2014-09-12T10:32:54"
+#! LAST_SAVE_DATE="2014-09-12T10:51:41"
 #! FME_IMPLICIT_CSMAP_REPROJECTION_MODE="Datum"
 #! WORKSPACE_VERSION="1"
 #! SOURCE="NONE"
@@ -54,7 +54,7 @@
 #! REQUIREMENTS=""
 #! BEGIN_TCL=""
 #! DOC_EXTENTS="6554 1583"
-#! FME_DOCUMENT_GUID="24b6a671-1cab-4b69-a441-d38dc8a0461d"
+#! FME_DOCUMENT_GUID="803230bd-c253-4c3e-a9c9-0a7aa1656c7f"
 #! SHOW_ANNOTATIONS="true"
 #! IGNORE_READER_FAILURE="No"
 #! WARN_INVALID_XFORM_PARAM="Yes"
@@ -819,7 +819,7 @@
 #! BOTTOM_RIGHT="5205 -1118"
 #! STICKY="true"
 #! COLOUR="0.619608,0.356863,0.392157"
-#! CONTENTS="51 17 50 35 37 "
+#! CONTENTS="35 50 51 17 37 "
 #! />
 #! <BOOKMARK
 #! IDENTIFIER="47"
@@ -829,7 +829,7 @@
 #! BOTTOM_RIGHT="3988 -1262"
 #! STICKY="true"
 #! COLOUR="0.694118,0.027451,0.603922"
-#! CONTENTS="48 13 28 30 7 "
+#! CONTENTS="13 28 7 30 48 "
 #! />
 #! <BOOKMARK
 #! IDENTIFIER="41"
@@ -839,7 +839,7 @@
 #! BOTTOM_RIGHT="2401 -1191"
 #! STICKY="true"
 #! COLOUR="0.831373,0.694118,0.34902"
-#! CONTENTS="26 31 18 24 "
+#! CONTENTS="24 18 26 31 "
 #! />
 #! <BOOKMARK
 #! IDENTIFIER="52"
@@ -849,7 +849,7 @@
 #! BOTTOM_RIGHT="5904 -1808"
 #! STICKY="true"
 #! COLOUR="0.286275,0.819608,0.301961"
-#! CONTENTS="58 25 42 61 59 "
+#! CONTENTS="59 25 61 42 58 "
 #! />
 #! </BOOKMARKS>
 #! <TRANSFORMERS>
@@ -890,9 +890,11 @@
 #! <OUTPUT_FEAT NAME="PASSED"/>
 #! <FEAT_COLLAPSED COLLAPSED="0"/>
 #! <XFORM_ATTR ATTR_NAME="_clipped" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="fme_basename" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <OUTPUT_FEAT NAME="FAILED"/>
 #! <FEAT_COLLAPSED COLLAPSED="1"/>
 #! <XFORM_ATTR ATTR_NAME="_clipped" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#! <XFORM_ATTR ATTR_NAME="fme_basename" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #! <XFORM_PARM PARM_NAME="TEST_MODE" PARM_VALUE="Automatic"/>
 #! <XFORM_PARM PARM_NAME="TEST_DESCRIPTION" PARM_VALUE="&quot;&quot;"/>
 #! <XFORM_PARM PARM_NAME="COMPOSITE_TEST" PARM_VALUE="&lt;Unused&gt;"/>
@@ -1250,6 +1252,22 @@
 #! <XFORM_PARM PARM_NAME="THINNER_TYPE_DISPLAY" PARM_VALUE="No Thinning"/>
 #! <XFORM_PARM PARM_NAME="RASTER_START_ROW" PARM_VALUE="&lt;Unused&gt;"/>
 #! </TRANSFORMER>
+#! <TRANSFORMER
+#! IDENTIFIER="77"
+#! TYPE="AttributeExposer"
+#! VERSION="0"
+#! POSITION="770 -1400"
+#! ORDER="5e+014"
+#! PARMS_EDITED="true"
+#! ENABLED="true"
+#! >
+#! <OUTPUT_FEAT NAME="OUTPUT"/>
+#! <FEAT_COLLAPSED COLLAPSED="0"/>
+#! <XFORM_ATTR ATTR_NAME="_clipped" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="fme_basename" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="AttributeExposer"/>
+#! <XFORM_PARM PARM_NAME="ATTR_LIST" PARM_VALUE="fme_basename"/>
+#! </TRANSFORMER>
 #! </TRANSFORMERS>
 #! <FEAT_LINKS>
 #! <FEAT_LINK
@@ -1433,15 +1451,6 @@
 #! EXTRA_POINTS=""
 #! />
 #! <FEAT_LINK
-#! IDENTIFIER="66"
-#! SOURCE_NODE="62"
-#! TARGET_NODE="24"
-#! SOURCE_PORT_DESC="fo 0"
-#! TARGET_PORT_DESC="fi 0"
-#! ENABLED="true"
-#! EXTRA_POINTS=""
-#! />
-#! <FEAT_LINK
 #! IDENTIFIER="71"
 #! SOURCE_NODE="58"
 #! TARGET_NODE="70"
@@ -1473,6 +1482,24 @@
 #! SOURCE_NODE="24"
 #! TARGET_NODE="28"
 #! SOURCE_PORT_DESC="fo 1"
+#! TARGET_PORT_DESC="fi 0"
+#! ENABLED="true"
+#! EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
+#! IDENTIFIER="78"
+#! SOURCE_NODE="62"
+#! TARGET_NODE="77"
+#! SOURCE_PORT_DESC="fo 0"
+#! TARGET_PORT_DESC="fi 0"
+#! ENABLED="true"
+#! EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
+#! IDENTIFIER="81"
+#! SOURCE_NODE="77"
+#! TARGET_NODE="24"
+#! SOURCE_PORT_DESC="fo 0"
 #! TARGET_PORT_DESC="fi 0"
 #! ENABLED="true"
 #! EXTRA_POINTS=""
@@ -2214,7 +2241,7 @@ INCLUDE [if { {ENVELOPE_INTERSECT} == {} } {             puts {MACRO REMOVE_GEOM
 # by quotes. In this case extra care is required to separate
 # it.
 Tcl2 set featTypes {LAS};    set curIndex 0;    set inQuote 0;    while { [set ch [string index $featTypes $curIndex]] != {} } {       if { [string compare {\"} $ch] == 0 } {          set featTypes [string replace $featTypes $curIndex $curIndex {}];          set inQuote [expr 1-$inQuote];       } else {          if { [string compare { } $ch] == 0 && !$inQuote } {             set featTypes [string replace $featTypes $curIndex $curIndex {:}];          };          set curIndex [expr $curIndex+1];       }    };    set ::FeatureReader_FORMATTEDFEATURETYPES $featTypes;
-FACTORY_DEF * TeeFactory    FACTORY_NAME FeatureReader_GeometryRemover    INPUT  FEATURE_TYPE Reprojector_REPROJECTED_1_u3aJwU8cefg=    OUTPUT FEATURE_TYPE QueryFactoryInputFeatureType      $(REMOVE_GEOM_FUNC)
+FACTORY_DEF * TeeFactory    FACTORY_NAME FeatureReader_GeometryRemover    INPUT  FEATURE_TYPE Reprojector_REPROJECTED_0_u3aJwU8cefg=    OUTPUT FEATURE_TYPE QueryFactoryInputFeatureType      $(REMOVE_GEOM_FUNC)
 
 FACTORY_DEF * QueryFactory    FACTORY_NAME FeatureReader    INPUT  FEATURE_TYPE QueryFactoryInputFeatureType    $(QUERY_INTERACTION_LINE)    COMBINE_ATTRIBUTES  RESULT_ONLY    COMBINE_GEOMETRY    RESULT_ONLY    ENABLE_CACHE        NO    READER_TYPE         LAS    READER_DATASET      "@EvaluateExpression(STRING_ENCODED,$(LASDIR$encode)<solidus>*.zip,FeatureReader)"    READER_IDS          LAS    READER_COORDSYS     "UTM83-10"    READER_DIRECTIVES   META_MACROS,SourceGROUP_BY_DATASET<comma>No,METAFILE,LAS,IDLIST,    READER_PARAMS     $(FeatureReader_DIRECTIVES)    OUTPUT RESULT FEATURE_TYPE *      @SupplyAttributes(fme_feature_type,@FeatureType())      @Tcl2("set FME_FeatureType [FeatureReader_findInListElseDefault $FME_FeatureType {<OTHER>}]")      @FeatureType(@Concatenate(FeatureReader,"_",@FeatureType()))      @Transform(LAS,FME_GENERIC)    OUTPUT QUERY FEATURE_TYPE FeatureReader_INITIATOR
 
@@ -2223,7 +2250,7 @@ FACTORY_DEF * TeeFactory   FACTORY_NAME "FeatureReader INITIATOR Output Nuker"  
 # -------------------------------------------------------------------------
 
 INCLUDE [    if {($(FME_BUILD_NUM) < 5669) || [FME_ComponentIsLicensed -factory RasterClippingFactory]} {       puts "MACRO RASTER_CLIPPER_IN *";    } else {       puts "MACRO RASTER_CLIPPER_IN NOT_THIS_TIME";    } ]
-FACTORY_DEF * TeeFactory    FACTORY_NAME Clipper_ClipperCloner    INPUT  FEATURE_TYPE Reprojector_REPROJECTED_0_u3aJwU8cefg=    INPUT FEATURE_TYPE Clipper_ClipperCloner_DUMMY    OUTPUT FEATURE_TYPE Clipper___ClippersForSolidOrVector___    OUTPUT FEATURE_TYPE Clipper___ClippersForRaster___
+FACTORY_DEF * TeeFactory    FACTORY_NAME Clipper_ClipperCloner    INPUT  FEATURE_TYPE Reprojector_REPROJECTED_1_u3aJwU8cefg=    INPUT FEATURE_TYPE Clipper_ClipperCloner_DUMMY    OUTPUT FEATURE_TYPE Clipper___ClippersForSolidOrVector___    OUTPUT FEATURE_TYPE Clipper___ClippersForRaster___
 FACTORY_DEF * TestFactory    FACTORY_NAME Clipper_SolidClipperFilter    INPUT FEATURE_TYPE Clipper___ClippersForSolidOrVector___    TEST &fme_type == "fme_solid"    OUTPUT FAILED FEATURE_TYPE Clipper___ClippersForVector___    OUTPUT PASSED FEATURE_TYPE Clipper___ClippersForSolid___
 FACTORY_DEF * TestFactory    FACTORY_NAME Clipper_ClippeeFilter    INPUT  FEATURE_TYPE FeatureReader_LAS    INPUT FEATURE_TYPE Clipper_ClippeeFilter_DUMMY    TEST &fme_type == "fme_raster"    OUTPUT FAILED FEATURE_TYPE Clipper___VectorOrSolidClippees___    OUTPUT PASSED FEATURE_TYPE Clipper___RasterClippees___
 FACTORY_DEF $(RASTER_CLIPPER_IN) RasterClippingFactory    FACTORY_NAME Clipper_Raster    INPUT CLIPPER FEATURE_TYPE Clipper___ClippersForRaster___    INPUT CLIPPEE FEATURE_TYPE Clipper___RasterClippees___    MULTICLIP YES    MERGE_CLIPPER_ATTRIBUTES No    CLIPPER_ATTR_PREFIX "clipper_"    PRESERVE_CLIPPEE_EXTENTS NO    OUTPUT_NO_CLIPPERS_AS_OUTSIDE    OUTSIDE_NO_CLIPPERS_ATTR _fme_no_clipper    OUTPUT INSIDE FEATURE_TYPE Clipper_INSIDE        "_clipped" no    OUTPUT CLIPPED_INSIDE FEATURE_TYPE Clipper_INSIDE        "_clipped" yes    OUTPUT EXTRA_CLIPPER FEATURE_TYPE Clipper__delete__ @Tcl2("FME_LogMessage fme_warn 917351 Clipper")
@@ -2234,7 +2261,14 @@ FACTORY_DEF * TeeFactory    FACTORY_NAME Clipper_Nuker    INPUT FEATURE_TYPE Cli
 
 # -------------------------------------------------------------------------
 
-FACTORY_DEF * TestFactory    FACTORY_NAME Tester    INPUT  FEATURE_TYPE Clipper_INSIDE    TEST "@EvaluateExpression(STRING,$(tiles$encode),Tester)" = "No"    BOOLEAN_OPERATOR OR    OUTPUT PASSED FEATURE_TYPE Tester_PASSED    OUTPUT FAILED FEATURE_TYPE Tester_FAILED
+# Expose all attributes.  This ensures that if you expose fme_dataset, you will get it.
+
+READER_META_ATTRIBUTES fme_feature_type fme_dataset fme_basename
+FACTORY_DEF * TeeFactory    FACTORY_NAME AttributeExposer    INPUT  FEATURE_TYPE Clipper_INSIDE    OUTPUT FEATURE_TYPE AttributeExposer_OUTPUT
+
+# -------------------------------------------------------------------------
+
+FACTORY_DEF * TestFactory    FACTORY_NAME Tester    INPUT  FEATURE_TYPE AttributeExposer_OUTPUT    TEST "@EvaluateExpression(STRING,$(tiles$encode),Tester)" = "No"    BOOLEAN_OPERATOR OR    OUTPUT PASSED FEATURE_TYPE Tester_PASSED    OUTPUT FAILED FEATURE_TYPE Tester_FAILED
 FACTORY_DEF * TeeFactory   FACTORY_NAME "Tester FAILED Splitter"   INPUT FEATURE_TYPE Tester_FAILED   OUTPUT FEATURE_TYPE Tester_FAILED_0_6vpfy7AueiU=   OUTPUT FEATURE_TYPE Tester_FAILED_1_6vpfy7AueiU=
 # -------------------------------------------------------------------------
 FACTORY_DEF * VectorToPointCloudFactory    FACTORY_NAME PointCloudCombiner___VectorMerger    INPUT  FEATURE_TYPE Tester_PASSED    ACCUMULATE_ATTRIBUTES yes    SPACING 1.0    OUTPUT COERCED FEATURE_TYPE PointCloudCombiner___MergedVectorFeatures__       @SupplyAttributes(?,fme_basename,PointCloudCombiner)
@@ -2242,29 +2276,29 @@ FACTORY_DEF * PointCloudCombinerFactory    FACTORY_NAME PointCloudCombiner___Com
 
 FACTORY_DEF * TeeFactory   FACTORY_NAME "PointCloudCombiner OUTPUT Splitter"   INPUT FEATURE_TYPE PointCloudCombiner_OUTPUT   OUTPUT FEATURE_TYPE PointCloudCombiner_OUTPUT_0_VHW/95TtPV4=   OUTPUT FEATURE_TYPE PointCloudCombiner_OUTPUT_1_VHW/95TtPV4=
 # -------------------------------------------------------------------------
-FACTORY_DEF * TeeFactory   FACTORY_NAME "PointCloudVerticalFilter_2 (Disabled) Nuker"   INPUT FEATURE_TYPE Tester_FAILED_1_6vpfy7AueiU=   INPUT FEATURE_TYPE PointCloudCombiner_OUTPUT_1_VHW/95TtPV4=
+FACTORY_DEF * TeeFactory   FACTORY_NAME "PointCloudVerticalFilter_2 (Disabled) Nuker"   INPUT FEATURE_TYPE Tester_FAILED_0_6vpfy7AueiU=   INPUT FEATURE_TYPE PointCloudCombiner_OUTPUT_1_VHW/95TtPV4=
 # -------------------------------------------------------------------------
 
-FACTORY_DEF * TestFactory    FACTORY_NAME Tester_2    INPUT  FEATURE_TYPE PointCloudVerticalFilter_2_OUTPUT    INPUT  FEATURE_TYPE Tester_FAILED_0_6vpfy7AueiU=    INPUT  FEATURE_TYPE PointCloudCombiner_OUTPUT_0_VHW/95TtPV4=    TEST "@EvaluateExpression(STRING,$(Split_PC$encode),Tester_2)" = "Yes"    BOOLEAN_OPERATOR OR    OUTPUT PASSED FEATURE_TYPE Tester_2_PASSED    OUTPUT FAILED FEATURE_TYPE Tester_2_FAILED
+FACTORY_DEF * TestFactory    FACTORY_NAME Tester_2    INPUT  FEATURE_TYPE PointCloudCombiner_OUTPUT_0_VHW/95TtPV4=    INPUT  FEATURE_TYPE PointCloudVerticalFilter_2_OUTPUT    INPUT  FEATURE_TYPE Tester_FAILED_1_6vpfy7AueiU=    TEST "@EvaluateExpression(STRING,$(Split_PC$encode),Tester_2)" = "Yes"    BOOLEAN_OPERATOR OR    OUTPUT PASSED FEATURE_TYPE Tester_2_PASSED    OUTPUT FAILED FEATURE_TYPE Tester_2_FAILED
 # -------------------------------------------------------------------------
-INCLUDE [ switch {$(SPLIT_BY_DISPLAY)} {   {By Color} { puts "MACRO 22bed62e_e78f_4376_a192_ef288f72a6d3SPLIT_BY COLOR"; }   {By Flight Line} { puts "MACRO 22bed62e_e78f_4376_a192_ef288f72a6d3SPLIT_BY FLIGHT_LINE"; }   {By Point Source Id} { puts "MACRO 22bed62e_e78f_4376_a192_ef288f72a6d3SPLIT_BY POINT_SOURCE_ID"; }   {By Return Number} { puts "MACRO 22bed62e_e78f_4376_a192_ef288f72a6d3SPLIT_BY RETURNS"; }   {By Classification} { puts "MACRO 22bed62e_e78f_4376_a192_ef288f72a6d3SPLIT_BY CLASSIFICATION"; }   {By Intensity} { puts "MACRO 22bed62e_e78f_4376_a192_ef288f72a6d3SPLIT_BY INTENSITY"; }   {Last Return Only} { puts "MACRO 22bed62e_e78f_4376_a192_ef288f72a6d3SPLIT_BY LAST_RETURN"; }   {First Return Only} { puts "MACRO 22bed62e_e78f_4376_a192_ef288f72a6d3SPLIT_BY FIRST_RETURN"; }   {} { puts_real "Parameter '$(SPLIT_BY_DISPLAY)' must be given a value."; exit 1; }   {default} { puts "MACRO 22bed62e_e78f_4376_a192_ef288f72a6d3SPLIT_BY $(SPLIT_BY_DISPLAY)"; } } ]
+INCLUDE [ switch {$(SPLIT_BY_DISPLAY)} {   {By Color} { puts "MACRO 5bdf1a4a_b5a8_46a8_9bf0_f0a0f2b55113SPLIT_BY COLOR"; }   {By Flight Line} { puts "MACRO 5bdf1a4a_b5a8_46a8_9bf0_f0a0f2b55113SPLIT_BY FLIGHT_LINE"; }   {By Point Source Id} { puts "MACRO 5bdf1a4a_b5a8_46a8_9bf0_f0a0f2b55113SPLIT_BY POINT_SOURCE_ID"; }   {By Return Number} { puts "MACRO 5bdf1a4a_b5a8_46a8_9bf0_f0a0f2b55113SPLIT_BY RETURNS"; }   {By Classification} { puts "MACRO 5bdf1a4a_b5a8_46a8_9bf0_f0a0f2b55113SPLIT_BY CLASSIFICATION"; }   {By Intensity} { puts "MACRO 5bdf1a4a_b5a8_46a8_9bf0_f0a0f2b55113SPLIT_BY INTENSITY"; }   {Last Return Only} { puts "MACRO 5bdf1a4a_b5a8_46a8_9bf0_f0a0f2b55113SPLIT_BY LAST_RETURN"; }   {First Return Only} { puts "MACRO 5bdf1a4a_b5a8_46a8_9bf0_f0a0f2b55113SPLIT_BY FIRST_RETURN"; }   {} { puts_real "Parameter '$(SPLIT_BY_DISPLAY)' must be given a value."; exit 1; }   {default} { puts "MACRO 5bdf1a4a_b5a8_46a8_9bf0_f0a0f2b55113SPLIT_BY $(SPLIT_BY_DISPLAY)"; } } ]
 
 INCLUDE [ if {[string equal {<Unused>} {<Unused>}]} {    puts {MACRO RANGE_LIST_WITH_QUOTES}; } else {    puts "MACRO RANGE_LIST_WITH_QUOTES [string map {"\"" "\\\""} {<Unused>}]"; }; ]
-FACTORY_DEF * PointCloudSplitterFactory    FACTORY_NAME PointCloudSplitter    INPUT  FEATURE_TYPE Tester_2_PASSED    SPLIT_BY $(22bed62e_e78f_4376_a192_ef288f72a6d3SPLIT_BY)    RANGE_LIST "$(RANGE_LIST_WITH_QUOTES)"    OUTPUT_ATTR _point_source_id    OUTPUT SPLIT FEATURE_TYPE PointCloudSplitter_SPLIT
+FACTORY_DEF * PointCloudSplitterFactory    FACTORY_NAME PointCloudSplitter    INPUT  FEATURE_TYPE Tester_2_PASSED    SPLIT_BY $(5bdf1a4a_b5a8_46a8_9bf0_f0a0f2b55113SPLIT_BY)    RANGE_LIST "$(RANGE_LIST_WITH_QUOTES)"    OUTPUT_ATTR _point_source_id    OUTPUT SPLIT FEATURE_TYPE PointCloudSplitter_SPLIT
 
 # -------------------------------------------------------------------------
 
 FACTORY_DEF * TestFactory    FACTORY_NAME Tester_3    INPUT  FEATURE_TYPE PointCloudSplitter_SPLIT    INPUT  FEATURE_TYPE Tester_2_FAILED    TEST "@EvaluateExpression(STRING,$(Thin_PC$encode),Tester_3)" = "Yes"    BOOLEAN_OPERATOR OR    OUTPUT PASSED FEATURE_TYPE Tester_3_PASSED    OUTPUT FAILED FEATURE_TYPE Tester_3_FAILED
 # -------------------------------------------------------------------------
-INCLUDE [ switch {$(THINNER_TYPE_)} {   {Keep Every Nth Point} { puts "MACRO 2c4610d5_422f_4621_b6bf_889517d53c7bTHINNER_TYPE KEEPNPOINT"; }   {Maximum Number Of Points} { puts "MACRO 2c4610d5_422f_4621_b6bf_889517d53c7bTHINNER_TYPE MAXNUMPOINTS"; }   {} { puts_real "Parameter '$(THINNER_TYPE_)' must be given a value."; exit 1; }   {default} { puts "MACRO 2c4610d5_422f_4621_b6bf_889517d53c7bTHINNER_TYPE $(THINNER_TYPE_)"; } } ]
+INCLUDE [ switch {$(THINNER_TYPE_)} {   {Keep Every Nth Point} { puts "MACRO cb1a6dab_5447_41d5_bde2_3275d40237e3THINNER_TYPE KEEPNPOINT"; }   {Maximum Number Of Points} { puts "MACRO cb1a6dab_5447_41d5_bde2_3275d40237e3THINNER_TYPE MAXNUMPOINTS"; }   {} { puts_real "Parameter '$(THINNER_TYPE_)' must be given a value."; exit 1; }   {default} { puts "MACRO cb1a6dab_5447_41d5_bde2_3275d40237e3THINNER_TYPE $(THINNER_TYPE_)"; } } ]
 
-FACTORY_DEF * TeeFactory    FACTORY_NAME PointCloudThinner    INPUT  FEATURE_TYPE Tester_3_PASSED    OUTPUT FEATURE_TYPE PointCloudThinner_THINNED       @ThinPointCloud($(2c4610d5_422f_4621_b6bf_889517d53c7bTHINNER_TYPE), @EvaluateExpression(FLOAT,$(THIN_RATE$encode),PointCloudThinner))
+FACTORY_DEF * TeeFactory    FACTORY_NAME PointCloudThinner    INPUT  FEATURE_TYPE Tester_3_PASSED    OUTPUT FEATURE_TYPE PointCloudThinner_THINNED       @ThinPointCloud($(cb1a6dab_5447_41d5_bde2_3275d40237e3THINNER_TYPE), @EvaluateExpression(FLOAT,$(THIN_RATE$encode),PointCloudThinner))
 
 # -------------------------------------------------------------------------
 
-Tcl2 proc AttributeCreator_2_52b59e8f_ac78_4017_8be5_b4ccb5eaaf457_attrSetter { attrList } {     set attrList [string trim $attrList {()}];     set attrs [split $attrList {,} ];     foreach {attrName attrVal} $attrs {         if { [string match {*<at>*} $attrName] == 1 } {             set attrName [FME_Execute EvaluateExpression {STRING} $attrName {AttributeCreator_2}];         } else {             set attrName [FME_DecodeText $attrName];         };         if { [string match {*<at>*} $attrVal] == 1 } {             set attrVal [FME_Execute EvaluateExpression {STRING_ENCODED} $attrVal {AttributeCreator_2}];         };         FME_SetAttribute $attrName [FME_DecodeText $attrVal];     }; };
+Tcl2 proc AttributeCreator_2_2d3cfe3e_b69b_4e26_84a7_6b78e5ef03382_attrSetter { attrList } {     set attrList [string trim $attrList {()}];     set attrs [split $attrList {,} ];     foreach {attrName attrVal} $attrs {         if { [string match {*<at>*} $attrName] == 1 } {             set attrName [FME_Execute EvaluateExpression {STRING} $attrName {AttributeCreator_2}];         } else {             set attrName [FME_DecodeText $attrName];         };         if { [string match {*<at>*} $attrVal] == 1 } {             set attrVal [FME_Execute EvaluateExpression {STRING_ENCODED} $attrVal {AttributeCreator_2}];         };         FME_SetAttribute $attrName [FME_DecodeText $attrVal];     }; };
 
-FACTORY_DEF * TeeFactory    FACTORY_NAME AttributeCreator_2    INPUT  FEATURE_TYPE PointCloudThinner_THINNED    INPUT  FEATURE_TYPE Tester_3_FAILED    OUTPUT FEATURE_TYPE AttributeCreator_2_OUTPUT         "@Tcl2( AttributeCreator_2_52b59e8f_ac78_4017_8be5_b4ccb5eaaf457_attrSetter {(_point_source_id,_<at>Value<openparen>_point_source_id<closeparen>)} )"
+FACTORY_DEF * TeeFactory    FACTORY_NAME AttributeCreator_2    INPUT  FEATURE_TYPE Tester_3_FAILED    INPUT  FEATURE_TYPE PointCloudThinner_THINNED    OUTPUT FEATURE_TYPE AttributeCreator_2_OUTPUT         "@Tcl2( AttributeCreator_2_2d3cfe3e_b69b_4e26_84a7_6b78e5ef03382_attrSetter {(_point_source_id,_<at>Value<openparen>_point_source_id<closeparen>)} )"
 
 # -------------------------------------------------------------------------
 
@@ -2272,19 +2306,19 @@ FACTORY_DEF * TestFactory    FACTORY_NAME Tester_4    INPUT  FEATURE_TYPE Attrib
 FACTORY_DEF * TeeFactory   FACTORY_NAME "Tester_4 PASSED Splitter"   INPUT FEATURE_TYPE Tester_4_PASSED   OUTPUT FEATURE_TYPE Tester_4_PASSED_0_F1VLnOE71tw=   OUTPUT FEATURE_TYPE Tester_4_PASSED_1_F1VLnOE71tw=
 # -------------------------------------------------------------------------
 
-Tcl2 proc AttributeCreator_a89ccdbc_edb3_49ef_823f_62c53b1f0b507_attrSetter { attrList } {     set attrList [string trim $attrList {()}];     set attrs [split $attrList {,} ];     foreach {attrName attrVal} $attrs {         if { [string match {*<at>*} $attrName] == 1 } {             set attrName [FME_Execute EvaluateExpression {STRING} $attrName {AttributeCreator}];         } else {             set attrName [FME_DecodeText $attrName];         };         if { [string match {*<at>*} $attrVal] == 1 } {             set attrVal [FME_Execute EvaluateExpression {STRING_ENCODED} $attrVal {AttributeCreator}];         };         FME_SetAttribute $attrName [FME_DecodeText $attrVal];     }; };
+Tcl2 proc AttributeCreator_506f0afd_9eb3_4a7f_aaf4_6a24ae2a24552_attrSetter { attrList } {     set attrList [string trim $attrList {()}];     set attrs [split $attrList {,} ];     foreach {attrName attrVal} $attrs {         if { [string match {*<at>*} $attrName] == 1 } {             set attrName [FME_Execute EvaluateExpression {STRING} $attrName {AttributeCreator}];         } else {             set attrName [FME_DecodeText $attrName];         };         if { [string match {*<at>*} $attrVal] == 1 } {             set attrVal [FME_Execute EvaluateExpression {STRING_ENCODED} $attrVal {AttributeCreator}];         };         FME_SetAttribute $attrName [FME_DecodeText $attrVal];     }; };
 
-FACTORY_DEF * TeeFactory    FACTORY_NAME AttributeCreator    INPUT  FEATURE_TYPE Tester_4_FAILED    OUTPUT FEATURE_TYPE AttributeCreator_OUTPUT         "@Tcl2( AttributeCreator_a89ccdbc_edb3_49ef_823f_62c53b1f0b507_attrSetter {(fme_basename,<at>Value<openparen>fme_basename<closeparen><at>Value<openparen>_point_source_id<closeparen>)} )"
+FACTORY_DEF * TeeFactory    FACTORY_NAME AttributeCreator    INPUT  FEATURE_TYPE Tester_4_FAILED    OUTPUT FEATURE_TYPE AttributeCreator_OUTPUT         "@Tcl2( AttributeCreator_506f0afd_9eb3_4a7f_aaf4_6a24ae2a24552_attrSetter {(fme_basename,<at>Value<openparen>fme_basename<closeparen><at>Value<openparen>_point_source_id<closeparen>)} )"
 
 FACTORY_DEF * TeeFactory   FACTORY_NAME "AttributeCreator OUTPUT Splitter"   INPUT FEATURE_TYPE AttributeCreator_OUTPUT   OUTPUT FEATURE_TYPE AttributeCreator_OUTPUT_0_olPiq+C1D00=   OUTPUT FEATURE_TYPE AttributeCreator_OUTPUT_1_olPiq+C1D00=
 # -------------------------------------------------------------------------
-FACTORY_DEF * TeeFactory   FACTORY_NAME "Inspector (Disabled) Nuker"   INPUT FEATURE_TYPE AttributeCreator_OUTPUT_1_olPiq+C1D00=   INPUT FEATURE_TYPE Tester_4_PASSED_1_F1VLnOE71tw=
-# -------------------------------------------------------------------------
-
-FACTORY_DEF * TeeFactory    FACTORY_NAME "Tester_4_PASSED_0_F1VLnOE71tw= -> NewFeatureType Correlator"    INPUT FEATURE_TYPE Tester_4_PASSED_0_F1VLnOE71tw=    OUTPUT FEATURE_TYPE __GO_TO_FINAL_OUTPUT_ROUTER__       multi_writer_id 0       @Reproject("$(Coord_Sys)","$(Coord_Sys)")       @Transform(FME_GENERIC,GENERIC)       @SupplyAttributes(ENCODED,fme_template_feature_type,NewFeatureType)       @CopyAttributes(ENCODED,__wb_out_feat_type__,fme_basename)
+FACTORY_DEF * TeeFactory   FACTORY_NAME "Inspector (Disabled) Nuker"   INPUT FEATURE_TYPE Tester_4_PASSED_0_F1VLnOE71tw=   INPUT FEATURE_TYPE AttributeCreator_OUTPUT_1_olPiq+C1D00=
 # -------------------------------------------------------------------------
 
 FACTORY_DEF * TeeFactory    FACTORY_NAME "AttributeCreator_OUTPUT_0_olPiq+C1D00= -> NewFeatureType Correlator"    INPUT FEATURE_TYPE AttributeCreator_OUTPUT_0_olPiq+C1D00=    OUTPUT FEATURE_TYPE __GO_TO_FINAL_OUTPUT_ROUTER__       multi_writer_id 0       @Reproject("$(Coord_Sys)","$(Coord_Sys)")       @Transform(FME_GENERIC,GENERIC)       @SupplyAttributes(ENCODED,fme_template_feature_type,NewFeatureType)       @CopyAttributes(ENCODED,__wb_out_feat_type__,fme_basename)
+# -------------------------------------------------------------------------
+
+FACTORY_DEF * TeeFactory    FACTORY_NAME "Tester_4_PASSED_1_F1VLnOE71tw= -> NewFeatureType Correlator"    INPUT FEATURE_TYPE Tester_4_PASSED_1_F1VLnOE71tw=    OUTPUT FEATURE_TYPE __GO_TO_FINAL_OUTPUT_ROUTER__       multi_writer_id 0       @Reproject("$(Coord_Sys)","$(Coord_Sys)")       @Transform(FME_GENERIC,GENERIC)       @SupplyAttributes(ENCODED,fme_template_feature_type,NewFeatureType)       @CopyAttributes(ENCODED,__wb_out_feat_type__,fme_basename)
 # -------------------------------------------------------------------------
 
 FACTORY_DEF * TestFactory   FACTORY_NAME "Final Output Feature Type Router"   INPUT FEATURE_TYPE *   TEST @Value(__wb_out_feat_type__) != ""   OUTPUT PASSED FEATURE_TYPE *     @FeatureType(@Value(__wb_out_feat_type__))   OUTPUT FAILED FEATURE_TYPE __nuke_me__ @Tcl2("FME_StatMessage 818059 [FME_GetAttribute fme_template_feature_type] 818060 818061 fme_warn")
