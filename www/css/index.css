@@ -12,7 +12,6 @@
   background:#E98300;
   color:#fff;
   text-decoration:none;
-  font-family:arial, sans-serif;
   text-align:center;
   font-weight:bold;
   padding: 0 5px;
@@ -65,9 +64,10 @@
   }
 }
 
+
+
 body {
   padding-top: 60px;
-  font-family: verdana;
 }
 
 @media (max-width: 980px) {
@@ -98,7 +98,7 @@ body {
 	margin: 0;
 	padding: 0;
 	line-height: 1.5em;
-	font-family: Gill Sans, Gill Sans MT, sans-serif;
+	font-family: 'Source Sans Pro', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 	color: black;
 }
 
@@ -111,7 +111,6 @@ em {
 }
 
 h1 {
-	font-family: 'Lucida Sans Unicode', 'Lucida Grande', sans-serif;
 	color: white;
 	background-color: #E98300;
 	font-weight: bold;
@@ -125,21 +124,20 @@ h1 {
 
 #maprow {
   padding-top: 60px;
-  height: 60%;
 }
 
 #map_canvas {
-  height: 100%;
+  min-height: 25em;
 }
 
 #request_form {
-  height: 100%;
+  height: 25em;
   border:1px solid #E0E0E0;
   -moz-border-radius: 8px;
        border-radius: 8px;
 }
 
-#request_form h1:first-child{
+#request_form h1:first-child {
 	border-top-left-radius: 8px;
 	-moz-border-radius-topleft: 8px;
 	border-top-right-radius: 8px;
@@ -184,7 +182,7 @@ h1 {
 #parameters {
   position: relative;
   overflow-y: auto;
-  display: table-row;
+  height: 14.5em;
 }
 
 #parameters br{
