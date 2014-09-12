@@ -1,0 +1,7 @@
+{"name":"LAS","type":"FeatureCollection"
+,"features":[
+{"type":"Feature","geometry":{"type":"Polygon","coordinates":[[[490000,5457000],[490000,5457999.99],[490999.99,5457999.99],[490999.99,5457000],[490000,5457000]]]},"properties":null}
+,{"type":"Feature","geometry":{"type":"Polygon","coordinates":[[[490000,5458000],[490000,5458999.99],[490999.99,5458999.99],[490999.99,5458000],[490000,5458000]]]},"properties":null}
+,{"type":"Feature","geometry":{"type":"Polygon","coordinates":[[[491000,5457000],[491000,5457999.99],[491999.99,5457999.99],[491999.99,5457000],[491000,5457000]]]},"properties":null}
+,{"type":"Feature","geometry":{"type":"Polygon","coordinates":[[[491000,5458000],[491000,5458999.99],[491999.99,5458999.99],[491999.99,5458000],[491000,5458000]]]},"properties":null}
+]}

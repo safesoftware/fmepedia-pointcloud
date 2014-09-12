@@ -108,6 +108,9 @@ var dataDist = (function () {
       //initialize map and drawing tools
       mapManager = new GoogleMapsManager();
       polygonControl = new GoogleMapsPolygonDrawTools(mapManager.myGoogleMap);
+      
+      // show boundaries for point clouds
+      mapManager.myGoogleMap.data.loadGeoJson('js/LidarBoundaries.json');
 
       FMEServer.init({
         server : host,
