@@ -1,236 +1,235 @@
-2014-08-22 10:27:03|   0.2|  0.2|INFORM|FME 2014 SP2 (20140603 - Build 14337 - WIN32)
-2014-08-22 10:27:03|   0.2|  0.0|INFORM|FME_HOME is 'C:\Apps\FME_14337\'
-2014-08-22 10:27:03|   0.2|  0.0|INFORM|FME Desktop Smallworld Edition (floating), FME Smallworld Edition (node locked-crc)
-2014-08-22 10:27:03|   0.2|  0.0|INFORM|Serial Number: NATE
-2014-08-22 10:27:03|   0.2|  0.0|INFORM|Permanent License.
-2014-08-22 10:27:03|   0.2|  0.0|INFORM|Machine host name is: nate
-2014-08-22 10:27:03|   0.2|  0.0|INFORM|START - ProcessID: 9936, peak process memory usage: 46392 kB, current process memory usage: 46384 kB
-2014-08-22 10:27:03|   0.2|  0.0|INFORM|FME Configuration: Command line arguments are `C:\Apps\FME_14337\fme.exe' `C:/safegit/fmepedia-pointcloud/fme/workspaces\wb-xlate-140872842299_12084' `LOG_STANDARDOUT' `YES' `LogCount' `C:\Users\DVANNI~1\AppData\Local\Temp\wb-xlate-counts-1408728422110_12084'
-2014-08-22 10:27:03|   0.2|  0.1|INFORM|Shared directories for formats are : C:\Users\dvanniekerk\Documents\FME\Formats;C:\Apps\FME_14337\datasources;C:\Users\dvanniekerk\AppData\Roaming\Safe Software\FME\FME Store\Formats
-2014-08-22 10:27:03|   0.2|  0.0|INFORM|Shared directories for transformers are : C:\Users\dvanniekerk\Documents\FME\Transformers;C:\Apps\FME_14337\transformers;C:\standalone-apps\testsuite\Transformers;C:\Users\dvanniekerk\AppData\Roaming\Safe Software\FME\FME Store\Transformers
-2014-08-22 10:27:03|   0.2|  0.0|INFORM|Shared directories for coordinate systems are : C:\Users\dvanniekerk\Documents\FME\CoordinateSystems
-2014-08-22 10:27:03|   0.2|  0.0|INFORM|Shared directories for coordinate system exceptions are : C:\Users\dvanniekerk\Documents\FME\CoordinateSystemExceptions
-2014-08-22 10:27:03|   0.2|  0.0|INFORM|Shared directories for coordinate system grid overrides are : C:\Users\dvanniekerk\Documents\FME\CoordinateSystemGridOverrides
-2014-08-22 10:27:03|   0.2|  0.0|INFORM|Shared directories for CS-MAP transformation exceptions are : C:\Users\dvanniekerk\Documents\FME\CsmapTransformationExceptions
-2014-08-22 10:27:03|   0.2|  0.0|INFORM|Shared directories for transformer categories are : C:\Users\dvanniekerk\Documents\FME\TransformerCategories
-2014-08-22 10:27:03|   0.2|  0.0|INFORM|FME Configuration: Reader Keyword is `NULL_SOURCE'
-2014-08-22 10:27:03|   0.2|  0.0|INFORM|FME Configuration: Writer Keyword is `MULTI_WRITER'
-2014-08-22 10:27:03|   0.2|  0.0|INFORM|FME Configuration: Writer Group Definition Keyword is `MULTI_WRITER_DEF'
-2014-08-22 10:27:03|   0.2|  0.0|INFORM|FME Configuration: Reader type is `NULL'
-2014-08-22 10:27:03|   0.2|  0.0|INFORM|FME Configuration: Writer type is `MULTI_WRITER'
-2014-08-22 10:27:03|   0.2|  0.0|INFORM|FME Configuration: No destination coordinate system set
-2014-08-22 10:27:03|   0.2|  0.0|INFORM|FME Configuration: Current working directory is `C:\safegit\fmepedia-pointcloud\fme\workspaces'
-2014-08-22 10:27:03|   0.2|  0.0|INFORM|FME Configuration: Temporary directory is `C:\Users\DVANNI~1\AppData\Local\Temp'
-2014-08-22 10:27:03|   0.2|  0.0|INFORM|FME Configuration: FME_HOME is `C:\Apps\FME_14337\'
-2014-08-22 10:27:03|   0.2|  0.0|INFORM|FME Configuration: FME_BASE is 'no'
-2014-08-22 10:27:03|   0.2|  0.0|INFORM|FME Configuration: FME_MF_DIR is 'C:\safegit\fmepedia-pointcloud\fme\workspaces/'
-2014-08-22 10:27:03|   0.2|  0.0|INFORM|FME Configuration: FME_MF_NAME is 'LidarDataDownload.fmw'
-2014-08-22 10:27:03|   0.2|  0.0|INFORM|FME Configuration: FME_PRODUCT_NAME is 'FME(R) 2014 SP2'
-2014-08-22 10:27:03|   0.2|  0.0|INFORM|System Status: 58475MB of disk space available in the FME temporary directory (C:\Users\DVANNI~1\AppData\Local\Temp\)
-2014-08-22 10:27:03|   0.2|  0.0|INFORM|System Status: 3898MB of virtual memory available
-2014-08-22 10:27:03|   0.2|  0.0|INFORM|Operating System: Microsoft Windows 8 64-bit  (Build 9200)
-2014-08-22 10:27:03|   0.2|  0.0|INFORM|FME Platform: WIN32
-2014-08-22 10:27:03|   0.2|  0.0|INFORM|Locale: en_US
-2014-08-22 10:27:03|   0.2|  0.0|INFORM|Code Page: 1252  (ANSI - Latin I)
-2014-08-22 10:27:03|   0.2|  0.0|INFORM|FME Configuration: Process limit is 4095 MB (out of 8097 MB physical memory and 4095 MB address space)
-2014-08-22 10:27:03|   0.2|  0.0|INFORM|FME Configuration: Start freeing memory when process usage exceeds 2895 MB of memory or 3495 MB of address space
-2014-08-22 10:27:03|   0.2|  0.0|INFORM|FME Configuration: Stop freeing memory when process usage is below 2171 MB of memory and 2621 MB of address space
-2014-08-22 10:27:03|   0.2|  0.0|INFORM|FME Configuration: Autodetermining optimal maximum number of objects in memory
-2014-08-22 10:27:03|   0.3|  0.1|INFORM|Trying to find a DYNAMIC plugin for reader named `NULL'
-2014-08-22 10:27:03|   0.3|  0.0|INFORM|Loaded module 'NULL' from file 'C:\Apps\FME_14337\plugins/NULL.dll'
-2014-08-22 10:27:03|   0.3|  0.0|INFORM|FME API version of module 'NULL' matches current internal version (3.7 20140327)
-2014-08-22 10:27:03|   0.3|  0.0|INFORM|Using MultiWriter $Revision: 59162 $ ( $Date: 2009-04-07 10:04:59 -0700 (Tue, 07 Apr 2009) $ ) with keyword `MULTI_WRITER' to output data (ID_ATTRIBUTE is `multi_writer_id')
-2014-08-22 10:27:03|   0.3|  0.0|INFORM|Writer output will be ordered by value of multi_writer_id
-2014-08-22 10:27:03|   0.3|  0.0|INFORM|Loaded module 'Geometry_func' from file 'C:\Apps\FME_14337\plugins/Geometry_func.dll'
-2014-08-22 10:27:03|   0.3|  0.0|INFORM|FME API version of module 'Geometry_func' matches current internal version (3.7 20140327)
-2014-08-22 10:27:03|   0.3|  0.0|INFORM|Loaded module 'LogCount_func' from file 'C:\Apps\FME_14337\plugins/LogCount_func.dll'
-2014-08-22 10:27:03|   0.3|  0.0|INFORM|FME API version of module 'LogCount_func' matches current internal version (3.7 20140327)
-2014-08-22 10:27:03|   0.3|  0.0|INFORM|Loaded module 'OGCGeometry_func' from file 'C:\Apps\FME_14337\plugins/OGCGeometry_func.dll'
-2014-08-22 10:27:03|   0.3|  0.0|INFORM|FME API version of module 'OGCGeometry_func' matches current internal version (3.7 20140327)
-2014-08-22 10:27:03|   0.3|  0.0|INFORM|FME Configuration: Using FME Reprojection Engine
-2014-08-22 10:27:03|   0.3|  0.0|INFORM|Loaded module 'QueryFactory' from file 'C:\Apps\FME_14337\plugins/QueryFactory.dll'
-2014-08-22 10:27:03|   0.3|  0.0|INFORM|FME API version of module 'QueryFactory' matches current internal version (3.7 20140327)
-2014-08-22 10:27:03|   0.3|  0.0|INFORM|Loaded module 'EvaluateExpression_func' from file 'C:\Apps\FME_14337\plugins/EvaluateExpression_func.dll'
-2014-08-22 10:27:03|   0.3|  0.0|INFORM|FME API version of module 'EvaluateExpression_func' matches current internal version (3.7 20140327)
-2014-08-22 10:27:03|   0.3|  0.0|INFORM|Loaded module 'RasterClippingFactory' from file 'C:\Apps\FME_14337\plugins/RasterClippingFactory.dll'
-2014-08-22 10:27:03|   0.3|  0.0|INFORM|FME API version of module 'RasterClippingFactory' matches current internal version (3.7 20140327)
-2014-08-22 10:27:03|   0.3|  0.0|INFORM|Loaded module 'SolidIntersectionFactory' from file 'C:\Apps\FME_14337\plugins/SolidIntersectionFactory.dll'
-2014-08-22 10:27:03|   0.3|  0.0|INFORM|FME API version of module 'SolidIntersectionFactory' matches current internal version (3.7 20140327)
-2014-08-22 10:27:03|   0.4|  0.0|INFORM|Loaded module 'VectorToPointCloudFactory' from file 'C:\Apps\FME_14337\plugins/VectorToPointCloudFactory.dll'
-2014-08-22 10:27:03|   0.4|  0.0|INFORM|FME API version of module 'VectorToPointCloudFactory' matches current internal version (3.7 20140327)
-2014-08-22 10:27:03|   0.4|  0.0|INFORM|Loaded module 'PointCloudCombinerFactory' from file 'C:\Apps\FME_14337\plugins/PointCloudCombinerFactory.dll'
-2014-08-22 10:27:03|   0.4|  0.0|INFORM|FME API version of module 'PointCloudCombinerFactory' matches current internal version (3.7 20140327)
-2014-08-22 10:27:03|   0.4|  0.0|INFORM|Loaded module 'PointCloudTilingFactory' from file 'C:\Apps\FME_14337\plugins/PointCloudTilingFactory.dll'
-2014-08-22 10:27:03|   0.4|  0.0|INFORM|FME API version of module 'PointCloudTilingFactory' matches current internal version (3.7 20140327)
-2014-08-22 10:27:03|   0.4|  0.0|INFORM|FME API version of module 'VectorToPointCloudFactory' matches current internal version (3.7 20140327)
-2014-08-22 10:27:03|   0.4|  0.0|INFORM|FME API version of module 'PointCloudCombinerFactory' matches current internal version (3.7 20140327)
-2014-08-22 10:27:03|   0.4|  0.0|INFORM|Loaded module 'PointCloudSplitterFactory' from file 'C:\Apps\FME_14337\plugins/PointCloudSplitterFactory.dll'
-2014-08-22 10:27:03|   0.4|  0.0|INFORM|FME API version of module 'PointCloudSplitterFactory' matches current internal version (3.7 20140327)
-2014-08-22 10:27:03|   0.4|  0.0|INFORM|Loaded module 'ThinPointCloud_func' from file 'C:\Apps\FME_14337\plugins/ThinPointCloud_func.dll'
-2014-08-22 10:27:03|   0.4|  0.0|INFORM|FME API version of module 'ThinPointCloud_func' matches current internal version (3.7 20140327)
-2014-08-22 10:27:03|   0.4|  0.0|INFORM|Emptying factory pipeline
-2014-08-22 10:27:03|   0.4|  0.0|INFORM|CS-MAP Reprojector: Transformation will be created from datum parameters for 'LL84' -> 'UTM83-10'
-2014-08-22 10:27:03|   0.4|  0.0|INFORM|Reprojector: Using transformation `NAD83_to_WGS84,Inverse(Null,EPSG:1188)' when reprojecting from LL84 to UTM83-10
-2014-08-22 10:27:21|  16.3| 15.9|INFORM|FME Configuration: Reading 4 dataset(s) with LAS reader identified by R_1
-2014-08-22 10:27:21|  16.3|  0.0|INFORM|FME Configuration: Source coordinate system for reader R_1[MULTI_READER] set to `UTM83-10'
-2014-08-22 10:27:21|  16.3|  0.0|INFORM|Coordinate System `UTM83-10' parameters: CS_NAME=`UTM83-10' DESC_NM=`UTM with NAD83 datum, Zone 10, Meter; Central Meridian 123d W' DT_NAME=`NAD83' GROUP=`UTM83' MAP_SCL=`1' MAX_LAT=`86.9333333333333' MAX_LNG=`-119.25' MIN_LAT=`25.4166666666667' MIN_LNG=`-126.75' PARM1=`-123' PROJ=`TM' QUAD=`1' SCL_RED=`0.9996' SOURCE=`Snyder, J.P, 1987, Map Projections - A Working Manual' UNIT=`METER' X_OFF=`500000.0' Y_OFF=`0.0' 
-2014-08-22 10:27:21|  16.3|  0.0|INFORM|MULTI_READER(R_1): Will continue past member reader failures
-2014-08-22 10:27:21|  16.3|  0.0|INFORM|MULTI_READER(R_1): Adding LAS Reader with keyword R_1
-2014-08-22 10:27:21|  16.3|  0.0|INFORM|FeatureReader(QueryFactory): Performing query against LAS dataset `C:\FMEData2014\Data\PointClouds/*.zip'
-2014-08-22 10:27:21|  16.3|  0.0|INFORM|FME Configuration: Reading 4 dataset(s) with LAS reader identified by R_2
-2014-08-22 10:27:21|  16.3|  0.0|INFORM|FME Configuration: Source coordinate system for reader R_2[MULTI_READER] set to `UTM83-10'
-2014-08-22 10:27:21|  16.3|  0.0|INFORM|Coordinate System `UTM83-10' parameters: CS_NAME=`UTM83-10' DESC_NM=`UTM with NAD83 datum, Zone 10, Meter; Central Meridian 123d W' DT_NAME=`NAD83' GROUP=`UTM83' MAP_SCL=`1' MAX_LAT=`86.9333333333333' MAX_LNG=`-119.25' MIN_LAT=`25.4166666666667' MIN_LNG=`-126.75' PARM1=`-123' PROJ=`TM' QUAD=`1' SCL_RED=`0.9996' SOURCE=`Snyder, J.P, 1987, Map Projections - A Working Manual' UNIT=`METER' X_OFF=`500000.0' Y_OFF=`0.0' 
-2014-08-22 10:27:21|  16.3|  0.0|INFORM|MULTI_READER(R_2): Will continue past member reader failures
-2014-08-22 10:27:21|  16.3|  0.0|INFORM|MULTI_READER(R_2): Adding LAS Reader with keyword R_2
-2014-08-22 10:27:21|  16.3|  0.0|INFORM|Using Multi Reader $Revision: 114961 $ ( $Date: 2014-01-08 16:53:06 -0800 (Wed, 08 Jan 2014) $ ) with keyword `R_2' to read multiple datasets
-2014-08-22 10:27:21|  16.3|  0.0|INFORM|Trying to find a DYNAMIC plugin for reader named `LAS'
-2014-08-22 10:27:21|  16.3|  0.0|INFORM|FME Configuration: Source coordinate system for reader R_2[LAS] set to `UTM83-10'
-2014-08-22 10:27:21|  16.3|  0.0|INFORM|Coordinate System `UTM83-10' parameters: CS_NAME=`UTM83-10' DESC_NM=`UTM with NAD83 datum, Zone 10, Meter; Central Meridian 123d W' DT_NAME=`NAD83' GROUP=`UTM83' MAP_SCL=`1' MAX_LAT=`86.9333333333333' MAX_LNG=`-119.25' MIN_LAT=`25.4166666666667' MIN_LNG=`-126.75' PARM1=`-123' PROJ=`TM' QUAD=`1' SCL_RED=`0.9996' SOURCE=`Snyder, J.P, 1987, Map Projections - A Working Manual' UNIT=`METER' X_OFF=`500000.0' Y_OFF=`0.0' 
-2014-08-22 10:27:21|  16.3|  0.0|INFORM|Loaded module 'LAS' from file 'C:\Apps\FME_14337\LIDAR_FME.dll'
-2014-08-22 10:27:21|  16.3|  0.0|INFORM|FME API version of module 'LAS' matches current internal version (3.7 20140327)
-2014-08-22 10:27:21|  16.3|  0.0|INFORM|Trying to find a DYNAMIC plugin for reader named `LAS'
-2014-08-22 10:27:21|  16.3|  0.0|INFORM|FME Configuration: Source coordinate system for reader R_2[LAS] set to `UTM83-10'
-2014-08-22 10:27:21|  16.3|  0.0|INFORM|Coordinate System `UTM83-10' parameters: CS_NAME=`UTM83-10' DESC_NM=`UTM with NAD83 datum, Zone 10, Meter; Central Meridian 123d W' DT_NAME=`NAD83' GROUP=`UTM83' MAP_SCL=`1' MAX_LAT=`86.9333333333333' MAX_LNG=`-119.25' MIN_LAT=`25.4166666666667' MIN_LNG=`-126.75' PARM1=`-123' PROJ=`TM' QUAD=`1' SCL_RED=`0.9996' SOURCE=`Snyder, J.P, 1987, Map Projections - A Working Manual' UNIT=`METER' X_OFF=`500000.0' Y_OFF=`0.0' 
-2014-08-22 10:27:21|  16.3|  0.0|INFORM|FME API version of module 'LAS' matches current internal version (3.7 20140327)
-2014-08-22 10:27:21|  16.3|  0.0|INFORM|Trying to find a DYNAMIC plugin for reader named `LAS'
-2014-08-22 10:27:21|  16.3|  0.0|INFORM|FME Configuration: Source coordinate system for reader R_2[LAS] set to `UTM83-10'
-2014-08-22 10:27:21|  16.3|  0.0|INFORM|Coordinate System `UTM83-10' parameters: CS_NAME=`UTM83-10' DESC_NM=`UTM with NAD83 datum, Zone 10, Meter; Central Meridian 123d W' DT_NAME=`NAD83' GROUP=`UTM83' MAP_SCL=`1' MAX_LAT=`86.9333333333333' MAX_LNG=`-119.25' MIN_LAT=`25.4166666666667' MIN_LNG=`-126.75' PARM1=`-123' PROJ=`TM' QUAD=`1' SCL_RED=`0.9996' SOURCE=`Snyder, J.P, 1987, Map Projections - A Working Manual' UNIT=`METER' X_OFF=`500000.0' Y_OFF=`0.0' 
-2014-08-22 10:27:21|  16.3|  0.0|INFORM|FME API version of module 'LAS' matches current internal version (3.7 20140327)
-2014-08-22 10:27:21|  16.3|  0.0|INFORM|Trying to find a DYNAMIC plugin for reader named `LAS'
-2014-08-22 10:27:21|  16.3|  0.0|INFORM|FME Configuration: Source coordinate system for reader R_2[LAS] set to `UTM83-10'
-2014-08-22 10:27:21|  16.3|  0.0|INFORM|Coordinate System `UTM83-10' parameters: CS_NAME=`UTM83-10' DESC_NM=`UTM with NAD83 datum, Zone 10, Meter; Central Meridian 123d W' DT_NAME=`NAD83' GROUP=`UTM83' MAP_SCL=`1' MAX_LAT=`86.9333333333333' MAX_LNG=`-119.25' MIN_LAT=`25.4166666666667' MIN_LNG=`-126.75' PARM1=`-123' PROJ=`TM' QUAD=`1' SCL_RED=`0.9996' SOURCE=`Snyder, J.P, 1987, Map Projections - A Working Manual' UNIT=`METER' X_OFF=`500000.0' Y_OFF=`0.0' 
-2014-08-22 10:27:21|  16.3|  0.0|INFORM|FME API version of module 'LAS' matches current internal version (3.7 20140327)
-2014-08-22 10:27:21|  16.4|  0.0|WARN  |Clipper_Vector(ClippingFactory): MERGE_CLIPPER_ATTRIBUTES is not specified; CLIPPER_ATTR_PREFIX will be ignored
-2014-08-22 10:27:21|  16.4|  0.0|INFORM|MULTI_READER(R_2): Done reading 1 features from 4 readers
-2014-08-22 10:27:21|  16.4|  0.0|STATS |Creator_XML_Creator(CreationFactory): Created 1 features
-2014-08-22 10:27:21|  16.4|  0.0|STATS |Creator_Cloner(TeeFactory): Cloned 1 input feature(s) into 1 output feature(s)
-2014-08-22 10:27:21|  16.4|  0.0|STATS |Creator_CREATED Feature Counter -1 54(TeeFactory): Cloned 1 input feature(s) into 1 output feature(s)
-2014-08-22 10:27:21|  16.4|  0.0|STATS |GeometryReplacer(TeeFactory): Cloned 1 input feature(s) into 1 output feature(s)
-2014-08-22 10:27:21|  16.4|  0.0|STATS |GeometryReplacer_OUTPUT Feature Counter -1 65(TeeFactory): Cloned 1 input feature(s) into 1 output feature(s)
-2014-08-22 10:27:21|  16.4|  0.0|STATS |CoordinateSystemSetter(TeeFactory): Cloned 1 input feature(s) into 1 output feature(s)
-2014-08-22 10:27:21|  16.4|  0.0|STATS |CoordinateSystemSetter_OUTPUT Feature Counter -1 68(TeeFactory): Cloned 1 input feature(s) into 1 output feature(s)
-2014-08-22 10:27:21|  16.4|  0.0|STATS |Reprojector(TeeFactory): Cloned 1 input feature(s) into 1 output feature(s)
-2014-08-22 10:27:21|  16.4|  0.0|STATS |Reprojector REPROJECTED Splitter(TeeFactory): Cloned 1 input feature(s) into 2 output feature(s)
-2014-08-22 10:27:21|  16.4|  0.0|STATS |Reprojector_REPROJECTED_0_u3aJwU8cefg= Feature Counter -1 69(TeeFactory): Cloned 1 input feature(s) into 1 output feature(s)
-2014-08-22 10:27:21|  16.4|  0.0|STATS |Reprojector_REPROJECTED_1_u3aJwU8cefg= Feature Counter -1 63(TeeFactory): Cloned 1 input feature(s) into 1 output feature(s)
-2014-08-22 10:27:21|  16.4|  0.0|STATS |FeatureReader_GeometryRemover(TeeFactory): Cloned 1 input feature(s) into 1 output feature(s)
-2014-08-22 10:27:21|  16.4|  0.0|STATS |FeatureReader <OTHER> Output Nuker(TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
-2014-08-22 10:27:21|  16.4|  0.0|STATS |FeatureReader INITIATOR Output Nuker(TeeFactory): Cloned 1 input feature(s) into 0 output feature(s)
-2014-08-22 10:27:21|  16.4|  0.0|STATS |FeatureReader_LAS Feature Counter -1 60(TeeFactory): Cloned 1 input feature(s) into 1 output feature(s)
-2014-08-22 10:27:21|  16.4|  0.0|STATS |Clipper_ClipperCloner(TeeFactory): Cloned 1 input feature(s) into 2 output feature(s)
-2014-08-22 10:27:21|  16.4|  0.0|STATS |Clipper_SolidClipperFilter(TestFactory): Tested 1 input feature(s) -- 0 feature(s) passed and 1 feature(s) failed
-2014-08-22 10:27:21|  16.4|  0.0|STATS |Clipper_ClippeeFilter(TestFactory): Tested 1 input feature(s) -- 0 feature(s) passed and 1 feature(s) failed
-2014-08-22 10:27:26|  21.2|  4.9|INFORM|Point Cloud Clipping: Clipped 13190000 of 23055472 points
-2014-08-22 10:27:31|  26.2|  5.0|INFORM|Point Cloud Clipping: Clipped 20390000 of 23055472 points
-2014-08-22 10:27:32|  27.5|  1.3|INFORM|Point Cloud Tiling: Creating 10 tiles
-2014-08-22 10:27:32|  27.9|  0.4|STATS |Clipper_Vector(ClippingFactory): Processed 1 input feature(s), of which 0 feature(s) were clipped, 0 feature(s) were totally inside and 0 feature(s) were totally outside
-2014-08-22 10:27:32|  27.9|  0.0|STATS |Clipper_Nuker(TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
-2014-08-22 10:27:32|  27.9|  0.0|STATS |Clipper_INSIDE Feature Counter -1 66(TeeFactory): Cloned 1 input feature(s) into 1 output feature(s)
-2014-08-22 10:27:32|  27.9|  0.0|STATS |Tester(TestFactory): Tested 1 input feature(s) -- 0 feature(s) passed and 1 feature(s) failed
-2014-08-22 10:27:32|  27.9|  0.0|STATS |Tester_PASSED Feature Counter -1 26(TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
-2014-08-22 10:27:32|  27.9|  0.0|STATS |Tester_FAILED Feature Counter -1 34(TeeFactory): Cloned 1 input feature(s) into 1 output feature(s)
-2014-08-22 10:27:32|  27.9|  0.0|STATS |PointCloudCombiner_OUTPUT Feature Counter -1 33(TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
-2014-08-22 10:27:32|  27.9|  0.0|STATS |PointCloudVerticalFilter_2 INPUT Input Collector(TeeFactory): Cloned 1 input feature(s) into 1 output feature(s)
-2014-08-22 10:27:32|  27.9|  0.0|STATS |PointCloudVerticalFilter_2_INPUT1408728422 Input Splitter(TeeFactory): Cloned 1 input feature(s) into 1 output feature(s)
-2014-08-22 10:27:32|  27.9|  0.0|STATS |PointCloudVerticalFilter_2_INPUT Feature Counter 0 19(TeeFactory): Cloned 1 input feature(s) into 1 output feature(s)
-2014-08-22 10:27:32|  27.9|  0.0|STATS |PointCloudVerticalFilter_2_Counter_2(TeeFactory): Cloned 1 input feature(s) into 1 output feature(s)
-2014-08-22 10:27:32|  27.9|  0.0|STATS |PointCloudVerticalFilter_2_Counter_2_OUTPUT Feature Counter 0 16(TeeFactory): Cloned 1 input feature(s) into 1 output feature(s)
-2014-08-22 10:27:32|  27.9|  0.0|STATS |PointCloudVerticalFilter_2_CoordinateSwapper(TeeFactory): Cloned 1 input feature(s) into 1 output feature(s)
-2014-08-22 10:27:32|  27.9|  0.0|STATS |PointCloudVerticalFilter_2_CoordinateSwapper_OUTPUT Feature Counter 0 14(TeeFactory): Cloned 1 input feature(s) into 1 output feature(s)
-2014-08-22 10:27:32|  27.9|  0.0|STATS |PointCloudVerticalFilter_2_Tiler_ClippeeFilter(TestFactory): Tested 1 input feature(s) -- 1 feature(s) passed and 0 feature(s) failed
-2014-08-22 10:27:32|  27.9|  0.0|STATS |PointCloudVerticalFilter_2_Tiler_SettingsForTiling(SamplingFactory): Sampled 0 of 0 feature(s)
-2014-08-22 10:27:32|  27.9|  0.0|STATS |PointCloudVerticalFilter_2_Tiler_StartSplitter(TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
-2014-08-22 10:27:32|  27.9|  0.0|STATS |PointCloudVerticalFilter_2_Tiler_TileTypeTester(TestFactory): Tested 0 input feature(s) -- 0 feature(s) passed and 0 feature(s) failed
-2014-08-22 10:27:32|  27.9|  0.0|STATS |PointCloudVerticalFilter_2_Tiler_Bounds_Nuker(TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
-2014-08-22 10:27:32|  27.9|  0.0|STATS |PointCloudVerticalFilter_2_Tiler(CreationFactory): Created 0 features
-2014-08-22 10:27:32|  27.9|  0.0|STATS |PointCloudVerticalFilter_2_Tiler_Polygonizer(TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
-2014-08-22 10:27:32|  27.9|  0.0|STATS |PointCloudVerticalFilter_2_Tiler_Clipper(ClippingFactory): Processed 0 input feature(s), of which 0 feature(s) were clipped, 0 feature(s) were totally inside and 0 feature(s) were totally outside
-2014-08-22 10:27:32|  27.9|  0.0|STATS |PointCloudVerticalFilter_2_Tiler_Cleaner(TeeFactory): Cloned 4 input feature(s) into 4 output feature(s)
-2014-08-22 10:27:32|  27.9|  0.0|STATS |PointCloudVerticalFilter_2_Tiler_TILED Feature Counter 0 17(TeeFactory): Cloned 4 input feature(s) into 4 output feature(s)
-2014-08-22 10:27:32|  27.9|  0.0|STATS |PointCloudVerticalFilter_2_CoordinateSwapper_2(TeeFactory): Cloned 4 input feature(s) into 4 output feature(s)
-2014-08-22 10:27:32|  27.9|  0.0|STATS |PointCloudVerticalFilter_2_CoordinateSwapper_2_OUTPUT Feature Counter 0 18(TeeFactory): Cloned 4 input feature(s) into 4 output feature(s)
-2014-08-22 10:27:32|  27.9|  0.0|INFORM|PointCloudVerticalFilter_2_Sorter(SortFactory): Starting sorting 4 feature(s)
-2014-08-22 10:27:32|  27.9|  0.0|INFORM|PointCloudVerticalFilter_2_Sorter(SortFactory): Done sorting 4 feature(s)
-2014-08-22 10:27:32|  28.0|  0.0|STATS |PointCloudVerticalFilter_2_Sorter(SortFactory): Sorted 4 feature(s)
-2014-08-22 10:27:32|  28.0|  0.0|STATS |PointCloudVerticalFilter_2_Sorter_SORTED Feature Counter 0 12(TeeFactory): Cloned 4 input feature(s) into 4 output feature(s)
-2014-08-22 10:27:32|  28.0|  0.0|STATS |PointCloudVerticalFilter_2_Counter(TeeFactory): Cloned 4 input feature(s) into 4 output feature(s)
-2014-08-22 10:27:32|  28.0|  0.0|STATS |PointCloudVerticalFilter_2_Counter_OUTPUT Feature Counter 0 13(TeeFactory): Cloned 4 input feature(s) into 4 output feature(s)
-2014-08-22 10:27:32|  28.0|  0.0|STATS |PointCloudVerticalFilter_2_Tester_2(TestFactory): Tested 4 input feature(s) -- 4 feature(s) passed and 0 feature(s) failed
-2014-08-22 10:27:32|  28.0|  0.0|STATS |PointCloudVerticalFilter_2_Tester_2_PASSED Feature Counter 0 15(TeeFactory): Cloned 4 input feature(s) into 4 output feature(s)
-2014-08-22 10:27:32|  28.0|  0.0|STATS |Storing feature(s) to FME feature store file `C:\Users\DVANNI~1\AppData\Local\Temp\LidarDataDownload_102702\inspector.ffs'
-2014-08-22 10:27:32|  28.0|  0.0|INFORM|FFS writer: Writing point cloud with 1820546 point(s) to file 'C:\Users\DVANNI~1\AppData\Local\Temp\LidarDataDownload_102702\inspector.fps'
-2014-08-22 10:27:32|  28.1|  0.1|STATS |Storing feature(s) to FME feature store file `C:\Users\DVANNI~1\AppData\Local\Temp\LidarDataDownload_102702\inspector.fsc'
-2014-08-22 10:27:32|  28.1|  0.0|STATS |PointCloudVerticalFilter_2_PointCloudCombiner_OUTPUT Feature Counter 0 21(TeeFactory): Cloned 1 input feature(s) into 1 output feature(s)
-2014-08-22 10:27:32|  28.1|  0.0|STATS |PointCloudVerticalFilter_2_AttributeRemover(TeeFactory): Cloned 1 input feature(s) into 1 output feature(s)
-2014-08-22 10:27:32|  28.1|  0.0|STATS |PointCloudVerticalFilter_2_AttributeRemover_OUTPUT Feature Counter 0 20(TeeFactory): Cloned 1 input feature(s) into 1 output feature(s)
-2014-08-22 10:27:32|  28.1|  0.0|STATS |PointCloudVerticalFilter_2_OUTPUT1408728422 Output Collector(TeeFactory): Cloned 1 input feature(s) into 1 output feature(s)
-2014-08-22 10:27:32|  28.1|  0.0|STATS |PointCloudVerticalFilter_2 OUTPUT Output Renamer/Nuker(TeeFactory): Cloned 1 input feature(s) into 1 output feature(s)
-2014-08-22 10:27:32|  28.1|  0.0|STATS |PointCloudVerticalFilter_2_OUTPUT Feature Counter -1 45(TeeFactory): Cloned 1 input feature(s) into 1 output feature(s)
-2014-08-22 10:27:32|  28.1|  0.0|STATS |Tester_2(TestFactory): Tested 1 input feature(s) -- 0 feature(s) passed and 1 feature(s) failed
-2014-08-22 10:27:32|  28.1|  0.0|STATS |Tester_2_PASSED Feature Counter -1 30(TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
-2014-08-22 10:27:32|  28.1|  0.0|STATS |Tester_2_FAILED Feature Counter -1 39(TeeFactory): Cloned 1 input feature(s) into 1 output feature(s)
-2014-08-22 10:27:32|  28.1|  0.0|STATS |PointCloudSplitter_SPLIT Feature Counter -1 38(TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
-2014-08-22 10:27:32|  28.1|  0.0|STATS |Tester_3(TestFactory): Tested 1 input feature(s) -- 0 feature(s) passed and 1 feature(s) failed
-2014-08-22 10:27:32|  28.1|  0.0|STATS |Tester_3_PASSED Feature Counter -1 35(TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
-2014-08-22 10:27:32|  28.1|  0.0|STATS |Tester_3_FAILED Feature Counter -1 29(TeeFactory): Cloned 1 input feature(s) into 1 output feature(s)
-2014-08-22 10:27:32|  28.1|  0.0|STATS |PointCloudThinner(TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
-2014-08-22 10:27:32|  28.1|  0.0|STATS |PointCloudThinner_THINNED Feature Counter -1 43(TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
-2014-08-22 10:27:32|  28.1|  0.0|STATS |AttributeCreator_2(TeeFactory): Cloned 1 input feature(s) into 1 output feature(s)
-2014-08-22 10:27:32|  28.1|  0.0|STATS |AttributeCreator_2_OUTPUT Feature Counter -1 59(TeeFactory): Cloned 1 input feature(s) into 1 output feature(s)
-2014-08-22 10:27:32|  28.1|  0.0|STATS |Tester_4(TestFactory): Tested 1 input feature(s) -- 1 feature(s) passed and 0 feature(s) failed
-2014-08-22 10:27:32|  28.1|  0.0|STATS |Tester_4 PASSED Splitter(TeeFactory): Cloned 1 input feature(s) into 2 output feature(s)
-2014-08-22 10:27:32|  28.1|  0.0|STATS |Tester_4_PASSED_0_F1VLnOE71tw= Feature Counter -1 72(TeeFactory): Cloned 1 input feature(s) into 1 output feature(s)
-2014-08-22 10:27:32|  28.1|  0.0|STATS |Tester_4_PASSED_1_F1VLnOE71tw= Feature Counter -1 44(TeeFactory): Cloned 1 input feature(s) into 1 output feature(s)
-2014-08-22 10:27:32|  28.1|  0.0|STATS |Tester_4_FAILED Feature Counter -1 61(TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
-2014-08-22 10:27:32|  28.1|  0.0|STATS |AttributeCreator(TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
-2014-08-22 10:27:32|  28.1|  0.0|STATS |AttributeCreator OUTPUT Splitter(TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
-2014-08-22 10:27:32|  28.1|  0.0|STATS |AttributeCreator_OUTPUT_0_olPiq+C1D00= Feature Counter -1 36(TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
-2014-08-22 10:27:32|  28.1|  0.0|STATS |AttributeCreator_OUTPUT_1_olPiq+C1D00= Feature Counter -1 71(TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
-2014-08-22 10:27:32|  28.1|  0.0|STATS |AttributeCreator_Output_DirCreator(CreationFactory): Created 1 features
-2014-08-22 10:27:32|  28.1|  0.0|STATS |AttributeCreator_Output_DirCreatorCleanerUpper(TeeFactory): Cloned 1 input feature(s) into 0 output feature(s)
-2014-08-22 10:27:32|  28.1|  0.0|STATS |AttributeCreator_Output_FeatureDirector(TestFactory): Tested 1 input feature(s) -- 0 feature(s) passed and 1 feature(s) failed
-2014-08-22 10:27:32|  28.1|  0.0|STATS |AttributeCreator_Output___FeatureDirector1(TestFactory): Tested 1 input feature(s) -- 1 feature(s) passed and 0 feature(s) failed
-2014-08-22 10:27:32|  28.1|  0.0|STATS |AttributeCreator_Output_VectorSetterUpper(TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
-2014-08-22 10:27:32|  28.1|  0.0|STATS |AttributeCreator_Output___PointCloudThinner(TeeFactory): Cloned 1 input feature(s) into 1 output feature(s)
-2014-08-22 10:27:32|  28.1|  0.0|STATS |AttributeCreator_Output_RasterSetterUpper(TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
-2014-08-22 10:27:32|  28.1|  0.0|STATS |Stored 1 feature(s) to FME feature store file `C:\Users\DVANNI~1\AppData\Local\Temp\LidarDataDownload_102702\inspector.ffs'
-2014-08-22 10:27:32|  28.1|  0.0|INFORM|Saving spatial index into file 'C:\Users\DVANNI~1\AppData\Local\Temp\LidarDataDownload_102702\inspector.fsi'
-2014-08-22 10:27:32|  28.1|  0.0|INFORM|Finished saving spatial index into file 'C:\Users\DVANNI~1\AppData\Local\Temp\LidarDataDownload_102702\inspector.fsi'
-2014-08-22 10:27:32|  28.1|  0.0|STATS |Stored 1 feature(s) to FME feature store file `C:\Users\DVANNI~1\AppData\Local\Temp\LidarDataDownload_102702\inspector.fsc'
-2014-08-22 10:27:32|  28.1|  0.0|INFORM|AttributeCreator_Output_Recorder(RecorderFactory): Recorded 1 feature(s) to file `C:\Users\DVANNI~1\AppData\Local\Temp\LidarDataDownload_102702\inspector.ffs'
-2014-08-22 10:27:32|  28.1|  0.0|STATS |AttributeCreator_OUTPUT_0_olPiq+C1D00= -> NewFeatureType Correlator(TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
-2014-08-22 10:27:32|  28.1|  0.0|STATS |Tester_4_PASSED_1_F1VLnOE71tw= -> NewFeatureType Correlator(TeeFactory): Cloned 1 input feature(s) into 0 output feature(s)
-2014-08-22 10:27:32|  28.1|  0.0|STATS |Final Output Feature Type Router(TestFactory): Tested 0 input feature(s) -- 0 feature(s) passed and 0 feature(s) failed
-2014-08-22 10:27:32|  28.1|  0.0|STATS |Final Output Nuker(TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
-2014-08-22 10:27:32|  28.1|  0.0|STATS |f_99(CreationFactory): Created 1 features
-2014-08-22 10:27:32|  28.1|  0.0|STATS |f_100(TeeFactory): Cloned 1 input feature(s) into 0 output feature(s)
-2014-08-22 10:27:32|  28.1|  0.0|INFORM|=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
-2014-08-22 10:27:32|  28.1|  0.0|INFORM|                     'GlobalVariable' Final State Summary
-2014-08-22 10:27:32|  28.1|  0.0|INFORM|=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
-2014-08-22 10:27:32|  28.1|  0.0|INFORM|PointCloudVerticalFilter_2_Tiler_NUM_TO_CREATE                               0
-2014-08-22 10:27:32|  28.1|  0.0|INFORM|==============================================================================
-2014-08-22 10:27:32|  28.1|  0.0|INFORM|Total Number of Global Variables:                                            1
-2014-08-22 10:27:32|  28.1|  0.0|INFORM|=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
-2014-08-22 10:27:32|  28.1|  0.0|INFORM|=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
-2014-08-22 10:27:32|  28.1|  0.0|STATS |                            `Count' Domain Summary
-2014-08-22 10:27:32|  28.1|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
-2014-08-22 10:27:32|  28.1|  0.0|STATS |0                                                                            4
-2014-08-22 10:27:32|  28.1|  0.0|STATS |PointCloudVerticalFilter_2_Counter_2__pc_count                               1
-2014-08-22 10:27:32|  28.1|  0.0|STATS |==============================================================================
-2014-08-22 10:27:32|  28.1|  0.0|STATS |Total `@Count' Invocations:                                                  5
-2014-08-22 10:27:32|  28.1|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
-2014-08-22 10:27:32|  28.1|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
-2014-08-22 10:27:32|  28.1|  0.0|STATS |                            Features Read Summary
-2014-08-22 10:27:32|  28.1|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
-2014-08-22 10:27:32|  28.1|  0.0|STATS |==============================================================================
-2014-08-22 10:27:32|  28.1|  0.0|STATS |Total Features Read                                                          0
-2014-08-22 10:27:32|  28.1|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
-2014-08-22 10:27:32|  28.1|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
-2014-08-22 10:27:32|  28.1|  0.0|STATS |                           Features Written Summary
-2014-08-22 10:27:32|  28.1|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
-2014-08-22 10:27:32|  28.1|  0.0|STATS |==============================================================================
-2014-08-22 10:27:32|  28.1|  0.0|STATS |Total Features Written                                                       0
-2014-08-22 10:27:32|  28.1|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
-2014-08-22 10:27:32|  28.1|  0.0|INFORM|Translation was SUCCESSFUL with 1 warning(s) (0 feature(s) output)
-2014-08-22 10:27:32|  28.1|  0.0|INFORM|FME Session Duration: 30.1 seconds. (CPU: 26.0s user, 1.9s system)
-2014-08-22 10:27:32|  28.1|  0.0|INFORM|END - ProcessID: 9936, peak process memory usage: 195600 kB, current process memory usage: 183248 kB
+2014-09-12 10:12:05|   0.1|  0.1|INFORM|FME 2014 (20140112 - Build 14230 - WIN32)
+2014-09-12 10:12:05|   0.1|  0.0|INFORM|FME_HOME is 'C:\Apps\FME_14230\'
+2014-09-12 10:12:05|   0.1|  0.0|INFORM|FME Desktop Smallworld Edition (floating)
+2014-09-12 10:12:05|   0.1|  0.0|INFORM|Permanent License.
+2014-09-12 10:12:05|   0.1|  0.0|INFORM|Machine host name is: nate
+2014-09-12 10:12:05|   0.1|  0.0|INFORM|START - ProcessID: 1548, peak process memory usage: 46228 kB, current process memory usage: 46220 kB
+2014-09-12 10:12:05|   0.1|  0.0|INFORM|FME Configuration: Command line arguments are `C:\Apps\FME_14230\fme.exe' `C:/safegit/fmepedia-pointcloud/fme/workspaces\wb-xlate-1410541924659_13112' `LOG_STANDARDOUT' `YES' `LogCount' `C:\Users\DVANNI~1\AppData\Local\Temp\wb-xlate-counts-1410541924666_13112'
+2014-09-12 10:12:05|   0.2|  0.0|INFORM|Shared directories for formats are : C:\Users\dvanniekerk\Documents\FME\Formats;C:\Apps\FME_14230\datasources;C:\Users\dvanniekerk\AppData\Roaming\Safe Software\FME\FME Store\Formats
+2014-09-12 10:12:05|   0.2|  0.0|INFORM|Shared directories for transformers are : C:\Users\dvanniekerk\Documents\FME\Transformers;C:\Apps\FME_14230\transformers;C:\standalone-apps\testsuite\Transformers;C:\Users\dvanniekerk\AppData\Roaming\Safe Software\FME\FME Store\Transformers
+2014-09-12 10:12:05|   0.2|  0.0|INFORM|Shared directories for coordinate systems are : C:\Users\dvanniekerk\Documents\FME\CoordinateSystems
+2014-09-12 10:12:05|   0.2|  0.0|INFORM|Shared directories for coordinate system exceptions are : C:\Users\dvanniekerk\Documents\FME\CoordinateSystemExceptions
+2014-09-12 10:12:05|   0.2|  0.0|INFORM|Shared directories for coordinate system grid overrides are : C:\Users\dvanniekerk\Documents\FME\CoordinateSystemGridOverrides
+2014-09-12 10:12:05|   0.2|  0.0|INFORM|Shared directories for CS-MAP transformation exceptions are : C:\Users\dvanniekerk\Documents\FME\CsmapTransformationExceptions
+2014-09-12 10:12:05|   0.2|  0.0|INFORM|Shared directories for transformer categories are : C:\Users\dvanniekerk\Documents\FME\TransformerCategories
+2014-09-12 10:12:05|   0.2|  0.0|INFORM|FME Configuration: Reader Keyword is `NULL_SOURCE'
+2014-09-12 10:12:05|   0.2|  0.0|INFORM|FME Configuration: Writer Keyword is `MULTI_WRITER'
+2014-09-12 10:12:05|   0.2|  0.0|INFORM|FME Configuration: Writer Group Definition Keyword is `MULTI_WRITER_DEF'
+2014-09-12 10:12:05|   0.2|  0.0|INFORM|FME Configuration: Reader type is `NULL'
+2014-09-12 10:12:05|   0.2|  0.0|INFORM|FME Configuration: Writer type is `MULTI_WRITER'
+2014-09-12 10:12:05|   0.2|  0.0|INFORM|FME Configuration: No destination coordinate system set
+2014-09-12 10:12:05|   0.2|  0.0|INFORM|FME Configuration: Current working directory is `C:\safegit\fmepedia-pointcloud\fme\workspaces'
+2014-09-12 10:12:05|   0.2|  0.0|INFORM|FME Configuration: Temporary directory is `C:\Users\DVANNI~1\AppData\Local\Temp'
+2014-09-12 10:12:05|   0.2|  0.0|INFORM|FME Configuration: FME_HOME is `C:\Apps\FME_14230\'
+2014-09-12 10:12:05|   0.2|  0.0|INFORM|FME Configuration: FME_BASE is 'no'
+2014-09-12 10:12:05|   0.2|  0.0|INFORM|FME Configuration: FME_MF_DIR is 'C:\safegit\fmepedia-pointcloud\fme\workspaces/'
+2014-09-12 10:12:05|   0.2|  0.0|INFORM|FME Configuration: FME_MF_NAME is 'LidarDataDownload.fmw'
+2014-09-12 10:12:05|   0.2|  0.0|INFORM|FME Configuration: FME_PRODUCT_NAME is 'FME(R) 2014'
+2014-09-12 10:12:05|   0.2|  0.0|INFORM|System Status: 46090MB of disk space available in the FME temporary directory (C:\Users\DVANNI~1\AppData\Local\Temp\)
+2014-09-12 10:12:05|   0.2|  0.0|INFORM|System Status: 3898MB of virtual memory available
+2014-09-12 10:12:05|   0.2|  0.0|INFORM|Operating System: Microsoft Windows 8 64-bit  (Build 9200)
+2014-09-12 10:12:05|   0.2|  0.0|INFORM|FME Platform: WIN32
+2014-09-12 10:12:05|   0.2|  0.0|INFORM|Locale: en_US
+2014-09-12 10:12:05|   0.2|  0.0|INFORM|Code Page: 1252  (ANSI - Latin I)
+2014-09-12 10:12:05|   0.2|  0.0|INFORM|FME Configuration: Process limit is 4095 MB (out of 8097 MB physical memory and 4095 MB address space)
+2014-09-12 10:12:05|   0.2|  0.0|INFORM|FME Configuration: Start freeing memory when process usage exceeds 2895 MB of memory or 3495 MB of address space
+2014-09-12 10:12:05|   0.2|  0.0|INFORM|FME Configuration: Stop freeing memory when process usage is below 2171 MB of memory and 2621 MB of address space
+2014-09-12 10:12:05|   0.2|  0.0|INFORM|FME Configuration: Autodetermining optimal maximum number of objects in memory
+2014-09-12 10:12:05|   0.2|  0.0|INFORM|Trying to find a DYNAMIC plugin for reader named `NULL'
+2014-09-12 10:12:05|   0.2|  0.0|INFORM|Loaded module 'NULL' from file 'C:\Apps\FME_14230\plugins/NULL.dll'
+2014-09-12 10:12:05|   0.2|  0.0|INFORM|FME API version of module 'NULL' matches current internal version (3.7 20131121)
+2014-09-12 10:12:05|   0.2|  0.0|INFORM|Using MultiWriter $Revision: 59162 $ ( $Date: 2009-04-07 10:04:59 -0700 (Tue, 07 Apr 2009) $ ) with keyword `MULTI_WRITER' to output data (ID_ATTRIBUTE is `multi_writer_id')
+2014-09-12 10:12:05|   0.2|  0.0|INFORM|Writer output will be ordered by value of multi_writer_id
+2014-09-12 10:12:05|   0.2|  0.0|INFORM|Loaded module 'Geometry_func' from file 'C:\Apps\FME_14230\plugins/Geometry_func.dll'
+2014-09-12 10:12:05|   0.2|  0.0|INFORM|FME API version of module 'Geometry_func' matches current internal version (3.7 20131121)
+2014-09-12 10:12:05|   0.2|  0.0|INFORM|Loaded module 'LogCount_func' from file 'C:\Apps\FME_14230\plugins/LogCount_func.dll'
+2014-09-12 10:12:05|   0.2|  0.0|INFORM|FME API version of module 'LogCount_func' matches current internal version (3.7 20131121)
+2014-09-12 10:12:05|   0.3|  0.0|INFORM|Loaded module 'OGCGeometry_func' from file 'C:\Apps\FME_14230\plugins/OGCGeometry_func.dll'
+2014-09-12 10:12:05|   0.3|  0.0|INFORM|FME API version of module 'OGCGeometry_func' matches current internal version (3.7 20131121)
+2014-09-12 10:12:05|   0.3|  0.0|INFORM|FME Configuration: Using FME Reprojection Engine
+2014-09-12 10:12:05|   0.3|  0.0|INFORM|Loaded module 'QueryFactory' from file 'C:\Apps\FME_14230\plugins/QueryFactory.dll'
+2014-09-12 10:12:05|   0.3|  0.0|INFORM|FME API version of module 'QueryFactory' matches current internal version (3.7 20131121)
+2014-09-12 10:12:05|   0.3|  0.0|INFORM|Loaded module 'EvaluateExpression_func' from file 'C:\Apps\FME_14230\plugins/EvaluateExpression_func.dll'
+2014-09-12 10:12:05|   0.3|  0.0|INFORM|FME API version of module 'EvaluateExpression_func' matches current internal version (3.7 20131121)
+2014-09-12 10:12:05|   0.3|  0.0|INFORM|Loaded module 'RasterClippingFactory' from file 'C:\Apps\FME_14230\plugins/RasterClippingFactory.dll'
+2014-09-12 10:12:05|   0.3|  0.0|INFORM|FME API version of module 'RasterClippingFactory' matches current internal version (3.7 20131121)
+2014-09-12 10:12:05|   0.3|  0.0|INFORM|Loaded module 'SolidIntersectionFactory' from file 'C:\Apps\FME_14230\plugins/SolidIntersectionFactory.dll'
+2014-09-12 10:12:05|   0.3|  0.0|INFORM|FME API version of module 'SolidIntersectionFactory' matches current internal version (3.7 20131121)
+2014-09-12 10:12:05|   0.3|  0.0|INFORM|Loaded module 'VectorToPointCloudFactory' from file 'C:\Apps\FME_14230\plugins/VectorToPointCloudFactory.dll'
+2014-09-12 10:12:05|   0.3|  0.0|INFORM|FME API version of module 'VectorToPointCloudFactory' matches current internal version (3.7 20131121)
+2014-09-12 10:12:05|   0.3|  0.0|INFORM|Loaded module 'PointCloudCombinerFactory' from file 'C:\Apps\FME_14230\plugins/PointCloudCombinerFactory.dll'
+2014-09-12 10:12:05|   0.3|  0.0|INFORM|FME API version of module 'PointCloudCombinerFactory' matches current internal version (3.7 20131121)
+2014-09-12 10:12:05|   0.3|  0.0|INFORM|Loaded module 'PointCloudTilingFactory' from file 'C:\Apps\FME_14230\plugins/PointCloudTilingFactory.dll'
+2014-09-12 10:12:05|   0.3|  0.0|INFORM|FME API version of module 'PointCloudTilingFactory' matches current internal version (3.7 20131121)
+2014-09-12 10:12:05|   0.3|  0.0|INFORM|FME API version of module 'VectorToPointCloudFactory' matches current internal version (3.7 20131121)
+2014-09-12 10:12:05|   0.3|  0.0|INFORM|FME API version of module 'PointCloudCombinerFactory' matches current internal version (3.7 20131121)
+2014-09-12 10:12:05|   0.3|  0.0|INFORM|Loaded module 'PointCloudSplitterFactory' from file 'C:\Apps\FME_14230\plugins/PointCloudSplitterFactory.dll'
+2014-09-12 10:12:05|   0.3|  0.0|INFORM|FME API version of module 'PointCloudSplitterFactory' matches current internal version (3.7 20131121)
+2014-09-12 10:12:05|   0.3|  0.0|INFORM|Loaded module 'ThinPointCloud_func' from file 'C:\Apps\FME_14230\plugins/ThinPointCloud_func.dll'
+2014-09-12 10:12:05|   0.3|  0.0|INFORM|FME API version of module 'ThinPointCloud_func' matches current internal version (3.7 20131121)
+2014-09-12 10:12:05|   0.3|  0.0|INFORM|Emptying factory pipeline
+2014-09-12 10:12:05|   0.3|  0.0|INFORM|CS-MAP Reprojector: Transformation will be created from datum parameters for 'LL84' -> 'UTM83-10'
+2014-09-12 10:12:05|   0.3|  0.0|INFORM|Reprojector: Using transformation `NAD83_to_WGS84,Inverse(Null,EPSG:1188)' when reprojecting from LL84 to UTM83-10
+2014-09-12 10:12:05|   0.3|  0.0|WARN  |Clipper_Vector(ClippingFactory): MERGE_CLIPPER_ATTRIBUTES is not specified; CLIPPER_ATTR_PREFIX will be ignored
+2014-09-12 10:12:18|  12.6| 12.3|INFORM|FME Configuration: Reading 4 dataset(s) with LAS reader identified by R_1
+2014-09-12 10:12:18|  12.6|  0.0|INFORM|FME Configuration: Source coordinate system for reader R_1[MULTI_READER] set to `UTM83-10'
+2014-09-12 10:12:18|  12.6|  0.0|INFORM|Coordinate System `UTM83-10' parameters: CS_NAME=`UTM83-10' DESC_NM=`UTM with NAD83 datum, Zone 10, Meter; Central Meridian 123d W' DT_NAME=`NAD83' GROUP=`UTM83' MAP_SCL=`1' MAX_LAT=`86.9333333333333' MAX_LNG=`-119.25' MIN_LAT=`25.4166666666667' MIN_LNG=`-126.75' PARM1=`-123' PROJ=`TM' QUAD=`1' SCL_RED=`0.9996' SOURCE=`Snyder, J.P, 1987, Map Projections - A Working Manual' UNIT=`METER' X_OFF=`500000.0' Y_OFF=`0.0' 
+2014-09-12 10:12:18|  12.6|  0.0|INFORM|MULTI_READER(R_1): Will continue past member reader failures
+2014-09-12 10:12:18|  12.6|  0.0|INFORM|MULTI_READER(R_1): Adding LAS Reader with keyword R_1
+2014-09-12 10:12:18|  12.6|  0.0|INFORM|FeatureReader(QueryFactory): Performing query against LAS dataset `C:\FMEData2014\Data\PointClouds/*.zip'
+2014-09-12 10:12:18|  12.7|  0.0|INFORM|FME Configuration: Reading 4 dataset(s) with LAS reader identified by R_2
+2014-09-12 10:12:18|  12.7|  0.0|INFORM|FME Configuration: Source coordinate system for reader R_2[MULTI_READER] set to `UTM83-10'
+2014-09-12 10:12:18|  12.7|  0.0|INFORM|Coordinate System `UTM83-10' parameters: CS_NAME=`UTM83-10' DESC_NM=`UTM with NAD83 datum, Zone 10, Meter; Central Meridian 123d W' DT_NAME=`NAD83' GROUP=`UTM83' MAP_SCL=`1' MAX_LAT=`86.9333333333333' MAX_LNG=`-119.25' MIN_LAT=`25.4166666666667' MIN_LNG=`-126.75' PARM1=`-123' PROJ=`TM' QUAD=`1' SCL_RED=`0.9996' SOURCE=`Snyder, J.P, 1987, Map Projections - A Working Manual' UNIT=`METER' X_OFF=`500000.0' Y_OFF=`0.0' 
+2014-09-12 10:12:18|  12.7|  0.0|INFORM|MULTI_READER(R_2): Will continue past member reader failures
+2014-09-12 10:12:18|  12.7|  0.0|INFORM|MULTI_READER(R_2): Adding LAS Reader with keyword R_2
+2014-09-12 10:12:18|  12.7|  0.0|INFORM|Using Multi Reader $Revision: 114961 $ ( $Date: 2014-01-08 16:53:06 -0800 (Wed, 08 Jan 2014) $ ) with keyword `R_2' to read multiple datasets
+2014-09-12 10:12:18|  12.7|  0.0|INFORM|Trying to find a DYNAMIC plugin for reader named `LAS'
+2014-09-12 10:12:18|  12.7|  0.0|INFORM|FME Configuration: Source coordinate system for reader R_2[LAS] set to `UTM83-10'
+2014-09-12 10:12:18|  12.7|  0.0|INFORM|Coordinate System `UTM83-10' parameters: CS_NAME=`UTM83-10' DESC_NM=`UTM with NAD83 datum, Zone 10, Meter; Central Meridian 123d W' DT_NAME=`NAD83' GROUP=`UTM83' MAP_SCL=`1' MAX_LAT=`86.9333333333333' MAX_LNG=`-119.25' MIN_LAT=`25.4166666666667' MIN_LNG=`-126.75' PARM1=`-123' PROJ=`TM' QUAD=`1' SCL_RED=`0.9996' SOURCE=`Snyder, J.P, 1987, Map Projections - A Working Manual' UNIT=`METER' X_OFF=`500000.0' Y_OFF=`0.0' 
+2014-09-12 10:12:18|  12.7|  0.0|INFORM|Loaded module 'LAS' from file 'C:\Apps\FME_14230\LIDAR_FME.dll'
+2014-09-12 10:12:18|  12.7|  0.0|INFORM|FME API version of module 'LAS' matches current internal version (3.7 20131121)
+2014-09-12 10:12:18|  12.7|  0.0|INFORM|Trying to find a DYNAMIC plugin for reader named `LAS'
+2014-09-12 10:12:18|  12.7|  0.0|INFORM|FME Configuration: Source coordinate system for reader R_2[LAS] set to `UTM83-10'
+2014-09-12 10:12:18|  12.7|  0.0|INFORM|Coordinate System `UTM83-10' parameters: CS_NAME=`UTM83-10' DESC_NM=`UTM with NAD83 datum, Zone 10, Meter; Central Meridian 123d W' DT_NAME=`NAD83' GROUP=`UTM83' MAP_SCL=`1' MAX_LAT=`86.9333333333333' MAX_LNG=`-119.25' MIN_LAT=`25.4166666666667' MIN_LNG=`-126.75' PARM1=`-123' PROJ=`TM' QUAD=`1' SCL_RED=`0.9996' SOURCE=`Snyder, J.P, 1987, Map Projections - A Working Manual' UNIT=`METER' X_OFF=`500000.0' Y_OFF=`0.0' 
+2014-09-12 10:12:18|  12.7|  0.0|INFORM|FME API version of module 'LAS' matches current internal version (3.7 20131121)
+2014-09-12 10:12:18|  12.7|  0.0|INFORM|Trying to find a DYNAMIC plugin for reader named `LAS'
+2014-09-12 10:12:18|  12.7|  0.0|INFORM|FME Configuration: Source coordinate system for reader R_2[LAS] set to `UTM83-10'
+2014-09-12 10:12:18|  12.7|  0.0|INFORM|Coordinate System `UTM83-10' parameters: CS_NAME=`UTM83-10' DESC_NM=`UTM with NAD83 datum, Zone 10, Meter; Central Meridian 123d W' DT_NAME=`NAD83' GROUP=`UTM83' MAP_SCL=`1' MAX_LAT=`86.9333333333333' MAX_LNG=`-119.25' MIN_LAT=`25.4166666666667' MIN_LNG=`-126.75' PARM1=`-123' PROJ=`TM' QUAD=`1' SCL_RED=`0.9996' SOURCE=`Snyder, J.P, 1987, Map Projections - A Working Manual' UNIT=`METER' X_OFF=`500000.0' Y_OFF=`0.0' 
+2014-09-12 10:12:18|  12.7|  0.0|INFORM|FME API version of module 'LAS' matches current internal version (3.7 20131121)
+2014-09-12 10:12:18|  12.7|  0.0|INFORM|Trying to find a DYNAMIC plugin for reader named `LAS'
+2014-09-12 10:12:18|  12.7|  0.0|INFORM|FME Configuration: Source coordinate system for reader R_2[LAS] set to `UTM83-10'
+2014-09-12 10:12:18|  12.7|  0.0|INFORM|Coordinate System `UTM83-10' parameters: CS_NAME=`UTM83-10' DESC_NM=`UTM with NAD83 datum, Zone 10, Meter; Central Meridian 123d W' DT_NAME=`NAD83' GROUP=`UTM83' MAP_SCL=`1' MAX_LAT=`86.9333333333333' MAX_LNG=`-119.25' MIN_LAT=`25.4166666666667' MIN_LNG=`-126.75' PARM1=`-123' PROJ=`TM' QUAD=`1' SCL_RED=`0.9996' SOURCE=`Snyder, J.P, 1987, Map Projections - A Working Manual' UNIT=`METER' X_OFF=`500000.0' Y_OFF=`0.0' 
+2014-09-12 10:12:18|  12.7|  0.0|INFORM|FME API version of module 'LAS' matches current internal version (3.7 20131121)
+2014-09-12 10:12:18|  12.7|  0.0|INFORM|MULTI_READER(R_2): Done reading 1 features from 4 readers
+2014-09-12 10:12:18|  12.7|  0.0|STATS |Creator_XML_Creator(CreationFactory): Created 1 features
+2014-09-12 10:12:18|  12.7|  0.0|STATS |Creator_Cloner(TeeFactory): Cloned 1 input feature(s) into 1 output feature(s)
+2014-09-12 10:12:18|  12.7|  0.0|STATS |Creator_CREATED Feature Counter -1 54(TeeFactory): Cloned 1 input feature(s) into 1 output feature(s)
+2014-09-12 10:12:18|  12.7|  0.0|STATS |GeometryReplacer(TeeFactory): Cloned 1 input feature(s) into 1 output feature(s)
+2014-09-12 10:12:18|  12.7|  0.0|STATS |GeometryReplacer_OUTPUT Feature Counter -1 65(TeeFactory): Cloned 1 input feature(s) into 1 output feature(s)
+2014-09-12 10:12:18|  12.7|  0.0|STATS |CoordinateSystemSetter(TeeFactory): Cloned 1 input feature(s) into 1 output feature(s)
+2014-09-12 10:12:18|  12.7|  0.0|STATS |CoordinateSystemSetter_OUTPUT Feature Counter -1 68(TeeFactory): Cloned 1 input feature(s) into 1 output feature(s)
+2014-09-12 10:12:18|  12.7|  0.0|STATS |Reprojector(TeeFactory): Cloned 1 input feature(s) into 1 output feature(s)
+2014-09-12 10:12:18|  12.7|  0.0|STATS |Reprojector REPROJECTED Splitter(TeeFactory): Cloned 1 input feature(s) into 2 output feature(s)
+2014-09-12 10:12:18|  12.7|  0.0|STATS |Reprojector_REPROJECTED_0_u3aJwU8cefg= Feature Counter -1 63(TeeFactory): Cloned 1 input feature(s) into 1 output feature(s)
+2014-09-12 10:12:18|  12.7|  0.0|STATS |Reprojector_REPROJECTED_1_u3aJwU8cefg= Feature Counter -1 69(TeeFactory): Cloned 1 input feature(s) into 1 output feature(s)
+2014-09-12 10:12:18|  12.7|  0.0|STATS |FeatureReader_GeometryRemover(TeeFactory): Cloned 1 input feature(s) into 1 output feature(s)
+2014-09-12 10:12:18|  12.7|  0.0|STATS |FeatureReader <OTHER> Output Nuker(TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2014-09-12 10:12:18|  12.7|  0.0|STATS |FeatureReader INITIATOR Output Nuker(TeeFactory): Cloned 1 input feature(s) into 0 output feature(s)
+2014-09-12 10:12:18|  12.7|  0.0|STATS |FeatureReader_LAS Feature Counter -1 60(TeeFactory): Cloned 1 input feature(s) into 1 output feature(s)
+2014-09-12 10:12:18|  12.7|  0.0|STATS |Clipper_ClipperCloner(TeeFactory): Cloned 1 input feature(s) into 2 output feature(s)
+2014-09-12 10:12:18|  12.7|  0.0|STATS |Clipper_SolidClipperFilter(TestFactory): Tested 1 input feature(s) -- 0 feature(s) passed and 1 feature(s) failed
+2014-09-12 10:12:18|  12.7|  0.0|STATS |Clipper_ClippeeFilter(TestFactory): Tested 1 input feature(s) -- 0 feature(s) passed and 1 feature(s) failed
+2014-09-12 10:12:23|  16.9|  4.1|INFORM|Point Cloud Clipping: Clipped 11620000 of 23055472 points
+2014-09-12 10:12:28|  21.8|  5.0|INFORM|Point Cloud Clipping: Clipped 17630000 of 23055472 points
+2014-09-12 10:12:31|  24.8|  3.0|INFORM|Point Cloud Tiling: Creating 10 tiles
+2014-09-12 10:12:31|  25.2|  0.3|STATS |Clipper_Vector(ClippingFactory): Processed 1 input feature(s), of which 0 feature(s) were clipped, 0 feature(s) were totally inside and 0 feature(s) were totally outside
+2014-09-12 10:12:31|  25.2|  0.0|STATS |Clipper_Nuker(TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2014-09-12 10:12:31|  25.2|  0.0|STATS |Clipper_INSIDE Feature Counter -1 66(TeeFactory): Cloned 1 input feature(s) into 1 output feature(s)
+2014-09-12 10:12:31|  25.2|  0.0|STATS |Tester(TestFactory): Tested 1 input feature(s) -- 0 feature(s) passed and 1 feature(s) failed
+2014-09-12 10:12:31|  25.2|  0.0|STATS |Tester_PASSED Feature Counter -1 26(TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2014-09-12 10:12:31|  25.2|  0.0|STATS |Tester_FAILED Feature Counter -1 34(TeeFactory): Cloned 1 input feature(s) into 1 output feature(s)
+2014-09-12 10:12:31|  25.2|  0.0|STATS |PointCloudCombiner_OUTPUT Feature Counter -1 33(TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2014-09-12 10:12:31|  25.2|  0.0|STATS |PointCloudVerticalFilter_2 INPUT Input Collector(TeeFactory): Cloned 1 input feature(s) into 1 output feature(s)
+2014-09-12 10:12:31|  25.2|  0.0|STATS |PointCloudVerticalFilter_2_INPUT1410541924 Input Splitter(TeeFactory): Cloned 1 input feature(s) into 1 output feature(s)
+2014-09-12 10:12:31|  25.2|  0.0|STATS |PointCloudVerticalFilter_2_INPUT Feature Counter 0 19(TeeFactory): Cloned 1 input feature(s) into 1 output feature(s)
+2014-09-12 10:12:31|  25.2|  0.0|STATS |PointCloudVerticalFilter_2_Counter_2(TeeFactory): Cloned 1 input feature(s) into 1 output feature(s)
+2014-09-12 10:12:31|  25.2|  0.0|STATS |PointCloudVerticalFilter_2_Counter_2_OUTPUT Feature Counter 0 16(TeeFactory): Cloned 1 input feature(s) into 1 output feature(s)
+2014-09-12 10:12:31|  25.2|  0.0|STATS |PointCloudVerticalFilter_2_CoordinateSwapper(TeeFactory): Cloned 1 input feature(s) into 1 output feature(s)
+2014-09-12 10:12:31|  25.2|  0.0|STATS |PointCloudVerticalFilter_2_CoordinateSwapper_OUTPUT Feature Counter 0 14(TeeFactory): Cloned 1 input feature(s) into 1 output feature(s)
+2014-09-12 10:12:31|  25.2|  0.0|STATS |PointCloudVerticalFilter_2_Tiler_ClippeeFilter(TestFactory): Tested 1 input feature(s) -- 1 feature(s) passed and 0 feature(s) failed
+2014-09-12 10:12:31|  25.2|  0.0|STATS |PointCloudVerticalFilter_2_Tiler_SettingsForTiling(SamplingFactory): Sampled 0 of 0 feature(s)
+2014-09-12 10:12:31|  25.2|  0.0|STATS |PointCloudVerticalFilter_2_Tiler_StartSplitter(TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2014-09-12 10:12:31|  25.2|  0.0|STATS |PointCloudVerticalFilter_2_Tiler_TileTypeTester(TestFactory): Tested 0 input feature(s) -- 0 feature(s) passed and 0 feature(s) failed
+2014-09-12 10:12:31|  25.2|  0.0|STATS |PointCloudVerticalFilter_2_Tiler_Bounds_Nuker(TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2014-09-12 10:12:31|  25.2|  0.0|STATS |PointCloudVerticalFilter_2_Tiler(CreationFactory): Created 0 features
+2014-09-12 10:12:31|  25.2|  0.0|STATS |PointCloudVerticalFilter_2_Tiler_Polygonizer(TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2014-09-12 10:12:31|  25.2|  0.0|STATS |PointCloudVerticalFilter_2_Tiler_Clipper(ClippingFactory): Processed 0 input feature(s), of which 0 feature(s) were clipped, 0 feature(s) were totally inside and 0 feature(s) were totally outside
+2014-09-12 10:12:31|  25.2|  0.0|STATS |PointCloudVerticalFilter_2_Tiler_Cleaner(TeeFactory): Cloned 4 input feature(s) into 4 output feature(s)
+2014-09-12 10:12:31|  25.2|  0.0|STATS |PointCloudVerticalFilter_2_Tiler_TILED Feature Counter 0 17(TeeFactory): Cloned 4 input feature(s) into 4 output feature(s)
+2014-09-12 10:12:31|  25.2|  0.0|STATS |PointCloudVerticalFilter_2_CoordinateSwapper_2(TeeFactory): Cloned 4 input feature(s) into 4 output feature(s)
+2014-09-12 10:12:31|  25.2|  0.0|STATS |PointCloudVerticalFilter_2_CoordinateSwapper_2_OUTPUT Feature Counter 0 18(TeeFactory): Cloned 4 input feature(s) into 4 output feature(s)
+2014-09-12 10:12:31|  25.2|  0.0|INFORM|PointCloudVerticalFilter_2_Sorter(SortFactory): Starting sorting 4 feature(s)
+2014-09-12 10:12:31|  25.2|  0.0|INFORM|PointCloudVerticalFilter_2_Sorter(SortFactory): Done sorting 4 feature(s)
+2014-09-12 10:12:31|  25.2|  0.0|STATS |PointCloudVerticalFilter_2_Sorter(SortFactory): Sorted 4 feature(s)
+2014-09-12 10:12:31|  25.2|  0.0|STATS |PointCloudVerticalFilter_2_Sorter_SORTED Feature Counter 0 12(TeeFactory): Cloned 4 input feature(s) into 4 output feature(s)
+2014-09-12 10:12:31|  25.2|  0.0|STATS |PointCloudVerticalFilter_2_Counter(TeeFactory): Cloned 4 input feature(s) into 4 output feature(s)
+2014-09-12 10:12:31|  25.2|  0.0|STATS |PointCloudVerticalFilter_2_Counter_OUTPUT Feature Counter 0 13(TeeFactory): Cloned 4 input feature(s) into 4 output feature(s)
+2014-09-12 10:12:31|  25.2|  0.0|STATS |PointCloudVerticalFilter_2_Tester_2(TestFactory): Tested 4 input feature(s) -- 4 feature(s) passed and 0 feature(s) failed
+2014-09-12 10:12:31|  25.2|  0.0|STATS |PointCloudVerticalFilter_2_Tester_2_PASSED Feature Counter 0 15(TeeFactory): Cloned 4 input feature(s) into 4 output feature(s)
+2014-09-12 10:12:31|  25.2|  0.0|STATS |Storing feature(s) to FME feature store file `C:\Users\DVANNI~1\AppData\Local\Temp\LidarDataDownload_101205\inspector.ffs'
+2014-09-12 10:12:31|  25.2|  0.0|INFORM|FFS writer: Writing point cloud with 1820546 point(s) to file 'C:\Users\DVANNI~1\AppData\Local\Temp\LidarDataDownload_101205\inspector.fps'
+2014-09-12 10:12:31|  25.3|  0.1|STATS |Storing feature(s) to FME feature store file `C:\Users\DVANNI~1\AppData\Local\Temp\LidarDataDownload_101205\inspector.fsc'
+2014-09-12 10:12:31|  25.3|  0.0|STATS |PointCloudVerticalFilter_2_PointCloudCombiner_OUTPUT Feature Counter 0 21(TeeFactory): Cloned 1 input feature(s) into 1 output feature(s)
+2014-09-12 10:12:31|  25.3|  0.0|STATS |PointCloudVerticalFilter_2_AttributeRemover(TeeFactory): Cloned 1 input feature(s) into 1 output feature(s)
+2014-09-12 10:12:31|  25.3|  0.0|STATS |PointCloudVerticalFilter_2_AttributeRemover_OUTPUT Feature Counter 0 20(TeeFactory): Cloned 1 input feature(s) into 1 output feature(s)
+2014-09-12 10:12:31|  25.3|  0.0|STATS |PointCloudVerticalFilter_2_OUTPUT1410541924 Output Collector(TeeFactory): Cloned 1 input feature(s) into 1 output feature(s)
+2014-09-12 10:12:31|  25.3|  0.0|STATS |PointCloudVerticalFilter_2 OUTPUT Output Renamer/Nuker(TeeFactory): Cloned 1 input feature(s) into 1 output feature(s)
+2014-09-12 10:12:31|  25.3|  0.0|STATS |PointCloudVerticalFilter_2_OUTPUT Feature Counter -1 45(TeeFactory): Cloned 1 input feature(s) into 1 output feature(s)
+2014-09-12 10:12:31|  25.3|  0.0|STATS |Tester_2(TestFactory): Tested 1 input feature(s) -- 0 feature(s) passed and 1 feature(s) failed
+2014-09-12 10:12:31|  25.3|  0.0|STATS |Tester_2_PASSED Feature Counter -1 30(TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2014-09-12 10:12:31|  25.3|  0.0|STATS |Tester_2_FAILED Feature Counter -1 39(TeeFactory): Cloned 1 input feature(s) into 1 output feature(s)
+2014-09-12 10:12:31|  25.3|  0.0|STATS |PointCloudSplitter_SPLIT Feature Counter -1 38(TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2014-09-12 10:12:31|  25.3|  0.0|STATS |Tester_3(TestFactory): Tested 1 input feature(s) -- 0 feature(s) passed and 1 feature(s) failed
+2014-09-12 10:12:31|  25.3|  0.0|STATS |Tester_3_PASSED Feature Counter -1 35(TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2014-09-12 10:12:31|  25.3|  0.0|STATS |Tester_3_FAILED Feature Counter -1 29(TeeFactory): Cloned 1 input feature(s) into 1 output feature(s)
+2014-09-12 10:12:31|  25.3|  0.0|STATS |PointCloudThinner(TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2014-09-12 10:12:31|  25.3|  0.0|STATS |PointCloudThinner_THINNED Feature Counter -1 43(TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2014-09-12 10:12:31|  25.3|  0.0|STATS |AttributeCreator_2(TeeFactory): Cloned 1 input feature(s) into 1 output feature(s)
+2014-09-12 10:12:31|  25.3|  0.0|STATS |AttributeCreator_2_OUTPUT Feature Counter -1 59(TeeFactory): Cloned 1 input feature(s) into 1 output feature(s)
+2014-09-12 10:12:31|  25.3|  0.0|STATS |Tester_4(TestFactory): Tested 1 input feature(s) -- 1 feature(s) passed and 0 feature(s) failed
+2014-09-12 10:12:31|  25.3|  0.0|STATS |Tester_4 PASSED Splitter(TeeFactory): Cloned 1 input feature(s) into 2 output feature(s)
+2014-09-12 10:12:31|  25.3|  0.0|STATS |Tester_4_PASSED_0_F1VLnOE71tw= Feature Counter -1 44(TeeFactory): Cloned 1 input feature(s) into 1 output feature(s)
+2014-09-12 10:12:31|  25.3|  0.0|STATS |Tester_4_PASSED_1_F1VLnOE71tw= Feature Counter -1 71(TeeFactory): Cloned 1 input feature(s) into 1 output feature(s)
+2014-09-12 10:12:31|  25.3|  0.0|STATS |Tester_4_FAILED Feature Counter -1 61(TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2014-09-12 10:12:31|  25.3|  0.0|STATS |AttributeCreator(TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2014-09-12 10:12:31|  25.3|  0.0|STATS |AttributeCreator OUTPUT Splitter(TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2014-09-12 10:12:31|  25.3|  0.0|STATS |AttributeCreator_OUTPUT_0_olPiq+C1D00= Feature Counter -1 36(TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2014-09-12 10:12:31|  25.3|  0.0|STATS |AttributeCreator_OUTPUT_1_olPiq+C1D00= Feature Counter -1 72(TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2014-09-12 10:12:31|  25.3|  0.0|STATS |Inspector_DirCreator(CreationFactory): Created 1 features
+2014-09-12 10:12:31|  25.3|  0.0|STATS |Inspector_DirCreatorCleanerUpper(TeeFactory): Cloned 1 input feature(s) into 0 output feature(s)
+2014-09-12 10:12:31|  25.3|  0.0|STATS |Inspector_FeatureDirector(TestFactory): Tested 1 input feature(s) -- 0 feature(s) passed and 1 feature(s) failed
+2014-09-12 10:12:31|  25.3|  0.0|STATS |Inspector___FeatureDirector1(TestFactory): Tested 1 input feature(s) -- 1 feature(s) passed and 0 feature(s) failed
+2014-09-12 10:12:31|  25.3|  0.0|STATS |Inspector_VectorSetterUpper(TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2014-09-12 10:12:31|  25.3|  0.0|STATS |Inspector___PointCloudThinner(TeeFactory): Cloned 1 input feature(s) into 1 output feature(s)
+2014-09-12 10:12:31|  25.3|  0.0|STATS |Inspector_RasterSetterUpper(TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2014-09-12 10:12:31|  25.3|  0.0|STATS |Stored 1 feature(s) to FME feature store file `C:\Users\DVANNI~1\AppData\Local\Temp\LidarDataDownload_101205\inspector.ffs'
+2014-09-12 10:12:31|  25.3|  0.0|INFORM|Saving spatial index into file 'C:\Users\DVANNI~1\AppData\Local\Temp\LidarDataDownload_101205\inspector.fsi'
+2014-09-12 10:12:31|  25.3|  0.0|INFORM|Finished saving spatial index into file 'C:\Users\DVANNI~1\AppData\Local\Temp\LidarDataDownload_101205\inspector.fsi'
+2014-09-12 10:12:31|  25.3|  0.0|STATS |Stored 1 feature(s) to FME feature store file `C:\Users\DVANNI~1\AppData\Local\Temp\LidarDataDownload_101205\inspector.fsc'
+2014-09-12 10:12:31|  25.3|  0.0|INFORM|Inspector_Recorder(RecorderFactory): Recorded 1 feature(s) to file `C:\Users\DVANNI~1\AppData\Local\Temp\LidarDataDownload_101205\inspector.ffs'
+2014-09-12 10:12:31|  25.3|  0.0|STATS |Tester_4_PASSED_0_F1VLnOE71tw= -> NewFeatureType Correlator(TeeFactory): Cloned 1 input feature(s) into 0 output feature(s)
+2014-09-12 10:12:31|  25.3|  0.0|STATS |AttributeCreator_OUTPUT_0_olPiq+C1D00= -> NewFeatureType Correlator(TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2014-09-12 10:12:31|  25.3|  0.0|STATS |Final Output Feature Type Router(TestFactory): Tested 0 input feature(s) -- 0 feature(s) passed and 0 feature(s) failed
+2014-09-12 10:12:31|  25.3|  0.0|STATS |Final Output Nuker(TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2014-09-12 10:12:31|  25.3|  0.0|STATS |f_99(CreationFactory): Created 1 features
+2014-09-12 10:12:31|  25.3|  0.0|STATS |f_100(TeeFactory): Cloned 1 input feature(s) into 0 output feature(s)
+2014-09-12 10:12:31|  25.3|  0.0|INFORM|=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2014-09-12 10:12:31|  25.3|  0.0|INFORM|                     'GlobalVariable' Final State Summary
+2014-09-12 10:12:31|  25.3|  0.0|INFORM|=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2014-09-12 10:12:31|  25.3|  0.0|INFORM|PointCloudVerticalFilter_2_Tiler_NUM_TO_CREATE                               0
+2014-09-12 10:12:31|  25.3|  0.0|INFORM|==============================================================================
+2014-09-12 10:12:31|  25.3|  0.0|INFORM|Total Number of Global Variables:                                            1
+2014-09-12 10:12:31|  25.3|  0.0|INFORM|=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2014-09-12 10:12:31|  25.3|  0.0|INFORM|=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2014-09-12 10:12:31|  25.3|  0.0|STATS |                            `Count' Domain Summary
+2014-09-12 10:12:31|  25.3|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2014-09-12 10:12:31|  25.3|  0.0|STATS |0                                                                            4
+2014-09-12 10:12:31|  25.3|  0.0|STATS |PointCloudVerticalFilter_2_Counter_2__pc_count                               1
+2014-09-12 10:12:31|  25.3|  0.0|STATS |==============================================================================
+2014-09-12 10:12:31|  25.3|  0.0|STATS |Total `@Count' Invocations:                                                  5
+2014-09-12 10:12:31|  25.3|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2014-09-12 10:12:31|  25.3|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2014-09-12 10:12:31|  25.3|  0.0|STATS |                            Features Read Summary
+2014-09-12 10:12:31|  25.3|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2014-09-12 10:12:31|  25.3|  0.0|STATS |==============================================================================
+2014-09-12 10:12:31|  25.3|  0.0|STATS |Total Features Read                                                          0
+2014-09-12 10:12:31|  25.3|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2014-09-12 10:12:31|  25.3|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2014-09-12 10:12:31|  25.3|  0.0|STATS |                           Features Written Summary
+2014-09-12 10:12:31|  25.3|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2014-09-12 10:12:31|  25.3|  0.0|STATS |==============================================================================
+2014-09-12 10:12:31|  25.3|  0.0|STATS |Total Features Written                                                       0
+2014-09-12 10:12:31|  25.3|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2014-09-12 10:12:31|  25.3|  0.0|INFORM|Translation was SUCCESSFUL with 1 warning(s) (0 feature(s) output)
+2014-09-12 10:12:31|  25.3|  0.0|INFORM|FME Session Duration: 26.1 seconds. (CPU: 23.2s user, 2.0s system)
+2014-09-12 10:12:31|  25.3|  0.0|INFORM|END - ProcessID: 1548, peak process memory usage: 131252 kB, current process memory usage: 131232 kB
