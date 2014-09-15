@@ -40,6 +40,7 @@ var dataDist = (function () {
 
     // Remove the auto generated GEOM element and label
     $("#parameters .GEOM").remove();
+    $("#parameters .THIN_RATE input").val(10);
 
   }
 
