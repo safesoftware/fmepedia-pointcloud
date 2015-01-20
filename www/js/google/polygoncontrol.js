@@ -21,7 +21,7 @@ function GoogleMapsPolygonDrawTools(myGoogleMap){
     me.drawManager.setMap(myGoogleMap);
     me.PolyListener = google.maps.event.addListener(me.drawManager, 'polygoncomplete', function(e){
         me.myPolygon = e;
-        me.drawManager.setDrawingMode(null);
+        me.drawManager.drawingMode = null;
 
         var geom = me.getPolygonCoordsText();
         $('#geom').attr('value', geom);
