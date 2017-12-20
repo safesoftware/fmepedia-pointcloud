@@ -20,7 +20,7 @@ var dataDist = (function () {
   var token;
 
   /**
-   * Run when the page loads. Callback from the FMEServer API. JSON returned from 
+   * Run when the page loads. Callback from the FMEServer API. JSON returned from
    * the REST API parsed and a HTML published parameter form dynamically created.
    * @param  {JSON} json Returned from the Rest API callback
    */
@@ -75,24 +75,30 @@ var dataDist = (function () {
    * @param  {JSON} result JSON returned by the data download service call.
    */
   function displayResult(result){
-  
+
     $('#results').removeClass('loading');
-  
+
     var resultText = result.serviceResponse.statusInfo.status;
-    var resultUrl = '';
-    var resultDiv = $('<div />');
+     var featuresWritten = result.serviceResponse.fmeTransformationResult.fmeEngineResponse.numFeaturesOutput;
+     var resultUrl = '';
+     var resultDiv = $('<div />');
 
-    if(resultText == 'success'){
-      resultUrl = result.serviceResponse.url;
-      resultDiv.append($('<h2>' + resultText.toUpperCase() + '</h2>'));
-      resultDiv.append($('<a href="' + resultUrl + '">' + 'Download Data </a>'));
-    }
-    else{
-      resultDiv.append($('<h2>There was an error processing your request</h2>'));
-      resultDiv.append($('<h2>' + result.serviceResponse.statusInfo.message + '</h2>'));
-    }
+     if(resultText == 'success'){
+       if (featuresWritten != 0){
+         resultUrl = result.serviceResponse.url;
+         resultDiv.append($('<h2>' + resultText.toUpperCase() + '</h2>'));
+         resultDiv.append($('<a href="' + resultUrl + '">' + 'Download Data </a>'));
+       }
+       else {
+         resultDiv.append($('<h2>No output dataset was produced by FME because no features were found in the selected area.</h2>'));
+       }
+     }
+     else{
+       resultDiv.append($('<h2>There was an error processing your request</h2>'));
+       resultDiv.append($('<h2>' + result.serviceResponse.statusInfo.message + '</h2>'));
+     }
 
-    $('#results').html(resultDiv);
+     $('#results').html(resultDiv);
   }
 
 
@@ -110,7 +116,7 @@ var dataDist = (function () {
       //initialize map and drawing tools
       mapManager = new GoogleMapsManager();
       polygonControl = new GoogleMapsPolygonDrawTools(mapManager.myGoogleMap);
-      
+
       // show boundaries for point clouds
       mapManager.myGoogleMap.data.loadGeoJson('js/LidarBoundaries.json');
 
