@@ -2,13 +2,20 @@ var lon = -123.123518;
 var lat = 49.276020;
 
 $(document).ready(function() {
-  $.getJSON("http://demos.fmeserver.com.s3.amazonaws.com/server-demo-config.json", function(config) {
+
+  dataDist.init({
+	      server: "https://demos-safe-software.fmecloud.com", //Change this to your FME server name
+	      token: "568c604bc1f235bbe137c514e7c61a8436043070"     });  //Change this to your FME Server Token
+		});
+
+
+  /*$.getJSON("https://demos.fmeserver.com.s3.amazonaws.com/server-demo-config.json", function(config) {
     dataDist.init({
       host: config.initObject.server,
       token: config.initObject.token
+      });
     });
-  });
-});
+  }); */
 
 
 var dataDist = (function () {
@@ -76,29 +83,29 @@ var dataDist = (function () {
    */
   function displayResult(result){
 
-    $('#results').removeClass('loading');
-
     var resultText = result.serviceResponse.statusInfo.status;
-     var featuresWritten = result.serviceResponse.fmeTransformationResult.fmeEngineResponse.numFeaturesOutput;
-     var resultUrl = '';
-     var resultDiv = $('<div />');
+       var featuresWritten = result.serviceResponse.fmeTransformationResult.fmeEngineResponse.numFeaturesOutput;
+       var resultUrl = '';
 
-     if(resultText == 'success'){
-       if (featuresWritten != 0){
-         resultUrl = result.serviceResponse.url;
-         resultDiv.append($('<h2>' + resultText.toUpperCase() + '</h2>'));
-         resultDiv.append($('<a href="' + resultUrl + '">' + 'Download Data </a>'));
+       if(resultText == 'success'){
+         if (featuresWritten != 0){
+           resultUrl = result.serviceResponse.url;
+  				 $('#successMessage').html('<p>Your request has been successfully processed. <br/ > Click this link to download your data: <a href="' + resultUrl + '"> Download Data </a>');
+  				 $('#successModal').modal({show:true});
+         }
+         else {
+  				 $('#errorMessage').text('No output dataset was produced by FME, because no features were found in the selected area.');
+  				 $('#errorModal').modal({
+  					show: true
+  				});
+  			 }
        }
-       else {
-         resultDiv.append($('<h2>No output dataset was produced by FME because no features were found in the selected area.</h2>'));
-       }
-     }
-     else{
-       resultDiv.append($('<h2>There was an error processing your request</h2>'));
-       resultDiv.append($('<h2>' + result.serviceResponse.statusInfo.message + '</h2>'));
-     }
-
-     $('#results').html(resultDiv);
+       else{
+  			 $('#errorMessage').html('<p> The following error occurred while processing your request: <br/><br/>' + result.serviceResponse.statusInfo.message + '</p>');
+  			 $('#errorModal').modal({
+  				show: true
+  			});
+  		 }
   }
 
 
@@ -109,7 +116,7 @@ var dataDist = (function () {
 
     init : function(params) {
       var self = this;
-      host = params.host;
+      host = params.server;
       token = params.token;
       hostVisible = params.hostVisible;
 
