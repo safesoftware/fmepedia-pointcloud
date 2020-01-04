@@ -1,94 +1,3 @@
-/***** HEADER CSS NOT REQUIRED FOR DEMO *****/
-#safe-ribbon {
-	position: relative;
-	display: block;
-	float:right;
-	margin-bottom: -2rem;
-	height: 2rem;
-	z-index: 2000;
-}
-
-#safe-ribbon a{
-  background:#E98300;
-  color:#fff;
-  text-decoration:none;
-  text-align:center;
-  font-weight:bold;
-  padding: 0 5px;
-  font-size:1rem;
-  line-height:2rem;
-  transition: background 0.5s;
-  display: block;
-}
-
-#safe-ribbon a:hover{
-  background:#DA7B00;
-  color:#fff;
-}
-
-#safe-ribbon a::before,#safe-ribbon a::after{
-  content:"";
-  width:100%;
-  display:block;
-  position:absolute;
-  top:1px;
-  left:0;
-  height:1px;
-  background:#ffffff;
-}
-
-#safe-ribbon a::after{
-  bottom:1px;
-  top:auto;
-}
-
-@media screen and (min-width:979px){
-  #safe-ribbon{
-    position:absolute;
-    display:block;
-    top:0;
-    right:0;
-    width:200px;
-    overflow:hidden;
-    height:200px;
-  }
-  #safe-ribbon a{
-    width:200px;
-    position:absolute;
-    top:60px;
-    right:-60px;
-    transform:rotate(45deg);
-    -webkit-transform:rotate(45deg);
-    box-shadow:0px 1px 4px rgba(0,0,0,0.8);
-    padding: 5px 40px;
-  }
-}
-
-
-
-body {
-  padding-top: 60px;
-}
-
-@media (max-width: 980px) {
-  body{
-    padding-top: 0;
-  }
-}
-
-.brand{
-  color: #ffffff !important;
-  font-weight: 400 !important;
-  text-shadow: none !important;
-}
-
-
-.navbar-inner {
-  background-color: #7AB800;
-  background-image: none;
-}
-
-/**** End of Header CSS ****/
 
 html, body {
 	height: 100%;
@@ -117,24 +26,26 @@ h1 {
 	padding: 1px 5px 1px 5px;
 }
 
-#mainwrapper {
-  height: 100%;
-  box-sizing: border-box;
-}
 
-#maprow {
-  padding-top: 60px;
-}
 
 #map_canvas {
+	height: 100%;
+	width: 100%;
   min-height: 25em;
 }
 
 #request_form {
-  height: 25em;
-  border:1px solid #E0E0E0;
-  -moz-border-radius: 8px;
-       border-radius: 8px;
+	top: 5px;
+	margin: 5px;
+	text-align: left;
+	position: absolute;
+	width: 350px; /*Width of left column*/
+	z-index: 100;
+	-moz-border-radius: 8px;
+	border-radius: 8px;
+	background-color: white;
+  max-height:100%;
+	box-shadow: 10px 10px 5px #888;
 }
 
 #request_form h1:first-child {
@@ -181,8 +92,8 @@ h1 {
 
 #parameters {
   position: relative;
-  overflow-y: auto;
-  height: 14.5em;
+  overflow-y: scroll;
+  height: 14em;
 }
 
 #parameters br{
@@ -262,7 +173,7 @@ h1 {
 
 
 #query-panel {
-	height: 30%;	
+	height: 30%;
 	min-height: 200px;
 	-moz-border-radius: 8px;
 	border-radius: 8px;
